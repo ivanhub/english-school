@@ -19,11 +19,8 @@ $this->registerMetaTag([
 ]);
 
 
-//$this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
-//$this->params['breadcrumbs'][] = $this->title;
-
 ?>
-<div class="page-loader safari_only">
+<!-- <div class="page-loader safari_only">
 <div>
 <div class="page-loader-body">
 <div class="cssload-loader">
@@ -34,37 +31,9 @@ $this->registerMetaTag([
 </div>
 </div>
 </div> 
+ -->
 
 
-<!--<div class="container">
-
-<div class="jumbofon jumbotron">
- <h1>Учебный Центр "Академия"</h1><BR> 
-</div></div>-->
-<!-- <div></div>
-   <div class="full-width" id="full-widthid">
-  <div class="container-fluid mainblock text-center">
-  <div class="row">
-  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6  box1  cl-effect-12">
-  <img class="hvr-bounce-in" src="../images/new_car.png" width="305px">
-  <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p>
-  </div>
-  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6  box2 cl-effect-12">
-  <img class="hvr-wobble-to-top-right" src="../images/two.png" width="255px" style="margin-top: -10px;">
-  <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
-  </div>
-   <div class="clearfix visible-sm"></div>
-  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box3  cl-effect-12">
-  <img class="boat" src="../images/boat_t2.png" width="270px" style="margin-top: -5px;">
-  <p class="blocktitle anim_three hvr-bob">Судовождение</p>
-  </div>
-  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box4  cl-effect-12">
-  <img class="hvr-wobble-top" src="../images/new_car.png" width="305px" style="margin-top: 0;">
-  <p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
-  </div>
-  </div> 
-  </div>
-  </div>   --> 
  <section class="main ">
 <h1>Права на автомобиль и мотоцикл (категорию А и В). Автошкола. Судовождение, квадроцикл, трактор, погрузчик</h1>
 
@@ -74,9 +43,9 @@ $this->registerMetaTag([
 <div class="col-md-4 col-xs-12 col-sm-6 box1  cl-effect-12">
 <div class="fill">
 
-<a href="#"> <div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_one text-center">Общий английский</p></div>
+<a href="/general-english"> <div class="block-mestoONLY"><p class="blocktitle anim_one text-center">Курсы английского языка</p></div>
 <div class="aa">
-  <img class="img-responsive" src="../images/css1-230.gif" alt="Автошкола г. Самара" title="Автошкола" width="200px">
+  <img class="img-responsive" src="../images/en/first6.png" alt="Автошкола г. Самара" title="Автошкола" width="150px">
 </div>
 </a>
 </div>
@@ -85,10 +54,11 @@ $this->registerMetaTag([
 <div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box2 cl-effect-12">
 <div class="fill2">
-<a href="#"> 
-<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_two text-center">Английский для водителей</p></div>
+<a href="/european-languages"> 
+<div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Курсы европейских языков</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/css2.png"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200px">
+<img class="img-responsive" src="../images/en/european-languages.png"  alt="Дополнительные услуги г. Самара"
+ title="Дополнительные услуги"  width="180px">
 </div></a>
 </div>
   </div></div>
@@ -97,113 +67,150 @@ $this->registerMetaTag([
 <div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box2n box3 cl-effect-12">
 <div class="fill2"> <!-- hvr-wobble-to-top-right-->
-<a href="#"> 
-<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_two text-center">Подготовка к ЧМ по футболу</p></div>
+<a href="/chinese-language"> 
+<div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Курсы китайского языка</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/css3.gif"  alt="Самоходная техника" title="Права на спецтехнику"  width="200px" >
+<img class="img-responsive" src="../images/en/chinese8.png"  alt="Самоходная техника" title="Права на спецтехнику"  width="150px" >
+</div></a>
+</div>
+  </div></div>
+
+</div>
+
+<div class="row rowm">
+
+<div class="forsafari1">
+<div class="col-md-4 col-xs-12 col-sm-6 box4  cl-effect-12">
+<div class="fill">
+
+<a href="/english-for-drivers"> <div class="block-mestoONLY"><p class="blocktitle anim_one text-center">Курсы для водителей</p></div>
+<div class="aa">
+  <img class="img-responsive" src="../images/en/taxi11.png" alt="Автошкола г. Самара" title="Автошкола" width="180px">
+</div>
+</a>
+</div>
+</div></div>
+
+<div class="forsafari1">
+<div class="col-md-4 col-xs-12 col-sm-6 box5 cl-effect-12">
+<div class="fill2">
+<a href="/pre-world-cup-preparation"> 
+<div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Подготовка волонтеров к<br/> ЧМ по футболу</p></div>
+<div class="aa">
+<img class="img-responsive" src="../images/en/fifa7.png"  alt="Дополнительные услуги г. Самара"
+ title="Дополнительные услуги"  width="150px">
 </div></a>
 </div>
   </div></div>
 
 
-
-<!--  <div class="clearfix visible-sm"></div>
- <div class="forsafari1">
-<div class="col-md-4 col-xs-12 col-sm-6 box4 cl-effect-12">
-<div class="fill">
-<a href="/DOPOG"> 
-<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_three text-center">Курсы по ДОПОГ</p></div>
-<div class="aa">
-<img class="img-responsive" src="../images/css4.gif"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200px">
-</div></a>
- </div></div></div>
- <div class="clearfix visible-sm" style="margin-bottom:20px"></div>
-
 <div class="forsafari1">
-<div class="col-md-4 col-xs-12 col-sm-6 box5 cl-effect-12">
-<div class="fill">
-<a href="/navigation"> 
-<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_three text-center">Судовождение</p></div>
+<div class="col-md-4 col-xs-12 col-sm-6 box2n box6 cl-effect-12">
+<div class="fill2"> <!-- hvr-wobble-to-top-right-->
+<a href="/corporate-training"> 
+<div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Корпоративное обучение</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/css5.png"  alt="Судовождение г. Самара" title="Права на лодку, катер, гидроцикл"  width="200px">
+<img class="img-responsive" src="../images/en/corp3.png"  alt="Самоходная техника" title="Права на спецтехнику"  width="160px" >
 </div></a>
- </div></div></div>
-
-
-<div class="forsafari1">
-<div class="col-md-4 col-xs-12 col-sm-6 box6  cl-effect-12">
-<div class="fill2">
-<a href="/special-signals"> 
-<div class="block-mestoONLY hvr-bounce-in"><p class="blocktitle anim_four text-center">Спецсигналы</p></div>
-<div class="aa"> 
-<img class="img-responsive" src="../images/css6.gif"  alt="Дополнительные услуги г. Самара" title="Дополнительные услуги"  width="200px">
-</div></a>
-</div></div></div>
--->
-
-<!-- 
-
-  <div class="col-sm-12 col-md-3 right-aside">
-  <aside>
-  <h4 >Акции</h4>
-   <div class="saleblock">
- <img src="../../images/pics/banner12.png" class="saleimg" width="220px" >
- <p>Новогодняя акция - Скидка 15%!</p>
-               <p>[Подробнее] </p>
-           </div>
-             <div class="saleblock">
- <img src="../../images/pics/banner5.png" class="saleimg" width="220px" style="margin-top:40px">
-<p>Новогодняя акция - Скидка 15%!</p>
-              <p>[Подробнее] </p>
-           </div>
- 
-
-  <div class="saleblock">
-  <img src="https://dummyimage.com/240x120/989898/000000.png" class="saleimg">
-    <p>Новогодняя акция - Скидка 15%!</p>
-                  <p>[Подробнее] </p> 
-            </div>
-  <h5>Новости</h5>
-      <div class="news">
-     <p>11/01/2016  Набор в группу водителей самоходной техники. </p>
-     <p>Объявляется набор в группу на подготовку водителей самоходной техники</p><p>...</p>
-     <p>[Подробнее]</p>
-     </div>
-      <div class="news">
-         <p>11/01/2016 Открыт сезон обучения на категорию А. </p>
-        <p class="news-text">Хотите освоить искусство безопасного и уверенного</p><p>...</p>
-        <p>[Подробнее] </p>
-     </div>
-
- <div class="news">
-        <p>11/01/2016 Набор на обучение вождению категории B.</p>
-      <p>Автошкола объявляет набор в дневную группу школьников и</p><p>...</p>
-      <p>[Подробнее] </p>
-    </div>
-
-         
-
-
-  </aside>
-</div> -->
 </div>
+  </div></div>
 
-
+</div>
 
 
 <br> 
 <div class="mtwrap">
-<p class="m50 mtext4" >Единственная в России языковая школа с</p>
-<p class="mtext2" style="clear:both; text-align:justify">
-В нашем учебном центре разработаны авторские методики обучения по всем направлениям. 
-Кардинально новый подход к обучению - это то, что в первую очередь отличает наш центр!
-Проанализировав накопившийся опыт, изучив европейскую систему подготовки водителей, 
-взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, 
-методики обучения.</p>
+ <p class="m50 mtext4" style="padding-left:6%;padding-right:6%;line-height:1.15;font-size:160%">Преподаватели нашей школы имеют международные сертификаты TKT и CELTA, огромный опыт работы и стажировки за рубежом.</p>
+ 
+<p class="mtext2" style="clear:both;text-align:justify">
+ В нашем учебном центре разработаны авторские методики обучения по всем направлениям. Кардинально новый подход к обучению – это то, что в первую очередь отличает наш центр! Проанализировав накопившийся опыт, изучив европейскую систему подготовки слушателей, взяв на вооружение передовые технологии, мы разработали свои, адаптированные к нашим реалиям, методики обучения.</p>
+<br/>
+<!-- <br/><br/><div class="container-fluid doyou-block">
+<div class="row vertical-align">
+<div class="col-sm-6 col-xs-12 text-center ">
+<img src="/images/en/doyou.png" class="img-responsive doyou" ></div>
+<div class="col-sm-6 col-xs-12 text-left ">
+<p class="mtext2" style="clear:both; text-align:justify;line-height:1.1">
+Вы будете заниматься с лучшими преподавателями города, поскольку преподаватели – это главное достояние и гордость нашей компании. Это действительно профессионалы, прекрасно владеющие иностранным языком и увлеченные своим делом. Все преподаватели имеют высшее педагогическое образование, опыт и международные сертификаты, такие как TKT и CELTA.</p>
+</div>
+</div>
+
+<br/><br/>
+<div class="row vertical-align">
+<div class="col-sm-6 col-xs-12 text-center ">
+<img src="/images/en/doyou2.png" class="img-responsive doyou" >
+</div>
+<div class="col-sm-6 col-xs-12 text-left ">
+<p class="mtext2" style="clear:both; text-align:justify;line-height:1.1">
+В зависимости от уровня, от 70% до 95% времени занятия вы будете общаться с преподавателем на английском языке. За стандартный курс вы получите 96 часов разговорной практики. К концу курса вы забудете о стеснении и полностью преодолеете языковой барьер. </p>
+</div>
+</div>
+</div> -->
+<div class="mtext3"></div>
+</div>
+
+<br/><br/>
+<div>
+ <h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="anim-documents"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
+ Почему выбирают Нас?</h5>  <br/>
+ <ul class=" preimul2 lr10 gal text-justify">
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Высококвалифицированные преподаватели, проходившие стажировки в разных странах мира.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Высокое качество обучения.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Гибкая система скидок.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Постоянный мониторинг качества Вашего обучения.</li>
+ <li></li>
+ </li>
+ </ul>
+
+<br/><br/>
+<!-- <div class="linetire"></div>
+ -->
 <div class="mtext3"></div>
 
+
+<div id="pricing-table" class="clear">
+  <h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
+ Выберите интересующий Вас курс обучения</h5>  <br/>
+<div class="container-fluid width80 ">
+    <div class="col-sm-4 col-xs-12">
+    <div class="plan ">
+        <h3>Курс в группе<br/>3-4 человека<span><i>3800 ₽</i><br><i>3230 ₽</i></span></h3>
+        <a class="signup" href="#">Записаться</a>         
+        <ul>
+            <li><b style="color:#ee0c0c">СКИДКА 15%</b></li>
+            <li>Формат занятий:</li>
+            <li><b>2</b> раза в неделю</li>
+      <li>по <b>60</b> минут</li>      
+        </ul> 
+        </div>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+    <div class="plan" >
+        <h3>Курс в группе<br/>5-8 человек<span><i>3800 ₽</i><br><i>3230 ₽</i></span></h3>
+        <a class="signup" href="#">Записаться</a>        
+        <ul>
+         <li><b style="color:#ee0c0c">СКИДКА 15%</b></li>
+            <li>Формат занятий:</li>
+            <li><b>2</b> раза в неделю</li>
+      <li>по <b>90</b> минут</li>   
+        </ul>    
+    </div>
+    </div>
+    <div class="col-sm-4 col-xs-12">
+    <div class="plan">
+        <h3>Курс "Индивидуальный" <span><i>6000 ₽</i><br><i>5100 ₽</i></span></h3>
+    <a class="signup" href="#">Записаться</a>
+        <ul>
+           <li><b style="color:#ee0c0c">СКИДКА 15%</b></li>
+            <li>Формат занятий:</li>
+            <li><b>2</b> раза в неделю</li>
+      <li>по <b>60</b> минут</li>   
+        </ul>
+    </div></div>
 </div>
-<div class="text-center  akcii">
+</div>
+
+<div class="text-center  akcii" style="display:none">
 <center>
 <div class="insideakcii"><a id="Akcii"></a>
 <!-- <h2><i class="fa fa-star" style="font-size:15px !important;margin-left:-15px;"></i> Наши акции:</h2> -->
@@ -253,18 +260,7 @@ $this->registerMetaTag([
 <div class="saleHYDRO"></div> 
 </div>
 </div>
-<!-- <div class="col-md-4 two-third third offscreen">
-<div class="akciya">
-<p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
-<p class="start-akciya" style="font-size:20px;margin-top:-7px">АКЦИЯ</p>
-<p class="akciya-h2" style="margin-top:-7px">Обучение на<br/>категории А+В</p>
-<p class="outlineA" style="font-size:30px;color:#f9fa83;margin-top:-7px">Скидка</p>
-<p class="outlineA" style="font-size:30px;color:#f9fa83;margin-top:-20px"><span class="pyat" style="left:0">+</span>
-<p class="outlineA" style="font-size:30px;color:#f9fa83;margin-top:-25px"><span class="pyat" style="left:0">Бонус</span>
-<div class="" style="margin-left:5px;margin-top:-7px;"><img src="/images/pics/sale.png" class="an-flick" style="float:left"><p class="speshite" style="margin-left:99px;padding-top:6px;">Звоните!</p></div> 
-<div class="saleCar"></div> 
-</div>
-</div> -->
+
 <div class="col-md-4 three-third third offscreen">
 <div class="akciya">
 <p class="start-akciya" style="padding-top:20px; margin-bottom:0">&nbsp;</p>
@@ -729,3 +725,24 @@ JS
 , yii\web\View::POS_LOAD);  
 
 ?>
+
+
+
+
+
+<?php 
+Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']);
+
+$this->registerJs(<<<JS
+
+
+
+
+window.addEventListener("load", function() {
+
+ros.init();
+});
+
+
+JS
+, yii\web\View::POS_READY); ?>

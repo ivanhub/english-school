@@ -45,7 +45,7 @@ $this->params['breadcrumbs'][] = $title;
 
 
 <!--  --> 
-<div class="site-automotoschool  siteblock">
+<div class="siteblock">
    
 
  <div class="row"><!-- 

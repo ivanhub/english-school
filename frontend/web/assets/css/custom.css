@@ -1531,7 +1531,7 @@ h4,h5, .poryadok {
 }
 
 
-h5 {margin-top:25px;}
+h5 {padding-top:25px;}
 h4 + p, h5 + p { margin-top:0 !important; }
 .exam h5 {font-size:19px !important}
 

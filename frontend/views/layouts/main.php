@@ -458,9 +458,17 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 
 <!--<script src="/assets/js/jquery.viewportchecker.js"></script>-->
 <script src="/assets/js/jquery.waypoints.js?v=4.0.1"></script>
+
 <!--<script src="/assets/js/jquery.inview.min.js"></script> -->
 <?php };
 ?>
+
+
+<!--
+<script src="/assets/js/flowtype.js"></script>
+<script src="/assets/js/jquery.scalem.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
+//Yii::$app->view->registerJsFile('/assets/js/jquery.fittext.js',  ['depends' => 'yii\web\JqueryAsset']); -->
 
 </body>
 </html>

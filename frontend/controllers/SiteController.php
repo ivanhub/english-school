@@ -45,10 +45,10 @@ class SiteController extends Controller
         return $this->render('index', compact('home'));
     }
 
-    public function actionDistance()
+    public function actionOurcourses()
     {
          
-        return $this->render('distance');
+        return $this->render('our-courses');
     }
 
   public function actionSudovozhdenie()
@@ -91,9 +91,9 @@ class SiteController extends Controller
     {
         return $this->render('instructors-teaching');
     }
-          public function actionAutodromerental()
+          public function actionPreworldcuppreparation()
     {
-        return $this->render('autodrome-rental');
+        return $this->render('world-cup');
     }
           public function actionDrivinglessons()
     {
@@ -101,13 +101,33 @@ class SiteController extends Controller
     }
 
 
-       public function actionAutomotoschool()
+       public function actionGeneralenglish()
     {
          
-        return $this->render('automotoschool');
+        return $this->render('general-english');
     }
 
-      public function actionB()
+
+         public function actionChineselanguage()
+    {
+         
+        return $this->render('chinese-language');
+    }
+
+     public function actionEuropeanlanguages()
+    {
+         
+        return $this->render('european-languages');
+    }
+
+     public function actionCorporatetraining()
+    {
+         
+        return $this->render('corporate-training');
+    }
+
+
+      public function actionEnglishfordrivers()
     {
        
     $model = new Forma();
@@ -144,7 +164,7 @@ $this->registerJs($script, yii\web\View::POS_READY);*/
  // return $this->redirect(['view', 'id' => $model->id]);
 
 }
- else { return $this->render('B',[ 'model' => $model,]);
+ else { return $this->render('english-for-drivers',[ 'model' => $model,]);
 }
 }
 
