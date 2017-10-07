@@ -23,11 +23,6 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
 ?>
 
-
-
-
-
-
 <header class="page-header1">
 
 
@@ -136,14 +131,24 @@ $tablet = Yii::$app->mobileDetect->isTablet();
                     'containerOptions' => ['id' => 'topmen'],
 
         'options' => [
-            'class' => 'navbar navbar-default navshadow skew-menu centering',
+            'class' => 'navbar navbar-default navshadow skew-menu centering treeview',
 
 
         ],
     ]);
     $menuItems = [
- ['label' => 'Главная', 'url' => ['/'], 'active' => $this->context->route == 'site/index'],
-        ['label' => 'Курсы', 'url' => ['/our-courses'], 'active' => $this->context->route == 'site/our-courses'],
+         ['label' => 'Главная', 'url' => ['/'], 'active' => $this->context->route == 'site/index'],
+/*         ['label' => 'Курсы', 'url' => ['/our-courses'], 'active' => $this->context->route == 'site/our-courses'],
+*/         ['label' => 'Курсы',  'url' => ['/our-courses'],
+/*        'template' => '<a href="{url}" >{label}<i class="fa fa-angle-left pull-right"></i></a>',
+*/        'items' => [
+            ['label' => 'Английского языка', 'url' => '/general-english'],
+            ['label' => 'Европейских языков', 'url' => '/european-languages'],
+            ['label' => 'Китайского языка', 'url' => '/chinese-language'],
+            ['label' => 'Для водителей', 'url' => '/english-for-drivers'],
+            ['label' => 'Подготовка к ЧМ', 'url' => '/pre-world-cup-preparation'],
+            ['label' => 'Корпоративное обучение', 'url' => '/corporate-training'],
+        ],],
         ['label' => 'Галерея', 'url' => ['/gallery'], 'active' => $this->context->route == 'site/gallery'],
         ['label' => 'О нас', 'url' => ['/about-us'], 'active' => $this->context->route == 'site/aboutus'],
         ['label' => 'Контакты', 'url' => ['/contact'], 'active' => $this->context->route == 'site/contact']];
@@ -176,7 +181,7 @@ var items = document.querySelectorAll(".navbar-collapse ul li");
 
 
 
-var links = document.querySelectorAll('.navbar-collapse ul li');
+var links = document.querySelectorAll('.navbar-collapse > ul > li');
 var i=1;
 [].forEach.call(links, function(item) {
       item.classList.add('fadeInUp1');

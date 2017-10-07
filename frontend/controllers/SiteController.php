@@ -76,6 +76,13 @@ class SiteController extends Controller
         return $this->render('discount-A');
     }
 
+
+    public function actionGallery()
+    {
+        return $this->render('gallery');
+    }
+
+
           public function actionSpecialsignals()
     {
         return $this->render('special-signals');

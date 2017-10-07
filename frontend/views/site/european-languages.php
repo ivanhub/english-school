@@ -56,7 +56,7 @@ $this->params['breadcrumbs'][] = $title;
 <br/><div class="container-fluid doyou-block">
 <div class="row vertical-align">
 <div class="col-sm-6 col-xs-12 text-center ">
-<img src="/images/en/chin-11.jpg" class="img-responsive doyou" ></div>
+<img src="/images/en/coliseum.jpg" class="img-responsive doyou" ></div>
 <div class="col-sm-6 col-xs-12 text-left ">
 <p class="mtext2 mtext2-chinese" style="clear:both; text-align:justify;line-height:1.1">
 Занятия ведут высококвалифицированные преподаватели итальянского языка по коммуникативной методике, на уроках используются современные итальянские учебники с аудио-приложениями. Программы итальянского языка подразумевают одновременное развитие всех языковых навыков: устной речи, восприятия на слух, чтения и письма.
@@ -67,7 +67,7 @@ $this->params['breadcrumbs'][] = $title;
 <br/><br/>
 <div class="row vertical-align">
 <div class="col-sm-6 col-xs-12 col-sm-push-6 text-center ">
-<img src="/images/en/chin-22.jpg" class="img-responsive doyou2 doyou" >
+<img src="/images/en/france.jpg" class="img-responsive doyou2 doyou" >
 </div>
 <div class="col-sm-6 col-xs-12 col-sm-pull-6 text-left ">
 <p class="mtext2 mtext2-chinese-right" style="clear:both; text-align:justify;line-height:1.1">
@@ -79,7 +79,7 @@ $this->params['breadcrumbs'][] = $title;
 <br/><br/>
 <div class="row vertical-align">
 <div class="col-sm-6 col-xs-12 text-center ">
-<img src="/images/en/chin-3.jpg" class="img-responsive doyou" >
+<img src="/images/en/prague.jpg" class="img-responsive doyou" >
 </div>
 <div class="col-sm-6 col-xs-12 text-left ">
 <p class="mtext2 mtext2-chinese" style="clear:both; text-align:justify;line-height:1.1">
@@ -108,7 +108,7 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="row vertical-align">
 <div class="col-sm-6 col-xs-12 col-sm-push-6 text-center ">
-<img src="/images/en/chin-22.jpg" class="img-responsive doyou2 doyou" >
+<img src="/images/en/german.jpg" class="img-responsive doyou2 doyou" >
 </div>
 <div class="col-sm-6 col-xs-12 col-sm-pull-6 text-left ">
 <p class="mtext2 mtext2-chinese-right" style="clear:both; text-align:justify;line-height:1.1">

@@ -1,132 +1,162 @@
 <?php
 
 /* @var $this yii\web\View */
+/* @var $form yii\bootstrap\ActiveForm */
+/* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
+//use yii\bootstrap\ActiveForm;
+//use yii\captcha\Captcha;
+//use phpnt\yandexMap\YandexMaps;
+//$agent=$_SERVER['HTTP_USER_AGENT'];
+//dd($agent);
+//if(agent($_SERVER['HTTP_USER_AGENT'])) echo '555';
 
-$this->title = 'Учебный центр "Академия"';
 
-//$this->params['breadcrumbs'][] = ['label' => 'Employees', 'url' => ['index']];
-//$this->params['breadcrumbs'][] = $this->title;
+$title = 'Галерея';
+$this->title = title($title);
+
+$this->registerMetaTag([
+    'name' => 'description',
+    'content' => 'Возможность дистанционного обучения теории по всем направлениям школы вождения: Права на авто и мото технику. Права на квадроцикл, снегоход, трактор, погрузчик, квадроцикл, гидроцикл, катер, снегоход и т.д. Лучшая автошкола в Самаре. Звоните!',
+]);
+$this->registerMetaTag([
+    'name' => 'keywords',
+    'content' => 'автошкола, мотошкола, права, дистанционное обучение, заочно, на дому, обучение дома, удаленное, обучение вождению, росавтоакадемия, центральная автошкола Самары, рос автоакадемия, школа вождения, права на автомобиль, услуги автошколы, главная автошкола Самары, самоходная техника, гидроцикл, права катер'
+    ]);
+
+
+$this->params['breadcrumbs'][] = $title;
 ?>
 
 
-<!--<div class="container">
-
-<div class="jumbofon jumbotron">
- <h1>Учебный Центр "Академия"</h1><BR> 
-</div></div>-->
-<!-- <div></div>
-   <div class="full-width" id="full-widthid">
-  <div class="container-fluid mainblock text-center">
-  <div class="row">
-  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6  box1  cl-effect-12">
-  <img class="hvr-bounce-in" src="../images/new_car.png" width="305px">
-  <p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p>
+<!-- 
+<div class="" id="full-widthid">
+<div class="container-fluid mainblock text-center contacts">
+  <div class="text-center contacts">  <div class="row">
+  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6  box1  cl-effect-12">
+  <img class="hvr-grow1" src="../images/new_car.png" width="180px">
+  <p class="blocktitlec anim_one  hvr-bob1 ">Автомотошкола</p>
   </div>
-  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6  box2 cl-effect-12">
-  <img class="hvr-wobble-to-top-right" src="../images/two.png" width="255px" style="margin-top: -10px;">
-  <p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
+  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6  box2 cl-effect-12">
+  <img class="hvr-grow1" src="../images/two.png" width="150px" style="margin-top: 0;">
+  <p class="blocktitlec anim_two  hvr-bob1">Самоходная техника</p>
   </div>
-   <div class="clearfix visible-sm"></div>
-  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box3  cl-effect-12">
-  <img class="boat" src="../images/boat_t2.png" width="270px" style="margin-top: -5px;">
-  <p class="blocktitle anim_three hvr-bob">Судовождение</p>
+  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6 box3  cl-effect-12">
+  <img class="hvr-grow1" src="../images/boat_t2.png" width="160px">
+  <p class="blocktitlec anim_three hvr-bob1">Судовождение</p>
   </div>
-  <div class="col-md-3 col-sm-6 col-xs-12  col-big-6 box4  cl-effect-12">
-  <img class="hvr-wobble-top" src="../images/new_car.png" width="305px" style="margin-top: 0;">
-  <p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
+  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6 box4  cl-effect-12">
+  <img class="hvr-grow1" src="../images/new_car.png" width="180px" style="margin-top: 0;">
+  <p class="blocktitlec anim_four hvr-bob1">Защитное вождение</p>
   </div>
   </div> 
-  </div>
-  </div>   --> 
- <section class="main container">
+  </div></div></div>
+ -->
 
-<div class="row">
- <div class="col-md-9 col-sm-12 text-left mainbox">
+<!-- <?= Html::encode($this->title) ?> -->
 
- <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12  box1  cl-effect-12">
-<a style="display:block" href="/automotoschool">
-<img class="hvr-bounce-in" src="../images/1car.png" width="365px">
-<p class="blocktitle anim_one  hvr-bob ">Автомотошкола</p></a>
+   
+<h1 class="text-center"><?= Html::encode($title) ?></h1>
+
+
+
+<center><h4>Фотографии учебных классов</h4></center><br/>
+<div class="gallery-container">
+<div class="gallery-slider">    
+<?php 
+ 
+if ($dir = opendir('images/gallery-slider/')) {
+ 
+    while (false !== ($file = readdir($dir))) { 
+       if($file == '.' || $file == '..' || is_dir('images/gallery-slider/' . $file) || substr($file, strrpos($file, '.') + 1) != 'jpg'){
+        continue;
+    }
+    //echo $file;
+?>     
+         <div><div><a href="/images/gallery-slider/<?=$file?>"> <img src="/images/gallery-slider/tn/<?=preg_replace('/\.\w+$/', '', $file);?>_tn.jpg" ></a></div></div>
+<?php 
+ 
+    }
+ 
+}
+
+?>
+
+
+
 </div>
-<div class="col-md-6 col-sm-6 col-xs-12 box2 cl-effect-12">
-<img class="hvr-wobble-to-top-right" src="../images/2tr.png" width="325px" style="margin-top: -1px;"  margin-left: -5px;>
-<p class="blocktitle anim_two  hvr-bob">Самоходная техника</p>
-</div>
-
-
-</div> 
-
-
-<div class="row" style="margin-top:50px">
-
-  <div class="clearfix visible-sm"></div>
-<div class="col-md-6 col-sm-6 col-xs-12 box3  cl-effect-12">
-<a style="display:block" href="/gallery">
-<img class="boat" src="../images/boat77.png" width="323px" style="margin-top: -5px;" >
-<p class="blocktitle  hvr-bob anim_three">Судовождение</p>
-</a>
-</div>
-<div class="col-md-6 col-sm-6 col-xs-12  box4  cl-effect-12">
-<a style="display:block" href="/safety-driving"> <!-- 22 -->
-<img class="hvr-wobble-top" src="../images/4car9.png" width="365px" style="margin-top: 10px;     margin-left: 30px;">
-<p class="blocktitle anim_four hvr-bob">Защитное вождение</p>
-</a>
-</div></div>
-</div> 
-<br><br> 
-
-
-
-  <div class="col-sm-12 col-md-3 right-aside">
-  <aside>
-  <h4 >Акции</h4>
-  <div class="saleblock">
-  <img src="https://dummyimage.com/240x200/989898/000000.png" class="saleimg" >
-    <!--  <p>Новогодняя акция - Скидка 15%!</p>
-                 <p>[Подробнее] </p> -->
-            </div>
-              <div class="saleblock">
-  <img src="https://dummyimage.com/240x200/989898/000000.png" class="saleimg" style="margin-top:40px">
-    <!--  <p>Новогодняя акция - Скидка 15%!</p>
-                  <p>[Подробнее] </p> -->
-            </div>
-
-
-  <!--             <div class="saleblock">
-  <img src="https://dummyimage.com/240x120/989898/000000.png" class="saleimg">
-    <p>Новогодняя акция - Скидка 15%!</p>
-                  <p>[Подробнее] </p> 
-            </div>
-  <h5>Новости</h5>
-      <div class="news">
-     <p>11/01/2016  Набор в группу водителей самоходной техники. </p>
-     <p>Объявляется набор в группу на подготовку водителей самоходной техники</p><p>...</p>
-     <p>[Подробнее]</p>
-     </div>
-      <div class="news">
-         <p>11/01/2016 Открыт сезон обучения на категорию А. </p>
-        <p class="news-text">Хотите освоить искусство безопасного и уверенного</p><p>...</p>
-        <p>[Подробнее] </p>
-     </div> -->
-
- <!--   <div class="news">
-        <p>11/01/2016 Набор на обучение вождению категории B.</p>
-      <p>Автошкола объявляет набор в дневную группу школьников и</p><p>...</p>
-      <p>[Подробнее] </p>
-    </div> -->
-
-         
-
-
-  </aside>
-</div>
- </div>
 </div>
 
- </section>
+<br/>
+<br/>
+<br/>
+</div>
 
 
 
+
+
+
+<?php 
+
+
+$this->registerJs(<<<JS
+
+
+
+      jQuery('.gallery-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  arrows: true,
+//          prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left fa-3x' aria-hidden='true'></i></button>",
+//nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right fa3-x' aria-hidden='true'></i></button>"     
+draggable:true,
+responsive: [
+  {
+      breakpoint: 1199,
+      settings: {
+        slidesToShow:3,
+        slidesToScroll: 3,
+        infinite: true,
+        //dots: true
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow:2,
+        slidesToScroll: 2,
+        infinite: true,
+        //dots: true
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+   
+  
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+             });
+
+jQuery('.gallery-slider').slickLightbox({
+  itemSelector        : 'a',
+  navigateByKeyboard  : true
+});
+JS
+, yii\web\View::POS_READY); 
+
+
+Yii::$app->view->registerJsFile('/assets/js/slick.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js?',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick.css?v=131',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick-lightbox.css?v=7',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick-theme.css?v=7',  ['depends' => 'frontend\assets\AppAsset']); 

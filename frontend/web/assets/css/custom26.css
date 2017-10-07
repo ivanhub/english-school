@@ -374,6 +374,7 @@ section.main {
 
 .forsafari1 {
 transform: translateZ(1000px); 
+-webkit-filter: blur(0.000001px);
 /*transform-style: preserve-3d;*/
 }
 
@@ -3171,7 +3172,7 @@ color: #115911;
 }
 
 
-.foot1 { height:150px; padding-top:30px; margin-bottom:51px;}
+.foot1 { height:150px; padding-top:30px;/*  margin-bottom:51px; */}
 .foot1 p:first-child, .my {font-weight:bolder; font-size:15px;    }
 /*.foot1 .footer-links li:first-child {border-bottom: 1px solid #c6c6c6;     padding: 0 2px 1px;font-weight:bolder; font-size:15px;}*/
 .foot1 .footer-links li:first-child { font-weight:bolder; font-size:14.5px;}
@@ -3418,7 +3419,7 @@ footer .rangelogo {    padding-top: 11px; }
 
 /* 4.2rem 5.9em */
 .footer__vline_2{    height: 113px;}
-.footer__vline_1 {      height: 113px;}
+.footer__vline_1 {      height: 65px;}
 .footer__vline_1_1 {      height: 61px; margin-left:16px;top: 7.12em;}
 .footer__hline {
     border-top: 1px solid #bcbaba;
@@ -4894,7 +4895,7 @@ border-bottom-right-radius: 5px !important;
 	background-image: linear-gradient(#62bc30, #72ce3f); 
 }
 
-#pricing-table .signup:active, #pricing-table .signup:focus {
+#pricing-table .signup:active {
 	background: #62bc30;       
 	top: 2px;
 	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;

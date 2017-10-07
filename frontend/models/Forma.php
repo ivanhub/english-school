@@ -18,7 +18,7 @@ class Forma extends \yii\db\ActiveRecord
 
     public static function tableName()
     {
-        return 'forma';
+        return 'forma-english';
     }
 
   public function formName()

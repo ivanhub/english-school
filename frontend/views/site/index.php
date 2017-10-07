@@ -175,7 +175,16 @@ $this->registerMetaTag([
     <div class="col-sm-4 col-xs-12">
     <div class="plan ">
         <h3>Курс в группе<br/>3-4 человека<span><i>3800 ₽</i><br><i>3230 ₽</i></span></h3>
-        <a class="signup" href="#">Записаться</a>         
+    
+        <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '1',
+    'class' => 'signup'
+  ]
+    ); ?>
         <ul>
             <li><b style="color:#ee0c0c">СКИДКА 15%</b></li>
             <li>Формат занятий:</li>
@@ -187,7 +196,15 @@ $this->registerMetaTag([
     <div class="col-sm-4 col-xs-12">
     <div class="plan" >
         <h3>Курс в группе<br/>5-8 человек<span><i>3800 ₽</i><br><i>3230 ₽</i></span></h3>
-        <a class="signup" href="#">Записаться</a>        
+        <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '2',
+    'class' => 'signup'
+  ]
+    ); ?>       
         <ul>
          <li><b style="color:#ee0c0c">СКИДКА 15%</b></li>
             <li>Формат занятий:</li>
@@ -199,7 +216,15 @@ $this->registerMetaTag([
     <div class="col-sm-4 col-xs-12">
     <div class="plan">
         <h3>Курс "Индивидуальный" <span><i>6000 ₽</i><br><i>5100 ₽</i></span></h3>
-    <a class="signup" href="#">Записаться</a>
+    <?php    echo Html::a(
+    'Записаться',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '3',
+    'class' => 'signup'
+  ]
+    ); ?>
         <ul>
            <li><b style="color:#ee0c0c">СКИДКА 15%</b></li>
             <li>Формат занятий:</li>
@@ -741,8 +766,81 @@ $this->registerJs(<<<JS
 window.addEventListener("load", function() {
 
 ros.init();
+
+
+
+
+//$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
+
+
+//$('#idmodal').on('close.bs.modal', function(e) { 
+//setTimeout(function() {  $("#wrapacket").text(''); }, 6000);
+//});
+
+
+$('#idmodal').on('show.bs.modal', function(e) {
+  var which = e.relatedTarget.dataset.which;
+        //var newspan = document.createElement('div');
+        //newspan.className = "wpacket";
+
+
+var total = '<b>Расчёт стоимости</b><br><b>Теория:</b> '+$('.sub-option .well').find('#f_11 option:selected' ).val()+'<br><b>Тип трансмиссии: </b>'+$('.sub-option .well').find('#f_12 option:selected' ).val()+'<br><b>Практика: </b>'+$('.sub-option .well').find('#f_13 option:selected' ).val()+'<br><b>Автодром: </b>'+$('.sub-option .well').find('#f_14 option:selected').val()+'<br><b>Всего стоимость: </b>'+$('.sub-option .well').find('.total .price').text();
+
+if (which==101) {
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="total" class="form-control" name="total" value="'+total+'"><p class="help-block help-block-error"></p></div>');
+}  else if (which==102) {
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория A"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="total" class="form-control" name="total" value="'+total+'"><p class="help-block help-block-error"></p></div>');
+}
+else if (which==5) {
+$("#wrapacket").text('Пакет "Дневной"');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Дневной"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Дневной"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+  } else if (which==6)
+  {
+$("#wrapacket").text('Пакет "Стандарт"');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Стандарт"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Стандарт"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+
+  } else if (which==7) 
+  {
+$("#wrapacket").text('Пакет "Индивидуальный"');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Индивидуальный"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Индивидуальный"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+
+  } else if (which==8) 
+  {
+$("#wrapacket").text('Пакет "Автомат"');
+$("#contact-form").append('<div class="form-group field-fromfield required"><input type="hidden" id="pack" class="form-control" name="pack" value="Автомат"><input type="hidden" id="packet" class="form-control" name="packet" value="Категория B / Пакет Автомат"><p class="help-block help-block-error"></p></div>');
+$("#contact-form").children('.field-packet').hide();
+
+  }  else if (which==0 || which==1) 
+  {
+$("#wrapacket").text('');
+$( ".field-forma-packet" ).show();          
+$("#contact-form").children('.field-packet').show();
+
+  };
+
 });
+
+
+});
+
+
+
+
 
 
 JS
 , yii\web\View::POS_READY); ?>
+
+
+
+
+
+
+

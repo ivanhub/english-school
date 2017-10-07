@@ -14,25 +14,15 @@ use yii\helpers\Html;
                 <div class="footer-col-1 col1">
                 <i class="footer__vline footer__vline_1"></i>
 <ul class="footer-links">
-<li><a href="/driving-school"></i>Автомотошкола</a></li>
-<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/A">Категория А</a></li>
-<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/B">Категория B</a></li>
- 
-<?php if (hm('site/dopuslugi')) {
-  ?>
- <!--<li  style="font-size:14.5px;" class="indent10"><i class="footer__hline footer__hline_1"></i><a href="#" style="font-weight:900">Дополнительные услуги</a></li>
- <i class="footer__vline_two footer__vline_1_1"></i>-->
- <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a data-toggle="collapse" href="#instructor_training">Обучение инструкторов</a></li>
- <li  class="indent10"><i class="footer__hline footer__hline_1"></i> <a data-toggle="collapse" href="#Arenda_avtodroma">Аренда автодрома</a></li>
- <li  class="indent10"><i class="footer__hline footer__hline_1"></i> <a data-toggle="collapse" href="#consultation">Занятия с инструктором</a></li>
-  <?php } else { ?>
+<li><a href="/driving-school"></i>Курсы иностранных языков</a></li>
+
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/A">Английский язык</a></li>
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/B">Европейские языки</a></li>
+
+
  <!--<li style="font-size:14.5px;" class="indent10"><i class="footer__hline"></i><a href="/additional-services" style="font-weight:900"><span>Д</span>ополнительные услуги</a></li>
   <i class="footer__vline_two footer__vline_1_1"></i>-->
- <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#instructor_training">Обучение инструкторов</a></li>
- <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#Arenda_avtodroma">Аренда автодрома</a></li>
- <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#consultation">Занятия с инструктором</a></li>
-<?php } ?>
-
+ <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#instructor_training">Китайский язык</a></li>
 </ul>
                   </div>
         </div>
@@ -43,22 +33,19 @@ use yii\helpers\Html;
 
 <!--<i class="footer__vline footer__vline_2"></i>-->
 
+                <i class="footer__vline footer__vline_1"></i>
 
 <ul class="footer-links">
-<li style="font-size:14.5px;padding-top:0px"><b><a href="/safety-driving">Защитное вождение</a></b></li>
-<li style="font-size:14.5px;padding-top:0px"><b><a href="/self-propelled-machinery">Самоходная техника</a></b></li>
-<li style="font-size:14.5px;padding-top:0px"><b><a href="/DOPOG">Курсы по ДОПОГ</a></b></li>
-<li style="font-size:14.5px;padding-top:0px"><b><a href="/navigation">Судовождение</a></b></li>
-<li style="font-size:14.5px;padding-top:0px"><b><a href="/special-signals">Курс "Спецсигналы"</a></b></li>  
+<li><a href="/driving-school"></i>Специальные курсы</a></li>
 
-</ul>      
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/A">Для водителей</a></li>
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/B">Подготовка к ЧМ по футболу</a></li>
+  <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#instructor_training">Корпоративное обучение</a></li>
+</ul>     
         </div>
-
                 </div>
         <div class="col-sm-4 col-xs-12">
                         <div class="footer-col-3 my">
-
-
 <div class="footer-phone">
 <p class="phone">
 <a href="tel:+78462556999"><i class="footer-phone__pic"></i> <span>+7 (846) 255-69-99</span></a></p>

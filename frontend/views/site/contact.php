@@ -23,17 +23,13 @@ $this->registerMetaTag([
     ]);
 
 
-
-
 $this->params['breadcrumbs'][] = $title;
 ?>
 
 
 
 
-
-
-<div class="site-contact container siteblock">
+<div class="site-contact container">
    
     <div class="row">
     <h1 class="text-center"><?= Html::encode($title) ?></h1>
@@ -41,17 +37,17 @@ $this->params['breadcrumbs'][] = $title;
  
 
 
-<p style="text-indent:25px"><b> АНО ДПО "Академия"</b></p>
+<p style="text-indent:25px"><b> Школа иностранных языков "Росакадемия"</b></p>
   <div class="START"><div class="start2">
       
 
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
    <div class="panel-heading">
-      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Росавтоакадемия, Центральный офис</a>  </h4>
+      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Росакадемия, Центральный офис</a>  </h4>
    </div>
    <div id="collapse1" class="panel-collapse collapse in">
-      <div class="panel-body"><b>443099, г. Самара, ул. Молодогвардейская 33, оф. 232.<br> График работы: 8:00 - 17:00 Пн.-Пт. <br>Тел.: +7 (846) 255-69-99</b></div>
+      <div class="panel-body"><b>443099, г. Самара, ул. Молодогвардейская 33, оф. 232.<br> График работы: 8:00 - 21:00 Пн.-Пт. <br>Тел.: +7 (846) 255-69-99</b></div>
    </div>
 </div>
 
@@ -63,14 +59,7 @@ $this->params['breadcrumbs'][] = $title;
       <div class="panel-body"><b>г. Самара, ул. Осипенко 11, оф. 404.<br/> График работы: 8:00-17:00 Пн.-Пт.<br/>Тел.: +7 (846) 255-69-99</b></div>
    </div>
 </div>
-<div class="panel panel-default">
-   <div class="panel-heading">
-      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Автодром</a>  </h4>
-   </div>
-   <div id="collapse1" class="panel-collapse collapse in">
-      <div class="panel-body"><b>г. Самара, ул. Уральская 34 <br>(по ул. Утевская, напротив бывшей 4 роты полка ДПС ГИБДД) <br>График работы: 9:00-20:00 Пн.-Сб.</b></div>
-   </div>
-</div>
+
 </div>
 
 
