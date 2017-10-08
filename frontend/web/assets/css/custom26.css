@@ -4922,7 +4922,7 @@ border-bottom-right-radius: 5px !important;
 @media (min-width:992px) and (max-width:1199px) {
 #index .width80 { width:85% } }
 
-@media (max-width:768px) { #pricing-table .plan {margin-top:30px;} }
+@media (max-width:992px) { #pricing-table .plan {margin-top:30px;} }
 
 .clear:before, .clear:after {
   content:"";
