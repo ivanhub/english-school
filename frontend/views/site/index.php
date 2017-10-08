@@ -304,7 +304,7 @@ $this->registerMetaTag([
 </div>
 
 <div class="linetire"></div>
-<div class="text-center "><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и мы свяжемся с вами в ближайшее время, чтобы ответить
+<div class="text-center leave-request"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и мы свяжемся с вами в ближайшее время, чтобы ответить
  на все интересующие вас вопросы или позвоните по телефону +7 (846) 255-69-99.</h3>
  <?php    echo Html::a(
     'Оставить заявку',
@@ -315,7 +315,7 @@ $this->registerMetaTag([
     'class' => 'signup'
   ]
     ); ?>
-<p>&nbsp;</p></div></div>
+<p>&nbsp;</p><br/></div></div>
 <!-- <center><p class="footer__myvkontakte"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
 </center>
  --><!--<br/>
@@ -327,7 +327,6 @@ $this->registerMetaTag([
 </div> 
 
 <br/>-->
- <br/>
  </div>
  </section>
 
