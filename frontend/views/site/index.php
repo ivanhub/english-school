@@ -172,7 +172,7 @@ $this->registerMetaTag([
   <h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
  Выберите интересующий Вас курс обучения</h5>  <br/>
 <div class="container-fluid width80 ">
-    <div class="col-sm-4 col-xs-12">
+    <div class="col-md-4 col-xs-12">
     <div class="plan ">
         <h3>Курс в группе<br/>3-4 человека<span><i>3800 ₽</i><br><i>3230 ₽</i></span></h3>
     
@@ -193,7 +193,7 @@ $this->registerMetaTag([
         </ul> 
         </div>
     </div>
-    <div class="col-sm-4 col-xs-12">
+    <div class="col-md-4 col-xs-12">
     <div class="plan" >
         <h3>Курс в группе<br/>5-8 человек<span><i>3800 ₽</i><br><i>3230 ₽</i></span></h3>
         <?php    echo Html::a(
@@ -213,7 +213,7 @@ $this->registerMetaTag([
         </ul>    
     </div>
     </div>
-    <div class="col-sm-4 col-xs-12">
+    <div class="col-md-4 col-xs-12">
     <div class="plan">
         <h3>Курс "Индивидуальный" <span><i>6000 ₽</i><br><i>5100 ₽</i></span></h3>
     <?php    echo Html::a(
