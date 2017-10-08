@@ -14,15 +14,11 @@ use yii\helpers\Html;
                 <div class="footer-col-1 col1">
                 <i class="footer__vline footer__vline_1"></i>
 <ul class="footer-links">
-<li><a href="/driving-school"></i>Курсы иностранных языков</a></li>
+<li><a href=""></i>Курсы иностранных языков</a></li>
 
-<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/A">Английский язык</a></li>
-<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/B">Европейские языки</a></li>
-
-
- <!--<li style="font-size:14.5px;" class="indent10"><i class="footer__hline"></i><a href="/additional-services" style="font-weight:900"><span>Д</span>ополнительные услуги</a></li>
-  <i class="footer__vline_two footer__vline_1_1"></i>-->
- <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#instructor_training">Китайский язык</a></li>
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/general-english">Английский язык</a></li>
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/european-languages">Европейские языки</a></li>
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/chinese-language">Китайский язык</a></li>
 </ul>
                   </div>
         </div>
@@ -38,9 +34,9 @@ use yii\helpers\Html;
 <ul class="footer-links">
 <li><a href="/driving-school"></i>Специальные курсы</a></li>
 
-<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/A">Для водителей</a></li>
-<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/driving-school/B">Подготовка к ЧМ по футболу</a></li>
-  <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/additional-services#instructor_training">Корпоративное обучение</a></li>
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/english-for-drivers">Для водителей</a></li>
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/pre-world-cup-preparation">Подготовка к ЧМ по футболу</a></li>
+  <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/corporate-training">Корпоративное обучение</a></li>
 </ul>     
         </div>
                 </div>

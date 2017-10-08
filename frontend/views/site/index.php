@@ -45,7 +45,7 @@ $this->registerMetaTag([
 
 <a href="/general-english"> <div class="block-mestoONLY"><p class="blocktitle anim_one text-center">Курсы английского языка</p></div>
 <div class="aa">
-  <img class="img-responsive" src="../images/en/first6.png" alt="Автошкола г. Самара" title="Автошкола" width="150px">
+  <img class="img-responsive" src="/images/en/first6.png" alt="Автошкола г. Самара" title="Автошкола" width="150px">
 </div>
 </a>
 </div>
@@ -57,7 +57,7 @@ $this->registerMetaTag([
 <a href="/european-languages"> 
 <div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Курсы европейских языков</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/en/european-languages.png"  alt="Дополнительные услуги г. Самара"
+<img class="img-responsive" src="/images/en/european-languages.png"  alt="Дополнительные услуги г. Самара"
  title="Дополнительные услуги"  width="180px">
 </div></a>
 </div>
@@ -70,7 +70,7 @@ $this->registerMetaTag([
 <a href="/chinese-language"> 
 <div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Курсы китайского языка</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/en/chinese8.png"  alt="Самоходная техника" title="Права на спецтехнику"  width="150px" >
+<img class="img-responsive" src="/images/en/chinese8.png"  alt="Самоходная техника" title="Права на спецтехнику"  width="150px" >
 </div></a>
 </div>
   </div></div>
@@ -85,7 +85,7 @@ $this->registerMetaTag([
 
 <a href="/english-for-drivers"> <div class="block-mestoONLY"><p class="blocktitle anim_one text-center">Курсы для водителей</p></div>
 <div class="aa">
-  <img class="img-responsive" src="../images/en/taxi11.png" alt="Автошкола г. Самара" title="Автошкола" width="180px">
+  <img class="img-responsive" src="/images/en/taxi11.png" alt="Автошкола г. Самара" title="Автошкола" width="180px">
 </div>
 </a>
 </div>
@@ -97,7 +97,7 @@ $this->registerMetaTag([
 <a href="/pre-world-cup-preparation"> 
 <div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Подготовка волонтеров к<br/> ЧМ по футболу</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/en/fifa7.png"  alt="Дополнительные услуги г. Самара"
+<img class="img-responsive" src="/images/en/fifa7.png"  alt="Дополнительные услуги г. Самара"
  title="Дополнительные услуги"  width="150px">
 </div></a>
 </div>
@@ -110,7 +110,7 @@ $this->registerMetaTag([
 <a href="/corporate-training"> 
 <div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Корпоративное обучение</p></div>
 <div class="aa">
-<img class="img-responsive" src="../images/en/corp3.png"  alt="Самоходная техника" title="Права на спецтехнику"  width="160px" >
+<img class="img-responsive" src="/images/en/corp3.png"  alt="Самоходная техника" title="Права на спецтехнику"  width="160px" >
 </div></a>
 </div>
   </div></div>

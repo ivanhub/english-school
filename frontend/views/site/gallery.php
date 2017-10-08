@@ -61,7 +61,7 @@ $this->params['breadcrumbs'][] = $title;
 
 
 
-<center><h4>Фотографии учебных классов</h4></center><br/>
+<center><h4>Фотографии наших учебных классов</h4></center><br/>
 <div class="gallery-container">
 <div class="gallery-slider">    
 <?php 
