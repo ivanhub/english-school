@@ -4918,6 +4918,10 @@ border-bottom-right-radius: 5px !important;
     z-index: -1;
 }
 
+@media (min-width:992px)and(max-width:1199px)
+{ #index .width80 { width:85% } }
+
+
 
 .clear:before, .clear:after {
   content:"";
