@@ -4859,11 +4859,12 @@ border-bottom-right-radius: 5px !important;
 
 
 /* --------------- */
-	
-#pricing-table .signup {
+	 
+ 
+#pricing-table .signup, #signup-leave .signup {
 	position: relative;
-	padding: 8px 20px;
-	margin: 15px 0 0 0;  
+  margin: 15px 0 0 0; 
+  padding: 8px 20px;
 	color: #fff;
 	font: bold 14px Arial, Helvetica;
 	text-transform: uppercase;
@@ -4885,7 +4886,7 @@ border-bottom-right-radius: 5px !important;
 	box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
 }
 
-#pricing-table .signup:hover {
+#pricing-table .signup:hover, #signup-leave .signup:hover  {
 	background-color: #62bc30;
 	background-image: -moz-linear-gradient(#62bc30, #72ce3f);
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#62bc30), to(#72ce3f));      
@@ -4895,7 +4896,7 @@ border-bottom-right-radius: 5px !important;
 	background-image: linear-gradient(#62bc30, #72ce3f); 
 }
 
-#pricing-table .signup:active {
+#pricing-table .signup:active, #signup-leave .signup:active {
 	background: #62bc30;       
 	top: 2px;
 	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
