@@ -110,7 +110,7 @@ use yii\helpers\Html;
 </div>
 <div class="rangelogo range-xs-center range-xs-middle text-center">
 <!-- <img class="minilogo" src="http://front.loc/images/minlogo.png" align="left"> -->
-<p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ДПО "Академия". &nbsp;<a href="/privacy" class="privacy">Политика конфиденциальности</a></span>
+<p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ЦДПО "Академия". &nbsp;<a href="/privacy" class="privacy">Политика конфиденциальности</a></span>
  <a href="" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
   <!--<p class="footer__myvkontakte text-right hidden-xs"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
