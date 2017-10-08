@@ -4923,7 +4923,11 @@ border-bottom-right-radius: 5px !important;
 #index .width80 { width:85% } }
 
 @media (max-width:992px) { #pricing-table .plan {margin-top:30px;} }
-@media (max-width:400px) { #index .width80 { width:100% } }
+@media (max-width:400px) { #index .width80 { width:100% }
+.width80 > div {
+    padding-left: 0;
+    padding-right: 0;
+} }
 
 .clear:before, .clear:after {
   content:"";
