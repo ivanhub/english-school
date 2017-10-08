@@ -4911,7 +4911,7 @@ border-bottom-right-radius: 5px !important;
     position: absolute;
     top: 0;
     left: 0;
-    background: url(https://ptzgovorit.ru/sites/default/files/styles/885x100proc/public/insert_images/art03portada.jpg) top center;
+    background: url('/images/en/leave-a-request.jpg') -8% 8%;
     width: 100%;
     height: 100%;
     opacity: .1;
