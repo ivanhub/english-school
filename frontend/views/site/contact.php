@@ -79,7 +79,7 @@ $this->params['breadcrumbs'][] = $title;
 
     </div> </div>
    
-
+<br/>
 
 </div>
 
