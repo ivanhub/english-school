@@ -75,9 +75,7 @@ $this->registerMetaTag([
 </div>
   </div></div>
 
-</div>
 
-<div class="row rowm">
 
 <div class="forsafari1">
 <div class="col-md-4 col-xs-12 col-sm-6 box4  cl-effect-12">
@@ -114,6 +112,7 @@ $this->registerMetaTag([
 </div></a>
 </div>
   </div></div>
+
 
 </div>
 
