@@ -34,7 +34,7 @@ use yii\helpers\Html;
 <ul class="footer-links">
 <li><a></i>Специальные курсы</a></li>
 
-<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/english-for-drivers">Для водителей</a></li>
+<li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/english-for-drivers">Английский для водителей</a></li>
 <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/pre-world-cup-preparation">Подготовка к ЧМ по футболу</a></li>
   <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/corporate-training">Корпоративное обучение</a></li>
 </ul>     
