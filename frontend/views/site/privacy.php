@@ -68,7 +68,7 @@ $this->params['breadcrumbs'][] = $title;
 <p>
     <strong>Исполнитель, Администрация сайта, Владелец сайта </strong>
     – <b>АНО ЦДПО «АКАДЕМИЯ»</b> (ИНН:6317085438, ОГРН:1106300005844), осуществляющее
-    руководство интернет-сайтом <a href="https://Ros.Academy" style="color:darkgreen;text-decoration:underline">Ros.Academy</a> на условиях настоящего Соглашения.
+    руководство интернет-сайтом <a href="http://Ros.Academy" style="color:darkgreen;text-decoration:underline">Ros.Academy</a> на условиях настоящего Соглашения.
 </p><p>
         <strong>Пользователь</strong>
     – любое лицо, использующее Сайт.
@@ -95,14 +95,14 @@ $this->params['breadcrumbs'][] = $title;
 </p>
 <p>
     <strong>Сайт</strong>
-    – интернет-сайт, размещенный в сети Интернет по адресу: <a href="https://Ros.Academy" style="color:darkgreen;text-decoration:underline">Ros.Academy</a>
+    – интернет-сайт, размещенный в сети Интернет по адресу: <a href="http://Ros.Academy" style="color:darkgreen;text-decoration:underline">Ros.Academy</a>
 </p>
 <p style="font:weight:bold;font-size:200%">
     1.Общие положения
 </p>
 <p>
     1.1. Настоящее Соглашение определяет условия пользования Пользователями
-    материалов и сервисов сайта <a href="https://Ros.Academy" style="color:darkgreen;text-decoration:underline">Ros.Academy</a> (далее «Сайт»), а также регулирует
+    материалов и сервисов сайта <a href="http://Ros.Academy" style="color:darkgreen;text-decoration:underline">Ros.Academy</a> (далее «Сайт»), а также регулирует
     порядок обработки и использования персональных и иных данных Пользователей
     Исполнителем.
 </p>
@@ -141,7 +141,7 @@ $this->params['breadcrumbs'][] = $title;
     доступна любому пользователю сети Интернет. Исполнитель вправе вносить
     изменения в настоящее Соглашение. При внесении изменений Исполнитель
     уведомляет об этом пользователей путем размещения новой редакции Соглашения
-на Сайте по постоянному адресу    <a href="https://Ros.Academy/privacy" style="color:darkgreen;text-decoration:underline">https://Ros.Academy/политика-конфиденциальности</a>
+на Сайте по постоянному адресу    <a href="http://Ros.Academy/privacy" style="color:darkgreen;text-decoration:underline">http://Ros.Academy/политика-конфиденциальности</a>
 </p>
 <p>
     1.8. При несогласии Пользователя с внесенными изменениями использование

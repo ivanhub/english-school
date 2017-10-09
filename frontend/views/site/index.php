@@ -303,8 +303,8 @@ $this->registerMetaTag([
 </div>
 
 <div class="linetire"></div>
-<div class="text-center leave-request"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и мы свяжемся с вами в ближайшее время, чтобы ответить
- на все интересующие вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
+<div class="text-center leave-request"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+ на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
  <?php    echo Html::a(
     'Оставить заявку',
   ['#'],

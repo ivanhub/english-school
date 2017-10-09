@@ -4904,7 +4904,7 @@ border-bottom-right-radius: 5px !important;
 	box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset; 
 }
 
-.leave-request {position:relative;}
+.leave-request {position:relative;padding-top:10px;}
 .leave-request:after {
     content: "";
     display: block;
