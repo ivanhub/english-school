@@ -128,8 +128,6 @@ $this->params['breadcrumbs'][] = $title;
 
 
 
-
-<br/>
 <h1 class="text-center"><?= Html::encode($title) ?></h1><br/>
 
  <div class="panel-group" id="accordion">
