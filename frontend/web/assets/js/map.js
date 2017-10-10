@@ -21,6 +21,7 @@ function init() {
         {
             name: "Новый учебный класс",
             descr: "г. Самара, ул. Осипенко 11, оф. 404. <br>График работы: 8:00-17:00 Пн.-Пт.<br/>Тел.: +7 (846) 255-69-99",
+	    balloon: "г. Самара, <br>ул. Осипенко 11, оф. 404, <br/>тел.: (846) 255-69-99",
             items: [
                 {
                     center: [53.205059, 50.137815],
@@ -71,7 +72,7 @@ counter=0,
         }),
 
  BalloonContentLayout2 = ymaps.templateLayoutFactory.createClass(
-  '<div class="ballon" ><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="images/map/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:65px;margin:7px 0px;">г. Самара, ул. Уральская 34. </p><p style="font-size:12px !important">График работы: 9:00-20:00 Пн.-Сб.</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="images/map/close.png"/></div>', {
+  '<div class="ballon" ><img style="background: transparent;  border: none;border-radius: none;padding: 0px; margin-right: 3px;" src="images/map/logo2.png" class="ll"/><p style="padding-top: 7px;padding-left:65px;margin:7px 0px;">'+ groups[1].balloon +'</p><img class="close" id="close" style="background: transparent;  border: none;border-radius: none;padding: 0px;" src="images/map/close.png"/></div>', {
 
             build: function () {
              
@@ -226,7 +227,7 @@ myMap.events.add('click', function (e) {
     });
 
 
-//    myMap.setBounds(myMap.geoObjects.getBounds(),{checkZoomRange:true});
+    myMap.setBounds(myMap.geoObjects.getBounds(),{checkZoomRange:true,zoomMargin:100});
 }
 
 });

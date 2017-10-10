@@ -212,14 +212,36 @@ var host = window.location.hostname;
 if (host != "front.loc")
 {
 // Google.Analytics counter
-!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-93157723-1","auto"),ga("send","pageview");
+//!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-93157723-1","auto"),ga("send","pageview");
 // Yandex.Metrika counter 
 var yaParams = {ip: "<? echo $_SERVER['REMOTE_ADDR'];?>", agent: "<? echo $_SERVER['HTTP_USER_AGENT'];?>"};
-(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43279694 = new Ya.Metrika({ id:43279694, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, params:window.yaParams }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); 
-}
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter46222497 = new Ya.Metrika({
+                    id:46222497,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+        params:window.yaParams
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
 </script>
-<!-- Yandex.Metrika counter -->
-<noscript><div><img src="https://mc.yandex.ru/watch/43279694" style="position:absolute; left:-9999px;" alt="Обучение вождению" title="Открыть категорию на автомобиль и мотоцикл." /></div></noscript> 
+<noscript><div><img src="https://mc.yandex.ru/watch/46222497" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
 
