@@ -63,7 +63,7 @@ $this->params['breadcrumbs'][] = $title;
 <div class="row rowm flex-d">
 
 <div class="forsafari1">
-<div class="col-md-4 col-xs-12 col-sm-6 box1  cl-effect-12">
+<div class="col-md-5 col-lg-4 col-xs-12 col-sm-6 box1  cl-effect-12">
 <div class="fill">
 
 <a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-1 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ОБЩИЙ КУРС</p></div></div>
@@ -74,7 +74,7 @@ $this->params['breadcrumbs'][] = $title;
 </div>
 </div>
 
-<div class="col-md-8 col-xs-12 flex-h">
+<div class="col-md-7 col-lg-8 col-xs-12 flex-h">
 
 <p>В нашей школе Вы сможете успешно овладеть английским языком с любого уровня владения. Курс рассчитан на углубление знаний по английскому языку, совершенствование навыков
 общения и свободного восприятия на слух английского языка.
@@ -90,7 +90,7 @@ $this->params['breadcrumbs'][] = $title;
 <div class="row rowm flex-d">
 
 <div class="forsafari1">
-<div class="col-md-4 col-xs-12 col-sm-6 box1  cl-effect-12">
+<div class="col-md-5 col-lg-4 col-xs-12 col-sm-6 box1  cl-effect-12">
 <div class="fill">
 
 <a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-2 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ДЕЛОВОЙ АНГЛИЙСКИЙ</p></div></div>
@@ -101,7 +101,7 @@ $this->params['breadcrumbs'][] = $title;
 </div>
 </div>
 
-<div class="col-md-8 col-xs-12 flex-h">
+<div class="col-md-7 col-lg-8 col-xs-12 flex-h">
 
 <p>Курс делового английского языка подойдет руководителям и менеджерам среднего звена. Программа включает в себя специализированную лексику, деловые дискуссии и обсуждения, а также развития навыков деловой переписки.
 </p>
@@ -115,7 +115,7 @@ $this->params['breadcrumbs'][] = $title;
 <div class="row rowm flex-d">
 
 <div class="forsafari1">
-<div class="col-md-4 col-xs-12 col-sm-6 box1  cl-effect-12">
+<div class="col-md-5 col-lg-4 col-xs-12 col-sm-6 box1  cl-effect-12">
 <div class="fill">
 
 <a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-3 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ИНТЕНСИВНЫЙ КУРС</p></div></div>
@@ -126,7 +126,7 @@ $this->params['breadcrumbs'][] = $title;
 </div>
 </div>
 
-<div class="col-md-8 col-xs-12 flex-h">
+<div class="col-md-7 col-lg-8 col-xs-12 flex-h">
 
 <p>Курс предназначен для занятых людей, которым нужно в кратчайшие сроки развить языковые навыки перед поездкой за рубеж, сдачей экзамена, стажировкой за границей. Интенсивность программы зависит от сроков и от уровня владения иностранным языком.
 </p>
@@ -141,7 +141,7 @@ $this->params['breadcrumbs'][] = $title;
 <div class="row rowm flex-d">
 
 <div class="forsafari1">
-<div class="col-md-4 col-xs-12 col-sm-6 box1  cl-effect-12">
+<div class="col-md-5 col-lg-4 col-xs-12 col-sm-6 box1  cl-effect-12">
 <div class="fill">
 
 <a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-4 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri" style="margin-top:8px">ТУРИСТИЧЕСКИЙ АНГЛИЙСКИЙ</p></div></div>
@@ -152,7 +152,7 @@ $this->params['breadcrumbs'][] = $title;
 </div>
 </div>
 
-<div class="col-md-8 col-xs-12 flex-h">
+<div class="col-md-7 col-lg-8 col-xs-12 flex-h">
 
 <p>Данный курс необходим любителям путешествовать, выезжать за границу. Туристический английский позволит легко ориентироваться в аэропорту, спросить дорогу, показать достопримечательности. Туристический английский необходим тем, кто не представляет свою жизнь без путешествий.
 </p>
