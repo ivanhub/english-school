@@ -215,7 +215,7 @@ myMap.events.add('click', function (e) {
         if (!myMap.balloon.isOpen()) {
             var coords = e.get('coords');
             myMap.balloon.open(coords, {
-                contentHeader:'АНО ДПО "АКАДЕМИЯ"',
+                contentHeader:'АНО ЦДПО "АКАДЕМИЯ"',
                 contentBody:'<p>Запись на занятия по тел.:<br/>+7 (846) 255-69-99</p>' + [
                     ].join(', ') ,
                 contentFooter:'<sup>Будем рады видеть вас на наших курсах</sup>'

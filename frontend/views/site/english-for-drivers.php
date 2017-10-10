@@ -6,27 +6,10 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-/*use frontend\models\Forma2;*/
-//use yii\bootstrap\Modal;
-//use \yii\widgets\MaskedInput;
 
 
 
-
-//use Yii; 
-//use yii\helpers\Url;
-
-
-//use yii\bootstrap\ActiveForm;
-//use yii\captcha\Captcha;
-//use yii\bootstrap\Modal;
-//use yii\bootstrap\Button;
-//use \yii\widgets\MaskedInput;
-
-//use yii\widgets\Menu;
-
-
-$title = 'Английский для водителей';
+$title = 'Языковые курсы для водителей такси';
 $this->title = title($title);
 
 

@@ -81,7 +81,8 @@ $this->registerMetaTag([
 <div class="col-md-4 col-xs-12 col-sm-6 box4  cl-effect-12">
 <div class="fill">
 
-<a href="/english-for-drivers"> <div class="block-mestoONLY"><p class="blocktitle anim_one text-center">Курсы для водителей</p></div>
+<a href="/english-for-drivers"> <div class="block-mestoONLY"><p class="blocktitle anim_one text-center">
+Языковые курсы для<br/>водителей такси</p></div>
 <div class="aa">
   <img class="img-responsive" src="/images/en/taxi11.png" alt="Автошкола г. Самара" title="Автошкола" width="180px">
 </div>
