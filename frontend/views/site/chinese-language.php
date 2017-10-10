@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="siteblock2">
 <h1 class="text-center"><?= Html::encode($title) ?></h1>
-<br/>
+  <div class="hidden-xs"><br/></div>
 
 <br/><div class="container-fluid doyou-block">
 <div class="row vertical-align">
