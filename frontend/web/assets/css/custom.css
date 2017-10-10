@@ -1190,7 +1190,7 @@ footer p {
  color:#fff; 
 /*opacity:.9;*/
 text-transform: uppercase;
-   
+background-color:transparent;   
 }
 
 #topmen .navbar-nav>.active>a, #topmen .navbar-nav>.active>a:hover, #topmen .navbar-nav>.active>a:focus {
