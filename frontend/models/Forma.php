@@ -78,7 +78,7 @@ Yii::$app->mailer->compose()->setFrom(Yii::$app->params['supportEmail'])->setTo(
     if(Yii::$app->mailer->compose(  ['html' => 'html', 'text' => 'text'],['body' => Html::encode($this->body), 'phone' => $this->phone, 'name'=>$this->name, 'pack' => Html::encode($this->pack), 'packet' => Html::encode($this->packet), 'fromUrl' => Html::encode($this->fromUrl), 'total' => $this->total])
         ->setFrom(Yii::$app->params['supportEmail'])
         ->setTo(Yii::$app->params['orderEmail'])
-        ->setSubject('Заявка с сайта Росавтоакадемия.РФ' )
+        ->setSubject('Заявка с сайта Школы иностранных языков "Академия"' )
         ->send())
     { return true; }
             else {
