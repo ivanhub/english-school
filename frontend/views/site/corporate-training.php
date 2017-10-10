@@ -6,24 +6,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-/*use frontend\models\Forma2;*/
-//use yii\bootstrap\Modal;
-//use \yii\widgets\MaskedInput;
 
-
-
-
-//use Yii; 
-//use yii\helpers\Url;
-
-
-//use yii\bootstrap\ActiveForm;
-//use yii\captcha\Captcha;
-//use yii\bootstrap\Modal;
-//use yii\bootstrap\Button;
-//use \yii\widgets\MaskedInput;
-
-//use yii\widgets\Menu;
 
 
 $title = 'Корпоративное обучение иностранным языкам';
@@ -82,7 +65,7 @@ $this->params['breadcrumbs'][] = $title;
 <div class="forsafari">
 <div class="row text-center"  data-ros="flipInX"   data-options="delay:300;infinite:false;animationClass:animated;duration:1500;callback:;" >
 <div class="col-sm-2 text-center vc"><img src="../../images/en/handshake.png" alt="Экзамен в ГИБДД. Автошкола в Самаре" title="Экзамен в ГИБДД"  width="100"></div>
-<div class="col-sm-12 centerxs vc"> <p><b>Повышение лояльности сотрудников</b></p> <p>Многие в современном мире хотят изучать иностранный язык. Сегодня особой популярностью пользуются китайский, испанский, итальянский языки. В то же время первенство все-таки занимает английский язык. Далеко не каждая компания готова платить за обучение своих сотрудников. Включив, изучение английского языка в социальный пакет, Вы получите по-настоящему лояльных сотрудников, готовых достигать новых результатов.</p>
+<div class="col-sm-12 centerxs vc"> <p><b>Повышение лояльности сотрудников</b></p> <p>Многие в современном мире хотят изучать иностранный язык. Сегодня особой популярностью пользуются китайский, испанский, итальянский языки. В то же время первенство все-таки занимает английский язык. Далеко не каждая компания готова платить за обучение своих сотрудников. Включив изучение английского языка в социальный пакет, Вы получите по-настоящему лояльных сотрудников, готовых достигать новых результатов.</p>
 <br/>
 </div>
   </div></div>

@@ -52,9 +52,9 @@ $this->params['breadcrumbs'][] = $title;
 <h5 class=" text-center hideme h5style" data-ros="fadeInUp"   data-options="infinite:false;animationClass:animated;duration: 500;callback:;"><b>Общий английский</b></h5> -->
 
 
-<p style="text-indent:50px"><span style="font-weight:bold">Школа иностранных языков «Академия»</span> приглашает на занятия по многоуровневым программам английского языка для взрослых. 
+<p style="text-indent:50px"><span style="font-weight:bold">Центр иностранных языков «Академия»</span> приглашает на занятия по многоуровневым программам английского языка для взрослых. 
     Учебная программа разработана с учетом уровня владения английским языком и подбирается после прохождения <span style="color:green;font-weight:bold">БЕСПЛАТНОГО</span> тестирования, которое состоит из письменной и устной части. 
-    Первую (письменную) часть тестирования можно пройти прямо сейчас – <a href="#">он-лайн тестирование (нажмите на ссылку)</a>.
+   <!--  Первую (письменную) часть тестирования можно пройти прямо сейчас – <a href="#">он-лайн тестирование (нажмите на ссылку)</a> -->.
 </p>
 
 
@@ -167,9 +167,10 @@ $this->params['breadcrumbs'][] = $title;
 
 <h5 style="" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">Как проходит обучение</h5>  
  <ul class=" preimul2 lr10 gal text-justify">
- <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Тестирование с методистом для определения уровня владения языком <span style="color:green;font-weight:bold">БЕСПЛАТНО</span></li>
- <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Шесть месяцев увлекательных занятий с высококвалифицированными преподавателями</li>
- <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Результат – Вы говорите по-английски легко и свободно</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Тестирование с методистом для определения уровня владения языком <span style="color:green;font-weight:bold">БЕСПЛАТНО</span>.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Шесть месяцев увлекательных занятий с высококвалифицированными преподавателями.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Результат – Вы говорите по-английски легко 
+ и свободно.</li>
  <li style="font-size:115%;text-indent:50px"><br/><p>Обучение английскому для взрослых направлено на развитие всех аспектов языка: говорение, чтение, письмо, восприятие речи на слух. Вы сможете свободно общаться, путешествовать, сдать международные экзамены, больше зарабатывать. На наших занятиях говорите Вы, а не преподаватель.</p>
  </li>
  </ul>
@@ -179,7 +180,7 @@ $this->params['breadcrumbs'][] = $title;
 <h5 class="poryadok green text-center h5style" style="padding-bottom:15px;padding-top:0" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Порядок зачисления в группы</h5>
 <div class="block-poryadok lr10 preimul2" style="font-size:110%">
-<p>1.  &nbsp;&nbsp;Запись на <span style="color:green">БЕСПЛАТНОЕ</span> тестирование по телефону <b>255-69-99</b>.</p>
+<p>1.  &nbsp;&nbsp;Запись на <span style="color:green;font-weight:600">БЕСПЛАТНОЕ</span> тестирование по телефону <b>255-69-99</b>.</p>
 <p>2.  &nbsp;&nbsp;Заполнение заявления на обучение с указанием удобного времени и дней занятий.</p>
 <p>3.  &nbsp;&nbsp;Оплата курса (помесячно по системе предоплаты или полностью со скидкой в 10%).</p>
 
@@ -206,7 +207,7 @@ $this->params['breadcrumbs'][] = $title;
 
             <td>ул. Молодогвардейская, 33<br>т.: 255-69-99</td>
             <td>
-                <span class="span2" style="color: #223f14;">ПН,СР: 18.00-19.30, 19.30-21.00</span>
+                <span class="span2" style="color: #223f14;">ПН,СР: 16.30-18.00</span>
             
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
@@ -217,7 +218,7 @@ $this->params['breadcrumbs'][] = $title;
 
             <td>ул. Осипенко, 11<br>т.: 255-69-99</td>
             <td>
-                <span class="span2"  style="color: #223f14;">ВТ,ЧТ: 18.00-19.30, 19.30-21.00</span>
+                <span class="span2"  style="color: #223f14;">ПН-ЧТ: 18.00-19.30, 19.30-21.00</span>
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
             <td><div id="advanced-circle" class="circle fl"></div><span class="fl " style="text-shadow: #363636 0 1px 1px;color:#7ae346;margin-top:-1px">ЕСТЬ</span></td><?php } ?>

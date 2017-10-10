@@ -6,24 +6,6 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-/*use frontend\models\Forma2;*/
-//use yii\bootstrap\Modal;
-//use \yii\widgets\MaskedInput;
-
-
-
-
-//use Yii; 
-//use yii\helpers\Url;
-
-
-//use yii\bootstrap\ActiveForm;
-//use yii\captcha\Captcha;
-//use yii\bootstrap\Modal;
-//use yii\bootstrap\Button;
-//use \yii\widgets\MaskedInput;
-
-//use yii\widgets\Menu;
 
 
 $title = 'Курсы европейских языков';
@@ -99,7 +81,7 @@ $this->params['breadcrumbs'][] = $title;
  <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Хотите заговорить на красивейшем языке Сервантеса и Борхеса легко и свободно?</li>
  <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Посетить Испанию с друзьями?</li>
  <li style="font-size:115%;animation-duration: 1s; animation-delay: 1s;">Устроиться на работу в международную компанию?</li>
-<li style="margin-top:25px"><p>Если хотя бы на один из этих вопросов Вы ответили утвердительно, тогда добро пожаловать <b>в школу иностранных языков «Академия».</b>  Занятия по испанскому языку проходят как в группах, так и индивидуально. Для определения оптимального курса необходимо пройти бесплатное тестирование.</p></li>
+<li style="margin-top:25px"><p>Если хотя бы на один из этих вопросов Вы ответили утвердительно, тогда добро пожаловать <b>в центр иностранных языков «Академия».</b>  Занятия по испанскому языку проходят как в группах, так и индивидуально. Для определения оптимального курса необходимо пройти бесплатное тестирование.</p></li>
  </ul>
 </div>
 

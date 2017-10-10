@@ -106,9 +106,9 @@ Leftmenu::widget()
 <div class="visible-xs"><p>&nbsp;</p></div><p class="indent50">Еще одна возможность <b>«подтянуть»</b> язык и снять языковой барьер – это <b>Английский клуб</b>, проводимый нашей школой каждые выходные.
  Принимая участие в интересных, разнообразных, познавательных формах общения Вы незаметно шаг за шагом станете:</p>
  <ul class=" preimul2  gal text-justify">
- <li style="text-indent:50px;font-size:115%;animation-duration: 1s; animation-delay: 0;">Грамотно выражать свои мысли на английском языке</span></li>
- <li style="text-indent:50px;font-size:115%;animation-duration: 1s; animation-delay: .4s;">Слушать собеседника и вступать в дискуссию по интересующим Вас вопросам</li>
- <li style="text-indent:50px;font-size:115%;animation-duration: 1s; animation-delay: .7s;">Лучше понимать специфику кросс-культурного общения</li>
+ <li style="text-indent:50px;font-size:115%;animation-duration: 1s; animation-delay: 0;">Грамотно выражать свои мысли на английском языке.</span></li>
+ <li style="text-indent:50px;font-size:115%;animation-duration: 1s; animation-delay: .4s;">Слушать собеседника и вступать в дискуссию по интересующим Вас вопросам.</li>
+ <li style="text-indent:50px;font-size:115%;animation-duration: 1s; animation-delay: .7s;">Лучше понимать специфику кросс-культурного общения.</li>
  <li style="text-indent:50px;font-size:115%;animation-duration: 1s; animation-delay: 1.1s;padding-top:15px">Все это позволит Вам уверенно чувствовать себя в английском языке, что даст возможность беспрепятственно
   общаться с иностранными гостями на <b>Чемпионате Мира по футболу.</b></li>
  </ul>
@@ -126,9 +126,9 @@ Leftmenu::widget()
 <div class="col-sm-4 text-center"><img src="/images/en/worldcup2.png" class="doyou3 eclub-pic1" width="82%"></div>
 <div class="col-sm-4">
     <div class="centertext-block">
-<p><em style="font-size:81%">07.10.2017 Countries and cities in the world</em></p>
-<p><em style="font-size:81%">14.10.2017 What makes an ideal holiday?</em></p>
-    <p><em style="font-size:81%">21.10.2017 Talking politics</em></p></div>
+<p><em style="font-size:81%">Countries and cities in the world</em></p>
+<p><em style="font-size:81%">What makes an ideal holiday?</em></p>
+    <p><em style="font-size:81%">Talking politics</em></p></div>
 </div>
 
 <div class="col-sm-4 text-center"><img src="/images/en/worldcup3.png" class="img-responsive eclub-pic2"></div>

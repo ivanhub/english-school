@@ -118,8 +118,8 @@ return Yii::$app->params['titlebot'].$title;;
  {
  return  Yii::$app->params['title'].$title; }
   }
-else if (agent($_SERVER['HTTP_USER_AGENT'])) return  'Школа иностранных языков «Росакадемия» г. Самара';
-else return '«РОСАКАДЕМИЯ» - Школа иностранных языков  г. Самара';
+else if (agent($_SERVER['HTTP_USER_AGENT'])) return  'Центр иностранных языков «Росакадемия» г. Самара';
+else return '«РОСАКАДЕМИЯ» - Центр иностранных языков г. Самара';
 }
 
     // Remove all characters that are not the separator, a-z, 0-9, or whitespace and arabic lang
