@@ -58,7 +58,7 @@ $this->registerMetaTag([
 <div class="block-mestoONLY"><p class="blocktitle anim_two text-center">Курсы европейских языков</p></div>
 <div class="aa">
 <img class="img-responsive" src="/images/en/europe-flag2.png"  alt="Дополнительные услуги г. Самара"
- title="Дополнительные услуги"  width="180px">
+ title="Дополнительные услуги"  width="130px">
 </div></a>
 </div>
   </div></div>
