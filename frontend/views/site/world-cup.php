@@ -123,14 +123,15 @@ Leftmenu::widget()
 <p class="indent50">Организуемый нами телемост с гостями из <b>США, Великобритании, Канады</b> позволит не только улучшить английский язык, но и получить много новой интересной страноведческой и кросскультурной информации.</p>
 <div class="row">
     <p align="center" class="poryadok green" style="padding-top:25px;padding-bottom:15px">Темы английского клуба</p>
-<div class="col-sm-4 text-center"><img src="/images/en/worldcup2.png" class="doyou3" width="82%"></div>
-<div class="col-sm-4" style="margin-top:40px">
+<div class="col-sm-4 text-center"><img src="/images/en/worldcup2.png" class="doyou3 eclub-pic1" width="82%"></div>
+<div class="col-sm-4">
+    <div class="centertext-block">
 <p><em style="font-size:81%">07.10.2017 Countries and cities in the world</em></p>
 <p><em style="font-size:81%">14.10.2017 What makes an ideal holiday?</em></p>
-<p><em style="font-size:81%">21.10.2017 Talking politics</em></p>
+    <p><em style="font-size:81%">21.10.2017 Talking politics</em></p></div>
 </div>
 
-<div class="col-sm-4 text-center"><img src="/images/en/worldcup3.png"></div>
+<div class="col-sm-4 text-center"><img src="/images/en/worldcup3.png" class="img-responsive eclub-pic2"></div>
 </div>
 <br/>
 <p style="text-align:center;color:green;font-weight:700">Стоимость 350 руб. Начало заседания Английского клуба – 12.00</p>

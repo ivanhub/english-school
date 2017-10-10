@@ -59,11 +59,11 @@ $this->params['breadcrumbs'][] = $title;
 
 
 
-<br/>
+    <div class="hidden-xs"<br/></div>
 <div class="row rowm flex-d">
 
 <div class="forsafari1">
-<div class="col-md-5 col-lg-4 col-xs-12 col-sm-6 box1  cl-effect-12">
+<div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
 <a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-1 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ОБЩИЙ КУРС</p></div></div>
@@ -86,11 +86,11 @@ $this->params['breadcrumbs'][] = $title;
 
 
 
-<br/>
+    <div class="hidden-xs"<br/></div>
 <div class="row rowm flex-d">
 
 <div class="forsafari1">
-<div class="col-md-5 col-lg-4 col-xs-12 col-sm-6 box1  cl-effect-12">
+<div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
 <a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-2 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ДЕЛОВОЙ АНГЛИЙСКИЙ</p></div></div>
@@ -111,11 +111,11 @@ $this->params['breadcrumbs'][] = $title;
 </div>
 
 
-<br/>
+    <div class="hidden-xs"<br/></div>
 <div class="row rowm flex-d">
 
 <div class="forsafari1">
-<div class="col-md-5 col-lg-4 col-xs-12 col-sm-6 box1  cl-effect-12">
+<div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
 <a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-3 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ИНТЕНСИВНЫЙ КУРС</p></div></div>
@@ -137,11 +137,11 @@ $this->params['breadcrumbs'][] = $title;
 
 
 
-<br/>
+    <div class="hidden-xs"<br/></div>
 <div class="row rowm flex-d">
 
 <div class="forsafari1">
-<div class="col-md-5 col-lg-4 col-xs-12 col-sm-6 box1  cl-effect-12">
+<div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
 <a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-4 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri" style="margin-top:8px">ТУРИСТИЧЕСКИЙ АНГЛИЙСКИЙ</p></div></div>
@@ -163,9 +163,8 @@ $this->params['breadcrumbs'][] = $title;
 
 
 
+    <div><div class="hidden-xs"<br/><br/></div>
 
-
-<div><br/>
 <h5 style="" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">Как проходит обучение</h5>  
  <ul class=" preimul2 lr10 gal text-justify">
  <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Тестирование с методистом для определения уровня владения языком <span style="color:green;font-weight:bold">БЕСПЛАТНО</span></li>
@@ -186,7 +185,7 @@ $this->params['breadcrumbs'][] = $title;
 
 </div>
 
-<br/> </div>
+    <div class="hidden-xs"><br/></div> </div>
 <div class="linetire"></div>
 <br/>
 <h5 class=" text-center" style="font-size:28px;padding-bottom:15px;margin-top:-10px;font-weight:bold" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">

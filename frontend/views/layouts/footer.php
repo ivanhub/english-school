@@ -14,7 +14,7 @@ use yii\helpers\Html;
                 <div class="footer-col-1 col1">
                 <i class="footer__vline footer__vline_1"></i>
 <ul class="footer-links">
-<li><a></i>Курсы иностранных языков</a></li>
+<li><a class="kursi">Курсы иностранных языков</a></li>
 
 <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/general-english">Английский язык</a></li>
 <li class="indent10"><i class="footer__hline footer__hline_1"></i> <a href="/european-languages">Европейские языки</a></li>

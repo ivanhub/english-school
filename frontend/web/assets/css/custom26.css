@@ -2237,7 +2237,7 @@ p.anim_one,p.anim_three {
 #index .box3,#index .box4 { margin-bottom:20px; }
 
 
-@media (max-width:991px) {
+@media (max-width:991px)and(min-width:500px) {
 .rowm {
     margin-right: 6% !important;
     margin-left: 7% !important;
@@ -2302,11 +2302,6 @@ font-size:calc(9px - -0.6vw) !important;}
     padding-left: 20px;
 }
 
-@media (max-width:379px) {
-.mtext2 {
-padding: 29px 30px 0px 30px;
-margin-bottom:30px;
-}
 
 
 .rowm {    margin-bottom: -20px;}
@@ -3997,7 +3992,8 @@ transition: none;}
     align-items: center;
     height: 100%;
   }
-  .flex-d {display:flex;}
+ @media (min-width:992px) {.flex-d {display:flex;}}
+ @media (max-width:992px) {.flex-h > p {margin-top:15px;}}
 
 /* #generalenglish .block-mestoONLY:hover .giri {
   -webkit-animation-name: generalenglish1,generalenglish-text;
@@ -4662,21 +4658,36 @@ tr {
 .link {color:green;font-weight:600}
 .link:hover {text-decoration:underline; color:darkgreen;}
 
+
 .doyou{
     margin-left: auto;
     margin-right: 25px;
     border-radius: 20% 45%;
-/*    padding-left:25px;*/
-}
+} 
 
 .doyou2{
     margin-right: auto;
     margin-left: 25px;
 }
+
 .doyou3{
     margin-left: auto;
     margin-right: 25px;
     border-radius: 20% 35%;
+}
+
+@media (max-width:768px) { 
+  .doyou{
+    margin-right: auto;
+    max-width:380px;
+}
+ .doyou2 {
+     margin-left: auto;
+   }
+
+.doyou3{
+    margin-right: auto;
+}
 }
 
 .taxi-img {float: left;
@@ -4693,9 +4704,20 @@ tr {
 @media (max-width:1199px) {
 .doyou {width:85%;}
 }
-.mtext2 {margin-top:15px; margin-bottom:15px;    padding: 0px 60px 0px 60px;}
+
+.mtext2 {padding: 20px 20px 0 20px;}
+
+
+
+@media (min-width:768px) {.mtext2 {margin-top:15px; margin-bottom:15px;    padding: 0px 60px 0px 60px;}
+
 .mtext2-chinese {margin-top:15px; margin-bottom:15px;    padding: 0px 60px 0px 0px;}
 .mtext2-chinese-right {margin-top:15px; margin-bottom:15px;    padding: 0px 0px 0px 60px;}
+}
+
+
+
+
 .doyou-block {margin-bottom:40px;}
 
 @media (max-width:767px) {
@@ -4973,4 +4995,20 @@ border-bottom-right-radius: 5px !important;
 
 .box2 img {
     margin-left: 55px;
+}
+
+/* @media (max-width:768px)  {#generalenglish h5 {padding-top:0;}} */
+ @media (max-width:768px)  {.block-mestoONLY {margin-top:0;} }
+
+@media (max-width:768px) { .eclub-pic2 {margin-left:auto;margin-right:auto;max-width:200px;}
+.eclub-pic1 {margin-left:auto;margin-right:auto;max-width:200px;}}
+
+.centertext-block {
+    width: 300px;
+    margin: 40px auto 30px;
+}
+
+@media (max-width:768px) { .centertext-block p{text-indent:30px;}  
+.kursi {margin-left:-25px}
+
 }
