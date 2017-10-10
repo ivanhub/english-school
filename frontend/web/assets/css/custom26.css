@@ -2073,6 +2073,20 @@ margin-top: 24px;
     height: 30px;
 }
 
+#preworldcuppreparation .gal li:not(:last-child):before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    left: -5px;
+    top: 5px;
+    background: url(../../images/pics/gal11.png) center center no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
+ 
+
+
 .gal2 li::before {
     content: "";
     display: inline-block;
@@ -4998,17 +5012,17 @@ border-bottom-right-radius: 5px !important;
 }
 
 /* @media (max-width:768px)  {#generalenglish h5 {padding-top:0;}} */
- @media (max-width:768px)  {.block-mestoONLY {margin-top:0;} }
+@media (max-width:768px)  {.block-mestoONLY {margin-top:0;} 
 
-@media (max-width:768px) { .eclub-pic2 {margin-left:auto;margin-right:auto;max-width:200px;}
-.eclub-pic1 {margin-left:auto;margin-right:auto;max-width:200px;}}
+.eclub-pic2 {margin-left:auto;margin-right:auto;max-width:200px;}
+.eclub-pic1 {margin-left:auto;margin-right:auto;max-width:200px;}
+.kursi {margin-left:-25px}
+.centertext-block {font-size:120%; margin:35px 0;}
 
-.centertext-block {
-    width: 300px;
-    margin: 40px auto 30px;
 }
 
-@media (max-width:768px) { .centertext-block p{text-indent:30px;}  
-.kursi {margin-left:-25px}
-
+@media (max-width:992px) and (min-width:768px){
+  .centertext-block {
+line-height:1;
+}
 }
