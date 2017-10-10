@@ -226,13 +226,8 @@ height: 35px }
 
 
 .navbar-default .navbar-nav>li>a {    color: #1b1a1a  }
-.navbar-default .navbar-nav>li a:hover, .navbar-default .navbar-nav > li a:focus {    color: #123611 !important; 
-
-
-/*    background-color: #f1f1f1;
-#e7e7e7;*/
-
-}
+@media (min-width:768px) {.navbar-default .navbar-nav>li a:hover, .navbar-default .navbar-nav > li a:focus {    color: #123611 !important; 
+}}
 
 
 
