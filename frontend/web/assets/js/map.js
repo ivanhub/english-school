@@ -127,8 +127,8 @@ counter=0,
                     balloonImageHref: 'images/map/ballon222.png',
                     balloonImageOffset: [-75, -90],
                     balloonImageSize: [280, 89],
-                    balloonShadow: false,
-                    balloonAutoPan: false,
+                    balloonShadow: true,
+                    balloonAutoPan: true,
                   //  balloonOffset:[20,0],
 
         });
@@ -149,8 +149,8 @@ counter=0,
                     balloonImageHref: 'images/map/ballon222.png',
                     balloonImageOffset: [-75, -90],
                     balloonImageSize: [280, 89],
-                    balloonShadow: false,
-                    balloonAutoPan: false,
+                    balloonShadow: true,
+                    balloonAutoPan: true,
 		//	balloonOffset:[-150,0],
 
         });
