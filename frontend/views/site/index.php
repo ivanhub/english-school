@@ -152,7 +152,7 @@ $this->registerMetaTag([
 <br/><br/>
 <div>
  <h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="anim-documents"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
- Почему выбирают Нас?</h5>  <br/>
+ Почему выбирают нас?</h5>  <br/>
  <ul class=" preimul2 lr10 gal text-justify">
  <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Высококвалифицированные преподаватели, проходившие стажировки в разных странах мира.</li>
  <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Высокое качество обучения.</li>
