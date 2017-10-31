@@ -162,15 +162,72 @@ $this->registerMetaTag([
  </li>
  </ul>
 
-<br/><br/>
+<br/>
 <!-- <div class="linetire"></div>
  -->
+<div class="mtext3"></div>
+<br/>
+
+<div class="container-fluid">
+ <h5 style="padding-top:0;margin-top:0px" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
+ Наши преподователи</h5>
+<div class="row vert-align">
+<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+<img src="/images/en/prepod7.png" width="200">
+</div>
+<div class="col-xs-12 col-sm-6 col-md-9 prepod1">
+      <p><i><b>Ефимова Алина Викторовна</b>, преподаватель английского, французского, испанского языков.</i></p>
+    <p style="line-height: 1.2;font-size: 13px;">Образование: "Восточноукраинский национальный университет им. В. Даля", факультет иностранных языков с отличием, 
+    "Поволжская государственная социально-гуманитарная академия"" (г. Самара) с отличием.</p>
+    <p>Опыт работы преподавателем: с 2012 г.</p>
+  <p><i>"В Учебном центре «Академия» очень дружный и душевный коллектив, это ощущается с первого дня работы! В компании работают профессионалы своего дела, которые всегда готовы оказать моральную и информационную поддержку!"</i></p>
+</div>
+</div>
+
+<br/>
+<div class="linetire"></div>
+<br/>
+
+<div class="row vert-align">
+  <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-3 col-md-push-9 text-center ">
+<img src="/images/en/prepod10.png" width="200">
+</div>
+  <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-9 col-md-pull-3 prepod2">
+    <p><i><b>Вольпина Ольга Владимировна</b>, преподаватель английского языка.</i></p>
+    <p  style="line-height: 1.2;font-size: 13px;">Образование: "Самарский государственный педагогический университет", факультет иностранных языков, квалификация – учитель английского языка.</p>
+    <p>Опыт работы преподавателем: с 2006 г.</p>
+  <p><i>"Учебный центр «Академия» - это компания с большой историей и опытом работы в различных областях. Очень приятно работать в слаженном коллективе профессионалов, которые с заботой относятся к своим коллегам и студентам."</i></p>
+</div>
+
+</div>
+
+<br/>
+<div class="linetire"></div>
+<br/>
+
+<div class="row vert-align">
+<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+<img src="/images/en/prepod9.png" width="200">
+</div>
+<div class="col-xs-12 col-sm-6 col-md-9 prepod3">
+      <p><i><b>Матвеева Юлия Валерьевна</b>, преподаватель английского языка, кандидат наук.</i></p>
+    <p  style="line-height: 1.2;font-size: 13px;">Образование: "Самарский государственный университет", повышение квалификации «Английский язык для профессиональных коммуникаций» (Самарский национальный исследовательский университет, 2015 г.), повышение квалификации «Russian relations» (Presidential Program Norway, 2013 г.).</p>
+    <p>Опыт работы преподавателем: с 2001 г.</p>
+  <p><i> «На базе Учебного центра «Академия» реализуется большое число разнообразных проектов, что создает поле для обмена опытом профессионалов разных областей. Все учебные аудитории оснащены современной мультимедийной техникой, а администрация готова поддержать любые инновационные идеи сотрудников»</i></p>
+</div>
+</div>
+
+
+
+
+</div>
+<br/>
 <div class="mtext3"></div>
 
 
 <div id="pricing-table" class="clear">
-  <h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
- Выберите интересующий Вас курс обучения</h5>  <br/>
+<h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
+Выберите интересующий Вас курс обучения</h5>  <br/>
 <div class="container-fluid width80 ">
     <div class="col-md-4 col-xs-12">
     <div class="plan ">

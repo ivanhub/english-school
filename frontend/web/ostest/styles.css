@@ -1,0 +1,30 @@
+.quiz-header {
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 900;
+    color: #ccc;
+}
+
+
+h3 {
+    font: 13px/20px verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 16px 0px;
+    padding: 0px;
+}
+
+
+.question, h4 {
+    font: 12px/20px verdana, arial, helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 16px 0px;
+    padding: 0px;
+}
+
+.quest-options, form label {
+    font: 11px/20px verdana, arial, helvetica, sans-serif;
+    margin: 0px 0px 16px 0px;
+    padding: 0px;
+}

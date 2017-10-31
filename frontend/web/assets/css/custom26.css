@@ -4667,6 +4667,22 @@ tr {
   justify-content: center;
   flex-direction: row;
 }
+.vert-align {
+    display: flex;
+    align-items: center;
+}
+}
+
+.prepod1, .prepod2, .prepod3 {text-align:justify}
+.prepod1 {padding-right: 50px}
+.prepod2 {padding-left: 50px}
+.prepod3 {padding-right: 50px}
+
+@media (max-width:767px) {
+.prepod1, .prepod2, .prepod3 {padding-right: 50px;padding-left:50px;}
+
+
+
 }
 
 .link {color:green;font-weight:600}

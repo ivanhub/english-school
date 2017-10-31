@@ -1,0 +1,20 @@
+Partial Revision History
+
+ //  cleaning up all the comments and doing the stuff in phase2.txt
+ //echo "v0.94 index.php";
+ //echo "<br><h1>20081101 Current Issue:  vontu.xml showing up as blank </h1><br>";
+ // vontu.xml was showing up as blank because it is an issue of file upload
+ // server settings must be changed to experiment ... currently 8192 is the 
+ // biggest file that can be posted or it will how up as blank as well..
+ // i will write a trap in for this error.//
+
+ // v0.91added indexbar.php include
+ // v0.9 need to add a function to scan the
+ // xmldocs directory for when text2xml.php works.
+
+ // v0.8 removed width leaving spaces. - worked.
+ //  note: later i trim them so the spaces dont 
+ // matter but dont forget to leave the trim command in.
+ // make upload a populateable list.
+ //
+ //
