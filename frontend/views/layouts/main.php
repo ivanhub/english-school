@@ -39,6 +39,8 @@ AppAsset::register($this);
 $action = Yii::$app->controller->action->id;
 
 //temporary, for testing header("Access-Control-Allow-Origin: *");
+ //header("Access-Control-Allow-Origin: http://ros.academy");
+
 
 
 $this->beginPage() ?>

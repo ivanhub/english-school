@@ -27,7 +27,7 @@ public static function allowedDomains() {
     return [
         // '*',                        // star allows all domains
         'http://ros.academy',
-        'http://www.ros.academy',
+        'https://ros.academy',
     ];
 }
 
@@ -43,8 +43,8 @@ public function behaviors() {
             'cors'  => [
                 // restrict access to domains:  'Origin' => ['http://www.myserver.com', 'https://www.myserver.com'],
                 //'Origin'                           => static::allowedDomains(),
-                'Origin'                           => ["http://ros.academy"],
-                'Access-Control-Request-Method'    => ['POST'],  // GET, POST, DELETE, PUT
+                'Origin'                           => ['http://ros.academy', 'https://ros.academy'],
+                'Access-Control-Request-Method'    => ['POST', 'GET', 'OPTIONS'],  // GET, POST, DELETE, PUT
                 'Access-Control-Allow-Headers:'    => '*, X-Requested-With, Content-Type',
                 'Access-Control-Allow-Credentials' => true,
                 'Access-Control-Max-Age'           => 3600,                 // Cache (seconds)
