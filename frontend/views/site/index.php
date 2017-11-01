@@ -170,7 +170,7 @@ $this->registerMetaTag([
 
 <div class="container-fluid">
  <h5 style="padding-top:0;margin-top:0px" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
- Наши преподователи</h5>
+ Ведущие преподаватели центра</h5>
 <div class="row vert-align">
 <div class="col-xs-12 col-sm-6 col-md-3 text-center">
 <img src="/images/en/prepod7.png" width="200">
