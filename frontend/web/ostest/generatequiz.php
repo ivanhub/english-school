@@ -40,33 +40,13 @@ $quiz=new quiz($var1,$var2);
 <title>Тест на уровень английского языка</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="styles.css" rel="stylesheet">
-
-<!-- <link href="spider.css" rel="stylesheet" type="text/css"> -->
-
 </head>
 
 <body>
-<p class="quiz-header"> Тест на уровень английского языка </p>
+<!--<p class="quiz-header"> Тест на уровень английского языка </p>-->
 <?php
 
-//echo "<pre>       10/31  No questions on vontu.xml - JL
-
-                             
-                            
-                            
-//</pre>";
-
-
-
-
 $quiz->do_quiz_here(); //pretty self explanatory
-
-echo "<BR>";
-echo "<BR>";
-echo "<BR>";
-echo "<a href=index.php>Закрыть</a>";
-echo "<BR>";
-
 ?>
 </body>
 </html>

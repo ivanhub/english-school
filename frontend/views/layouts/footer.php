@@ -1,5 +1,7 @@
 <?PHP
 use yii\helpers\Html;
+/*use yii\bootstrap\Modal;*/
+
 ?>
 <footer class="page-footer bg-gray-lighter">
 

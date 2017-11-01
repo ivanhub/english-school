@@ -233,9 +233,9 @@ class quiz
                     }
 
 		//	$procent = ($total_correct_answers / $total_answers) * 100;
-                    echo ('<h2>' . (number_format(($total_correct_answers / $total_answers) * 100, 0,
+                    echo ('<h2 style="text-align:center">' . (number_format(($total_correct_answers / $total_answers) * 100, 0,
                         '.', '')) . '%</h2>
-                <h3>Количество правильный ответов: ' . $total_correct_answers . ' из ' . $total_answers . '.<br/><br/>');
+                <h3>Количество правильный ответов: <span style="color:green;font-size:130%">' . $total_correct_answers . '</span> из ' . $total_answers . '.<br/><br/>');
 			if ($total_correct_answers <= 15) echo "Предполагаемый уровень владения языком - Elementary. 
 <br/>Данный результат является предварительным. Для более точного определения уровня необходимо пройти устное собеседования с методистом. 
 <br/>Для записи на устное тестирование позвоните по телефону: <b>8 (846) 255-69-99</b>";

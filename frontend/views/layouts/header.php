@@ -160,6 +160,8 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
     NavBar::end();
     ?>
+
+    
 </div> 
 </div>  </div>
 
@@ -194,4 +196,5 @@ var i=1;
 
 
   </script>
+
 

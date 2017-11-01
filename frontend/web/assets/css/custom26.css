@@ -4685,7 +4685,7 @@ tr {
 
 }
 
-.link {color:green;font-weight:600}
+.link {color:green;font-weight:600;cursor:pointer}
 .link:hover {text-decoration:underline; color:darkgreen;}
 
 
@@ -5044,3 +5044,32 @@ border-bottom-right-radius: 5px !important;
 line-height:1;
 }
 }
+
+
+/*
+#testlink .close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    cursor: pointer;
+    background-image: url(../img/close.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    will-change: transform;
+    transition: transform .25s ease;
+    z-index: 9999;
+}
+
+
+#testlink .close:hover {
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}*/
+#testlink .close {
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#testlink .modal-body {text-align: center;}
