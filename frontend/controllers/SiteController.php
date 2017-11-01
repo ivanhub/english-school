@@ -49,7 +49,7 @@ public function behaviors() {
                 'Access-Control-Allow-Headers:'    => '*, X-Requested-With, Content-Type',
                 'Access-Control-Allow-Credentials' => false,
                 'Access-Control-Max-Age'           => 3600,                 // Cache (seconds)
-            ],
+            ], 
         ],
 
     ]);
