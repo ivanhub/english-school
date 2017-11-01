@@ -9,7 +9,7 @@ use yii\bootstrap\Modal;
 Modal::begin([
     'options' => ['id' => 'testlink', ],
     'header' => '<h3 style="text-align:center;margin: 8px 0 0;">Онлайн тестирование уровня английского языка</h3>',
-    'footer' => 'После прохождения тестирование, наберите Нас по номеру: <b>+7 (846) 205-77-66</b>',
+    'footer' => 'После прохождения тестирование, запишитесь на устное тестирвоание по тел.: <b>+7 (846) 205-77-66</b>',
     'toggleButton' => ['label' => $link, 'tag' => 'a', 'class' => 'link'],
 ]);
 
