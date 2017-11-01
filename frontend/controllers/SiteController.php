@@ -15,10 +15,13 @@ use kartik\widgets\Growl;
 
 
 
+
+
+
 class SiteController extends Controller
 {
 
-
+ //public $enableCsrfValidation = false;
 
 public static function allowedDomains() {
     return [
@@ -38,10 +41,12 @@ public function behaviors() {
         'corsFilter'  => [
             'class' => \yii\filters\Cors::className(),
             'cors'  => [
-                // restrict access to domains:
-                'Origin'                           => static::allowedDomains(),
-                'Access-Control-Request-Method'    => ['POST'],
-                'Access-Control-Allow-Credentials' => false,
+                // restrict access to domains:  'Origin' => ['http://www.myserver.com', 'https://www.myserver.com'],
+                //'Origin'                           => static::allowedDomains(),
+                'Origin'                           => ["http://ros.academy"],
+                'Access-Control-Request-Method'    => ['POST'],  // GET, POST, DELETE, PUT
+                'Access-Control-Allow-Headers:'    => '*, X-Requested-With, Content-Type',
+                'Access-Control-Allow-Credentials' => true,
                 'Access-Control-Max-Age'           => 3600,                 // Cache (seconds)
             ],
         ],

@@ -38,8 +38,7 @@ setcookie( 'origURL', 'Прямой заход',  2147483647, "/");
 AppAsset::register($this);
 $action = Yii::$app->controller->action->id;
 
-//temporary, for testing
-header("Access-Control-Allow-Origin: *");
+//temporary, for testing header("Access-Control-Allow-Origin: *");
 
 
 $this->beginPage() ?>
