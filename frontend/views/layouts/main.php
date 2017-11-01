@@ -138,7 +138,7 @@ window.addEventListener("load", function() {
   if(hm('site/index'))
   { ?>
   var loader = setTimeout(function() {
-                document.querySelector(".page-loader").classList.add('loaded');   
+                //document.querySelector(".page-loader").classList.add('loaded');   
 
             }, 200);
 

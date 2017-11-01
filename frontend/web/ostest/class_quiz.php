@@ -233,27 +233,24 @@ class quiz
                     }
 
 		//	$procent = ($total_correct_answers / $total_answers) * 100;
+			$contacts ="<br/>Данный результат является предварительным. Для более точного определения уровня необходимо пройти устное собеседования с методистом. 
+<br/>Для записи на устное тестирование позвоните по телефону:<br/> <b style='color:darkgreen'>+7 (846) 255-69-99</b>";
+     		    echo "<script>var el = parent.document.querySelector('#testlink .modal-footer'); el.parentNode.removeChild( el );</script>";
                     echo ('<h2 style="text-align:center">' . (number_format(($total_correct_answers / $total_answers) * 100, 0,
                         '.', '')) . '%</h2>
                 <h3>Количество правильный ответов: <span style="color:green;font-size:130%">' . $total_correct_answers . '</span> из ' . $total_answers . '.<br/><br/>');
-			if ($total_correct_answers <= 15) echo "Предполагаемый уровень владения языком - Elementary. 
-<br/>Данный результат является предварительным. Для более точного определения уровня необходимо пройти устное собеседования с методистом. 
-<br/>Для записи на устное тестирование позвоните по телефону: <b>8 (846) 255-69-99</b>";
-			if ($total_correct_answers >= 16 && $total_correct_answers <= 25) echo "Предполагаемый уровень владения языком - <b>Pre-Intermediate</b>. 
-<br/>Данный результат является предварительным. Для более точного определения уровня необходимо пройти устное собеседования с методистом. 
-<br/>Для записи на устное тестирование позвоните по телефону: <b>8 (846) 255-69-99</b>";
+			if ($total_correct_answers <= 15) echo "Предполагаемый уровень владения языком - Elementary.". $contacts;
+			if ($total_correct_answers >= 16 && $total_correct_answers <= 25) 
+				echo "Предполагаемый уровень владения языком - <b>Pre-Intermediate</b>. ". $contacts;
 
-			if ($total_correct_answers >= 26 && $total_correct_answers <= 35) echo "Предполагаемый уровень владения языком - <b>Intermediate</b>. 
-<br/>Данный результат является предварительным. Для более точного определения уровня необходимо пройти устное собеседования с методистом. 
-<br/>Для записи на устное тестирование позвоните по телефону: <b>8 (846) 255-69-99</b>";
+			if ($total_correct_answers >= 26 && $total_correct_answers <= 35) 
+				echo "Предполагаемый уровень владения языком - <b>Intermediate</b>. ". $contacts;
 
-			if ($total_correct_answers >= 36 && $total_correct_answers <= 45) echo "Предполагаемый уровень владения языком - <b>Upper-Intermediate</b>. 
-<br/>Данный результат является предварительным. Для более точного определения уровня необходимо пройти устное собеседования с методистом. 
-<br/>Для записи на устное тестирование позвоните по телефону: <b>8 (846) 255-69-99</b>";
+			if ($total_correct_answers >= 36 && $total_correct_answers <= 45) 
+				echo "Предполагаемый уровень владения языком - <b>Upper-Intermediate</b>. ". $contacts;
 
-			if ($total_correct_answers >= 46 && $total_correct_answers <= 50) echo "Предполагаемый уровень владения языком – <b>Advanced</b>. 
-<br/>Данный результат является предварительным. Для более точного определения уровня необходимо пройти устное собеседования с методистом. 
-<br/>Для записи на устное тестирование позвоните по телефону: <b>8 (846) 255-69-99</b>";
+			if ($total_correct_answers >= 46 && $total_correct_answers <= 50) 
+				echo "Предполагаемый уровень владения языком – <b>Advanced</b>. ". $contacts;
 
 
 //			 <br/>

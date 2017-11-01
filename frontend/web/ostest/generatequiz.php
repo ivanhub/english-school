@@ -8,6 +8,7 @@ PREVIEW="This file is part of osQuest5. osQuest5 is free software published unde
 //$var2 = trim($_REQUEST['var2']);
 
 $var1 = "ourtest.xml";
+//$var1 = "simpletest.xml";
 $var2 = "test";
 
 //echo "<br>";  
