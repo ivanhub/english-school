@@ -18,7 +18,7 @@ use kartik\widgets\Growl;
 class SiteController extends Controller
 {
 
-  
+
 
 public static function allowedDomains() {
     return [
@@ -41,7 +41,7 @@ public function behaviors() {
                 // restrict access to domains:
                 'Origin'                           => static::allowedDomains(),
                 'Access-Control-Request-Method'    => ['POST'],
-                'Access-Control-Allow-Credentials' => true,
+                'Access-Control-Allow-Credentials' => false,
                 'Access-Control-Max-Age'           => 3600,                 // Cache (seconds)
             ],
         ],
