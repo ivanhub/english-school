@@ -41,30 +41,10 @@ $this->params['breadcrumbs'][] = $title;
 <div class="visible-xs"><p>&nbsp;</p></div>
 <p class="indent50">Мир постоянно меняется, каждый день приходится сталкиваться с новыми вызовами. Сегодня вследствие открытости границ, международных конференций и семинаров, работы с зарубежными партнерами успешное ведение бизнеса невозможно без знания иностранных языков. Используемая коммуникативная методика и самые современные учебные пособия позволят в кратчайшие сроки не только повысить уровень иностранного языка сотрудников Вашей компании, но и позволят говорить на иностранном языке легко и свободно.</p>
 <p>Перед началом занятий проводится 
-<?php 
-// MODAL WINDOW /TESTIROVANIE ENGLISH/ 
-Modal::begin([
-    'options' => ['id' => 'testlink', ],
-    'header' => '<h3 style="text-align:center;margin: 8px 0 0;">Онлайн тестирование уровня английского языка</h3>',
-    'footer' => 'После прохождения тестирование, наберите Нас по номеру: <b>+7 (846) 205-77-66</b>',
-    'toggleButton' => ['label' => 'БЕСПЛАТНОЕ тестирование', 'tag' => 'a', 'class' => 'link'],
-]);
 
-echo '<p style="line-height:1.4">Вам будет предложено 50 вопросов, для определения Вашего уровня английского языка.</p>
-<p class="startbutton link">Начать</p>';
+<?= Freetest::widget(['link'=> 'БЕСПЛАТНОЕ тестирование']) ?>
 
-$this->registerJs(<<<JS
-jQuery(document).ready(function($){
-  jQuery( ".startbutton" ).click(function() {
-  jQuery('#testlink .modal-body').html('<iframe src="/ostest/generatequiz.php" width="100%" height="230" frameborder="0" sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation" allowtransparency="true"></iframe>');
-});
-});
-JS
-, yii\web\View::POS_READY); 
-
-Modal::end();
-?>
-   Занятия могут проходить как в аудиториях нашей школы, так и в офисе заказчика.</p>
+   <br/>Занятия могут проходить как в аудиториях нашей школы, так и в офисе заказчика.</p>
 <br/>
 
 

@@ -81,8 +81,8 @@ echo '</div></div>';
 Modal::end();
 
 
-$this->registerJs(<<<JS
+/*$this->registerJs(<<<JS
 JS
-, yii\web\View::POS_READY);
+, yii\web\View::POS_READY);*/
 
 ?>
