@@ -209,6 +209,9 @@ JS
 
 
 
+<?php 
+if ($_SERVER['HTTP_HOST']!=="english.loc") { ?>
+
 <script type="text/javascript"> 
 var host = window.location.hostname;
 if (host != "front.loc")
@@ -276,13 +279,7 @@ phone number link or button. -->
   }
 }
 /* ]]> */
-
-
 </script>
+<script type="text/javascript"  src="//www.googleadservices.com/pagead/conversion_async.js"></script>';
 
-<?php 
-
-if ($_SERVER['HTTP_HOST']!=="front.loc"){  ?>
- <script type="text/javascript"  src="//www.googleadservices.com/pagead/conversion_async.js"></script>
 <?php } ?>
-

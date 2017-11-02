@@ -13,7 +13,7 @@ Modal::begin([
     'toggleButton' => ['label' => $link, 'tag' => 'a', 'class' => 'link'],
 ]);
 
-echo '<p style="line-height:1.4">Вам будет предложено 50 вопросов, для определения Вашего уровня английского языка.</p>
+echo '<p style="line-height:1.4;font-size:115%">Вам будет предложено 50 вопросов, для определения Вашего уровня английского языка.</p>
 <p class="startbutton link">Начать</p>';
 
 
