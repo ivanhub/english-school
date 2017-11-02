@@ -12,14 +12,7 @@ use yii\bootstrap\ActiveForm;
 
 use yii\base\Widget;
 
-//use frontend\components\TesttWidget;
-//use kartik\base;
-//use kartik\growl;
-//"<?= Yii::$app->language >"
-//
-//if (!isset($_COOKIE['from'])) { 
-//  setcookie( 'from', ,  2147483647, "/");
-//}
+
 
 if(isset($_SERVER['HTTP_REFERER'])) {
  if(!isset($_COOKIE['origURL'])) {
@@ -39,7 +32,6 @@ AppAsset::register($this);
 $action = Yii::$app->controller->action->id;
 
 //temporary, for testing header("Access-Control-Allow-Origin: *");
- //header("Access-Control-Allow-Origin: http://ros.academy");
 
 
 
@@ -70,28 +62,7 @@ $this->beginPage() ?>
 <body id="<?php echo $action; ?>">
 
 
-<?php $this->beginBody() 
-
-/*
- TesttWidget::begin()
-
-$form = ActiveForm::begin(['id' => 'contact-form',]); 
-echo  $form->field($model, 'name')->label('Ваше Имя <sup>*</sup>')->textInput(['placeholder'=>"Введите Ваше Имя"]);
-//echo $form->field($model, 'phone')->label('Номер телефона')->textInput(['placeholder'=>"+7 (__) ___-____"]);
-echo $form->field($model, 'phone')->label('Номер телефона <sup>*</sup>')->widget(MaskedInput::className(),['mask' => '(999) 999-9999']); 
-
-echo $form->field($model, 'body')->textArea(['rows' => 6])->label('Комментарии'); 
-echo $form->field($model, 'from')->hiddenInput(['value'=> '7'])->label(false);
-
-echo ' <div class="form-group">';
-
-echo Html::submitButton('Отправить', ['class' => 'btn btn-primary btn-success', 'name' => 'contact-button']) ;
-echo ' </div>';
- ActiveForm::end(); 
-TesttWidget::end() 
-*/
-
-?>
+<?php $this->beginBody() ?>
 
 <div class="page">
 
@@ -116,8 +87,6 @@ TesttWidget::end()
 
 </div>
 <?php $this->endBody() ?>
-<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
- -->
 <script type="text/javascript">
 
  $('#affix').affix({
@@ -193,7 +162,7 @@ var j=1;
 });
           
 
-// if ie9 or > var isIE = false; if (window.navigator.msPointerEnabled) {    isIE = true;}
+//if ie9 or > var isIE = false; if (window.navigator.msPointerEnabled) {    isIE = true;}
 //1 var isIE10 = !!navigator.userAgent.match(/MSIE 10/);
 //2 if (Function('/*@cc_on return document.documentMode===10@*/')()){ document.documentElement.className+=' ie10';}
 //3 if (/*@cc_on!@*/false && document.documentMode === 10) {}
@@ -217,96 +186,6 @@ $el.hover(function(e){
 
     <?php }; ?>
 
-/*
-window.resize(function(){
-    if(screen.width >= 3099){
-
-img.setAttribute("align", "right");
-        //do something
-    }
-});
-*/
-
-
-////var img = document.getElementsByTagName("img");
-////go();
-////window.addEventListener('resize', go);
-
-////function go(){
-////    if (document.documentElement.clientWidth >=3099)  {
-
-////img[0].setAttribute("align", "right");
-////img[1].setAttribute("align", "left");
-////img[2].setAttribute("align", "right");
-////img[3].setAttribute("align", "left");
-////    }
-////}
-
-
-//var links = document.querySelectorAll('ul li');
-//var i=1;
-//[].forEach.call(links, function(item) {
-//      item.classList.add('lightSpeedIn', 'animated'+i);
-//    i++;
-//});
-
-//document.getElementById('w1')    .classList.add('lightSpeedIn', 'animated1');
-
- //setTimeout(function(){
-//document.getElementById('w1').classList.remove('animated1', 'lightSpeedIn');
-    //}, 1100);
-
-//document.getElementById('w1')    .classList.add('lightSpeedIn', 'animated1');
-
-
-
-
-
- 
-
-
-/* RESIZE
-window.addEventListener("resize", function () {
-  var recResizeElement = function (root) {
-    Array.prototype.forEach.call(root.childNodes, function (el) {
-
-      var resizeEvent = document.createEvent("HTMLEvents");
-      resizeEvent.initEvent("resize", false, true);
-      var propagate = el.dispatchEvent(resizeEvent);
-
-      if (propagate)
-        recResizeElement(el);
-    });
-  };
-  recResizeElement(document.body);
-});
-*/
-
-
-//var links = document.querySelectorAll('ul li');
-//var i=1;
-//[].forEach.call(links, function(item) {
-      //item.classList.add('lightSpeedIn', 'animated'+i);
-    //i++;
-//});
-
-//var x = document.getElementsByClassName("blocktitle");
-
-// setTimeout(function(){
-//for (i = 0; i < x.length; i++) {
-    //x[i].style.display = "inherit";
-//}
-    //}, 3000);
-
-
-
-function handleClick()
-{
-//document.getElementById("full-widthid").style.marginTop = "220px";
-}
-//document.getElementsByTagName('button')[0].onclick=handleClick;
-
-
 
 
  var newspan = document.createElement('span');
@@ -329,15 +208,10 @@ document.getElementsByClassName('icos')[4].classList.add('fa','fa-phone');
 
 
 
-/*$("body").on("click", ".call-back", function(){
-    $('.span3').attr('data-nohover','1')
-    });*/
-
 
 
 var blocks = document.querySelectorAll(".blocktitle");
 
-//document.getElementById('w1').classList.remove('animated1', 'lightSpeedIn');
  setTimeout(function(){
  var i=1;
 [].forEach.call(blocks, function(item) {
@@ -399,23 +273,6 @@ jQuery(document).ready(function($){
   });
 
 
-
-   
-//var menu = document.querySelector('.menu');
-//var origOffsetY = 145;
-//console.log(menu.offsetTop);
-//function scroll () {
-//  if ($(window).scrollTop() >= origOffsetY) {
-//    $('.menu').addClass('fix-menu');
-//  } else {
-//    $('.menu').removeClass('fix-menu');
-//  }  
-//}
-//document.onscroll = scroll;
-
-
-
-
 });
 
 
@@ -458,7 +315,6 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 <?php  if(hm('site/b'))
   { ?>
 
-<!-- <script src="https://cdn.zingchart.com/zingchart.min.js" type="text/javascript" async="async"></script> -->
 
 <script src="/assets/js/zingchart.min.js" type="text/javascript" async="async"></script>
 <?php };
@@ -467,10 +323,8 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 <?php  if(hm('site/index'))
   { ?>
 
-<!--<script src="/assets/js/jquery.viewportchecker.js"></script>-->
 <script src="/assets/js/jquery.waypoints.js?v=4.0.1"></script>
 
-<!--<script src="/assets/js/jquery.inview.min.js"></script> -->
 <?php };
 ?>
 
@@ -484,6 +338,3 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 </body>
 </html>
 <?php $this->endPage() ?>
-
-
-
