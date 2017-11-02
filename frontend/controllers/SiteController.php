@@ -43,11 +43,11 @@ public function behaviors() {
             'cors'  => [
                 // restrict access to domains:  'Origin' => ['http://www.myserver.com', 'https://www.myserver.com'],
                 //'Origin'                           => static::allowedDomains(),
-                //'Origin'                           => ['http://ros.academy', 'https://ros.academy'],
-                'Origin'                           => ["*"],
+                'Origin'                           => ['http://ros.academy', 'https://ros.academy'],
+                //'Origin'                           => ["*"],
                 'Access-Control-Request-Method'    => ['POST', 'GET', 'OPTIONS'],  // GET, POST, DELETE, PUT
                 'Access-Control-Allow-Headers:'    => '*, X-Requested-With, Content-Type',
-                'Access-Control-Allow-Credentials' => false,
+                'Access-Control-Allow-Credentials' => true,
                 'Access-Control-Max-Age'           => 3600,                 // Cache (seconds)
             ], 
         ],
