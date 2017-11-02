@@ -5076,7 +5076,7 @@ font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 #testlink h3 {
     margin: 8px 0 0;
     text-align: center;
-    font-size: calc(15px - -0.5vw);
+    font-size: calc(14px - -0.5vw);
 }
 button.close {
     outline: none;

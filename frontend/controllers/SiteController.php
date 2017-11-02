@@ -12,6 +12,7 @@ use frontend\models\Forma;
 use frontend\models\Forma2;
 use yii\helpers\Html;
 use kartik\widgets\Growl;
+//use yii\filters\auth\HttpBasicAuth;
 
 
 
@@ -35,18 +36,31 @@ public static function allowedDomains() {
  * @inheritdoc
  */
 public function behaviors() {
+
     return array_merge(parent::behaviors(), [
 
         // For cross-domain AJAX request
         'corsFilter'  => [
             'class' => \yii\filters\Cors::className(),
+/*             'actions' => [
+                'index' => [
+                    #web-servers which you alllow cross-domain access
+                    'Origin' => ['*'],
+                    'Access-Control-Request-Method' => ['POST'],
+                    'Access-Control-Request-Headers' => ['*'],
+                    'Access-Control-Allow-Credentials' => null,
+                    'Access-Control-Max-Age' => 86400,
+                    'Access-Control-Expose-Headers' => [],
+                ]
+            ],*/
             'cors'  => [
                 // restrict access to domains:  'Origin' => ['http://www.myserver.com', 'https://www.myserver.com'],
                 //'Origin'                           => static::allowedDomains(),
                 'Origin'                           => ['http://ros.academy', 'https://ros.academy'],
                 //'Origin'                           => ["*"],
                 'Access-Control-Request-Method'    => ['POST', 'GET', 'OPTIONS'],  // GET, POST, DELETE, PUT
-                'Access-Control-Allow-Headers:'    => '*, X-Requested-With, Content-Type',
+                'Access-Control-Request-Headers'   => ['*'],
+                //'Access-Control-Allow-Headers'    => '*, X-Requested-With, Content-Type',
                 'Access-Control-Allow-Credentials' => true,
                 'Access-Control-Max-Age'           => 3600,                 // Cache (seconds)
             ], 
