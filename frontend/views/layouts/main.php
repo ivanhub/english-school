@@ -35,7 +35,10 @@ $action = Yii::$app->controller->action->id;
 
 
 
-$this->beginPage() ?>
+$this->beginPage();
+$parser = \WyriHaximus\HtmlCompress\Factory::construct();
+ob_start();
+?>
 <!DOCTYPE html>
 <html lang="ru-Ru">
 <head>
@@ -337,4 +340,10 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 
 </body>
 </html>
-<?php $this->endPage() ?>
+<?php 
+$myHTML = ob_get_contents();
+ob_end_clean();
+$compressedHtml = $parser->compress($myHTML);
+echo $compressedHtml;
+$this->endPage() 
+?>

@@ -16,11 +16,7 @@
     "prefer-stable" : true,
     "repositories":
     [
-           {
-	        "type": "composer",
-	        "url": "https://asset-packagist.org"
-	    },
-          
+            
             {
                 "type": "vcs",
                 "url": "https://github.com/ivanhub/yii2-gallery"
@@ -46,6 +42,12 @@
     },
      
     "config": {
+ "fxp-asset": {
+      "installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      }},
+    
         "process-timeout": 1800
     },
     "scripts": {
