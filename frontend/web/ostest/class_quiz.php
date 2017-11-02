@@ -234,7 +234,7 @@ class quiz
 
 		//	$procent = ($total_correct_answers / $total_answers) * 100;
 			$contacts ="<br/>Данный результат является предварительным. Для более точного определения уровня необходимо пройти устное собеседования с методистом. 
-<br/>Для записи на устное тестирование позвоните по телефону:<br/> <b style='color:darkgreen'>+7 (846) 205-77-66</b>";
+<br/>Для записи на устное тестирование позвоните по телефону:<br/> <b style='color:darkgreen'>+7 (846) 255-69-99</b>";
      		    echo "<script>var el = parent.document.querySelector('#testlink .modal-footer'); el.parentNode.removeChild( el );</script>";
                     echo ('<h2 style="text-align:center">' . (number_format(($total_correct_answers / $total_answers) * 100, 0,
                         '.', '')) . '%</h2>

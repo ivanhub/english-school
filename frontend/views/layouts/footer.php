@@ -44,11 +44,11 @@ use yii\helpers\Html;
                 </div>
         <div class="col-sm-4 col-xs-12">
                         <div class="footer-col-3 my">
-<div class="footer-phone">
+<div class="footer-phone" itemscope itemtype="http://schema.org/LocalBusiness">
 <p class="phone">
-<a href="tel:+78462556999"><i class="footer-phone__pic"></i> <span>+7 (846) 255-69-99</span></a></p>
-<p class="footer-phone__p">пн-чт с 8.00 до 17.00</p>
-<p class="footer-phone__p">пт с 8.00 до 16.00</p>
+<a href="tel:+78462556999"><i class="footer-phone__pic"></i> <span itemprop="telephone">+7 (846) 255-69-99</span></a></p>
+<p class="footer-phone__p" ><time itemprop="openingHours" datetime="Mo, Tu, We, Th 8:00-17:00">пн-чт с 8.00 до 17.00</time></p>
+<p class="footer-phone__p"><time itemprop="openingHours" datetime="Fr 8:00-16:00">пт с 8.00 до 16.00</time></p>
 </div>
 <div class="vk">
 <?php    echo Html::a(
