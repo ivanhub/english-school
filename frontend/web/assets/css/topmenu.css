@@ -164,6 +164,7 @@ img.logotop {
     margin-top: 15px;
     margin-left: -5px;
     opacity: 0.9;
+    width:100%;
 }
 
 @media (max-width:768px) {

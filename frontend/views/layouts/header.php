@@ -63,7 +63,7 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 </div>
 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-7 mob">
 
-<img class="logotop anilogo fadeIn" src="/img/rostop7.png" width="100%" alt="Автошкола «Росавтоакадемия» г. Самара" title="Автошкола «Росавтоакадемия» г. Самара">
+<img class="logotop anilogo fadeIn" src="/img/rostop7.png" alt="Центр иностранных языков «Росакадемия» г. Самара" title="Центр иностранных языков «Росакадемия» г. Самара">
 <!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>-->
  <p class="logotextbottom hidemobi">Лицензия № 6955 от 31.10.2016 г.</p> 
 
