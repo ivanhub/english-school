@@ -40,7 +40,7 @@ return [
         'bundles' => [
             'yii\web\JqueryAsset' => [
                 'js'=>[
-                                YII_ENV_DEV ? 'jquery.js' : 'jquery.min.js'
+                                YII_DEBUG ? 'jquery.js' : 'jquery.min.js'
 
                 ]
             ],

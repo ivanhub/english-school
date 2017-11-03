@@ -74,7 +74,6 @@ echo Freetest::widget(['link'=> '']);
     <div class="hidden-xs"<br/></div>
 <div class="row rowm flex-d">
 
-<div class="forsafari1">
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
@@ -94,14 +93,12 @@ echo Freetest::widget(['link'=> '']);
 
 </div>
 </div>
-</div>
 
 
 
     <div class="hidden-xs"<br/></div>
 <div class="row rowm flex-d">
 
-<div class="forsafari1">
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
@@ -120,13 +117,11 @@ echo Freetest::widget(['link'=> '']);
 
 </div>
 </div>
-</div>
 
 
     <div class="hidden-xs"<br/></div>
 <div class="row rowm flex-d">
 
-<div class="forsafari1">
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
@@ -145,14 +140,12 @@ echo Freetest::widget(['link'=> '']);
 
 </div>
 </div>
-</div>
 
 
 
     <div class="hidden-xs"<br/></div>
 <div class="row rowm flex-d">
 
-<div class="forsafari1">
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
@@ -168,15 +161,10 @@ echo Freetest::widget(['link'=> '']);
 
 <p>Данный курс необходим любителям путешествовать, выезжать за границу. Туристический английский позволит легко ориентироваться в аэропорту, спросить дорогу, показать достопримечательности. Туристический английский необходим тем, кто не представляет свою жизнь без путешествий.
 </p>
-
 </div>
 </div>
-</div>
-
-
-
-    <div><div class="hidden-xs"<br/><br/></div>
-
+    <div><div class="hidden-xs"><br/><br/></div>
+<div class="linetire"></div>
 <h5 style="" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">Как проходит обучение</h5>  
  <ul class=" preimul2 lr10 gal text-justify">
  <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Тестирование с методистом для определения уровня владения языком <span style="color:green;font-weight:bold">БЕСПЛАТНО</span>.</li>
