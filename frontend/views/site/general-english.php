@@ -71,7 +71,7 @@ echo Freetest::widget(['link'=> '']);
 
 
 
-    <div class="hidden-xs"<br/></div>
+    <div class="hidden-xs"><br/></div>
 <div class="row rowm flex-d">
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
@@ -96,7 +96,7 @@ echo Freetest::widget(['link'=> '']);
 
 
 
-    <div class="hidden-xs"<br/></div>
+    <div class="hidden-xs"><br/></div>
 <div class="row rowm flex-d">
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
@@ -119,7 +119,7 @@ echo Freetest::widget(['link'=> '']);
 </div>
 
 
-    <div class="hidden-xs"<br/></div>
+    <div class="hidden-xs"><br/></div>
 <div class="row rowm flex-d">
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
@@ -143,7 +143,7 @@ echo Freetest::widget(['link'=> '']);
 
 
 
-    <div class="hidden-xs"<br/></div>
+    <div class="hidden-xs"><br/></div>
 <div class="row rowm flex-d">
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
