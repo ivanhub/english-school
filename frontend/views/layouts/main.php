@@ -85,7 +85,7 @@ ob_start();
         
         <?= $content ?>
  <?= $this->render('../layouts/footer');?>
-</div>   <div>
+</div>   </div>
   <a href="#0" class="cd-top">Вверх</a>
 
 </div>
