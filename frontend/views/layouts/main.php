@@ -42,13 +42,13 @@ ob_start();
 <!DOCTYPE html>
 <html lang="ru-Ru">
 <head>
+  <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Security-Policy" content="font-src 'self' *.ros.academy fonts.gstatic.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googleadservices.com www.google-analytics.com mc.yandex.ru *.ros.academy www.google-analytics.com apis.google.com connect.facebook.net connect.ok.ru ajax.googleapis.com api-maps.yandex.ru">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="cleartype" content="on"/>
-    <!-- IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <!--[if IE]>
     <meta http-equiv="imagetoolbar" content="no"/>
     <meta http-equiv="MSThemeCompatible" content="no"/>

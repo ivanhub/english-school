@@ -8,9 +8,7 @@ use yii\helpers\Html;
 //use yii\bootstrap\ActiveForm;
 //use yii\captcha\Captcha;
 //use phpnt\yandexMap\YandexMaps;
-//$agent=$_SERVER['HTTP_USER_AGENT'];
-//dd($agent);
-//if(agent($_SERVER['HTTP_USER_AGENT'])) echo '555';
+
 
 
 $title = 'Галерея';
@@ -21,38 +19,8 @@ $this->title = title($title);
 
 $this->params['breadcrumbs'][] = $title;
 ?>
-
-
-<!-- 
-<div class="" id="full-widthid">
-<div class="container-fluid mainblock text-center contacts">
-  <div class="text-center contacts">  <div class="row">
-  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6  box1  cl-effect-12">
-  <img class="hvr-grow1" src="../images/new_car.png" width="180px">
-  <p class="blocktitlec anim_one  hvr-bob1 ">Автомотошкола</p>
-  </div>
-  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6  box2 cl-effect-12">
-  <img class="hvr-grow1" src="../images/two.png" width="150px" style="margin-top: 0;">
-  <p class="blocktitlec anim_two  hvr-bob1">Самоходная техника</p>
-  </div>
-  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6 box3  cl-effect-12">
-  <img class="hvr-grow1" src="../images/boat_t2.png" width="160px">
-  <p class="blocktitlec anim_three hvr-bob1">Судовождение</p>
-  </div>
-  <div class="col-md-3 col-sm-3 col-xs-6  col-big-6 box4  cl-effect-12">
-  <img class="hvr-grow1" src="../images/new_car.png" width="180px" style="margin-top: 0;">
-  <p class="blocktitlec anim_four hvr-bob1">Защитное вождение</p>
-  </div>
-  </div> 
-  </div></div></div>
- -->
-
-<!-- <?= Html::encode($this->title) ?> -->
-
    
 <h1 class="text-center"><?= Html::encode($title) ?></h1>
-
-
 
 <center><h4>Фотографии наших учебных классов</h4></center><br/>
 <div class="gallery-container">
@@ -69,9 +37,7 @@ if ($dir = opendir('images/gallery-slider/')) {
 ?>     
          <div><div><a href="/images/gallery-slider/<?=$file?>"> <img src="/images/gallery-slider/tn/<?=preg_replace('/\.\w+$/', '', $file);?>_tn.jpg" ></a></div></div>
 <?php 
- 
-    }
- 
+     }
 }
 
 ?>
@@ -86,14 +52,7 @@ if ($dir = opendir('images/gallery-slider/')) {
 <br/>
 
 
-
-
-
-
-
 <?php 
-
-
 $this->registerJs(<<<JS
 
 
@@ -149,7 +108,7 @@ JS
 
 
 Yii::$app->view->registerJsFile('/assets/js/slick.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js?',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick.css?v=131',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick-lightbox.css?v=7',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick-theme.css?v=7',  ['depends' => 'frontend\assets\AppAsset']); 
+Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick/slick.css',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick/slick-lightbox.css',  ['depends' => 'yii\web\JqueryAsset']); 
+Yii::$app->view->registerCssFile('/assets/css/slick/slick-theme.css',  ['depends' => 'frontend\assets\AppAsset']); 
