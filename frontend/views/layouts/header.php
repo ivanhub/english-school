@@ -175,19 +175,35 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 var str = '<img src="/img/ico-menu.png" alt=""> <span>МЕНЮ</span>'; 
 document.getElementsByClassName("navbar-toggle")[0].innerHTML=str;
 
-var items = document.querySelectorAll(".navbar-collapse ul li");
+var items = document.querySelectorAll(".navbar-collapse > ul > li");
  var lastchild = items[items.length-1];
 
+   // if ie9
+if (document.documentMode===9){
+   lastchild.className += ' last';
+   items[0].className += ' first';  
+    } else {
    lastchild.classList.add('last');
    items[0].classList.add('first');
+   
+    }
+   
 
 
 
 var links = document.querySelectorAll('.navbar-collapse > ul > li');
 var i=1;
 [].forEach.call(links, function(item) {
+
+
+  if (document.documentMode===9){
+   item.className += ' fadeInUp1';
+   item.className += ' animated' + i;  
+    } else {
       item.classList.add('fadeInUp1');
       item.classList.add('animated' + i );
+    }
+
 
     i++;
 });

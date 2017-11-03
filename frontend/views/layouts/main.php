@@ -131,7 +131,14 @@ window.addEventListener("load", function() {
 setTimeout(function(){
 var j=1;
 [].forEach.call(mainblok, function(item) {
+
+   if (document.documentMode===9){
+      item.className += ' box' + j ;
+    } else {
       item.classList.add('box' + j );
+    }
+
+
       
     j++;
 });
@@ -203,11 +210,21 @@ for ( i = 0; i < childTag.length; i++)
    childTag[i].parentNode.insertBefore(newspan.cloneNode(true), childTag[i]);
 
 }
-document.getElementsByClassName('icos')[0].classList.add('fa','fa-home');
-document.getElementsByClassName('icos')[1].classList.add('fa','fa-graduation-cap','hvr-icon-spin');
-document.getElementsByClassName('icos')[2].classList.add('fa','fa-camera');
-document.getElementsByClassName('icos')[3].classList.add('fa','fa-file-text');
-document.getElementsByClassName('icos')[4].classList.add('fa','fa-phone');
+var icos = document.getElementsByClassName('icos');
+
+  if (document.documentMode===9){
+icos[0].className += ' fa fa-home';
+icos[1].className += ' fa fa-graduation-cap hvr-icon-spin';
+icos[2].className += ' fa fa-camera';
+icos[3].className += ' fa fa-file-text';
+icos[4].className += ' fa fa-phone';
+    } else {
+icos[0].classList.add('fa','fa-home');
+icos[1].classList.add('fa','fa-graduation-cap','hvr-icon-spin');
+icos[2].classList.add('fa','fa-camera');
+icos[3].classList.add('fa','fa-file-text');
+icos[4].classList.add('fa','fa-phone');
+    }
 
 
 
@@ -218,7 +235,13 @@ var blocks = document.querySelectorAll(".blocktitle");
  setTimeout(function(){
  var i=1;
 [].forEach.call(blocks, function(item) {
-      item.classList.add('bounceInLeft');
+     
+
+      if (document.documentMode===9){
+       item.className += ' bounceInLeft';
+    } else {
+       item.classList.add('bounceInLeft');
+    }
 
     i++;
 });
@@ -233,11 +256,21 @@ for (i = 0; i < blocks.length; i++) {
 */
 
  setTimeout(function(){
- var blocktitles = document.getElementsByClassName("blocktitle");
+ //var blocktitles = document.getElementsByClassName("blocktitle");
 
 [].forEach.call(blocks, function(item) { 
-  item.classList.remove('bounceInLeft');
-  item.classList.add('hvr-bob');
+
+      if (document.documentMode===9){
+       item.className += ' hvr-bob';
+      // remove class ie9
+      item.className=item.className.replace(new RegExp('(\\s|^)'+'bounceInLeft'+'(\\s|$)'),' ').replace(/^\s+|\s+$/g, '');
+
+    } else {
+        item.classList.remove('bounceInLeft');
+        item.classList.add('hvr-bob');
+    }
+
+  
   item.style.opacity = "1";
    });
 //for (i = 0; i < blocktitles.length; i++) {blocktitles[i].style.opacity = "1";}
@@ -344,6 +377,6 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 $myHTML = ob_get_contents();
 ob_end_clean();
 $compressedHtml = $parser->compress($myHTML);
-echo $compressedHtml;
+if ($_SERVER['HTTP_HOST']!=="english.loc") echo $compressedHtml; else echo $myHTML;
 $this->endPage() 
 ?>
