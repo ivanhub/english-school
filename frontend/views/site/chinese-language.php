@@ -76,7 +76,6 @@ $this->params['breadcrumbs'][] = $title;
  <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Мы работаем на результат, используя индивидуальный подход к каждому слушателю.</li>
  <li style="font-size:115%;animation-duration: 1s; animation-delay: 1s;">Интересная подача материала позволяет сделать занятия увлекательными и эффективными.</li>
  <li></li>
- </li>
  </ul>
 
 <br/>

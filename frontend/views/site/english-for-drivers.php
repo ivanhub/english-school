@@ -198,11 +198,6 @@ JS
 
 
 
-</div>
-<!-- <div class="linetire"></div>
- -->
-
-
 
 
 <?php
