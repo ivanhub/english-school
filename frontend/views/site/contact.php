@@ -53,9 +53,9 @@ $this->params['breadcrumbs'][] = $title;
 
  <div class="panel panel-default">
    <div class="panel-heading">
-      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Новый учебный класс</a>  </h4>
+      <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Новый учебный класс</a>  </h4>
    </div>
-   <div id="collapse1" class="panel-collapse collapse in">
+   <div id="collapse2" class="panel-collapse collapse in">
       <div class="panel-body"><b>г. Самара, ул. Осипенко 11, оф. 404.<br/> График работы: 8:00-17:00 Пн.-Пт.<br/>Тел.: +7 (846) 255-69-99</b></div>
    </div>
 </div>
@@ -69,8 +69,8 @@ $this->params['breadcrumbs'][] = $title;
 
   <div class="START5"></div>
 
-<p style="font-size:20px;"><b>Тел.:</b> <span class="fa fa-phone" style="color:#0c500c;"></span> +7 (846) 255-69-99</p> 
-<p><b>Электронная почта: </b> <span class="fa fa-envelope" style="color:#0c500c;"></span> <a href="mailto:samarapb@mail.ru" style="color:#0c500c;">samarapb@mail.ru</a></p>
+<p style="font-size:20px;"><b>Тел.: </b> <span class="fa fa-phone" style="color:#0c500c;"></span> +7 (846) 255-69-99</p> 
+<p><b>Электронная почта: </b> <span class="fa fa-envelope" style="color:#0c500c;"></span>&nbsp;<a href="mailto:samarapb@mail.ru" style="color:#0c500c;">samarapb@mail.ru</a></p>
 <br/><br/>
     </div>
     <div class="col-md-6 col-sm-6">  
