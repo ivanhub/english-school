@@ -40,7 +40,11 @@ $parser = \WyriHaximus\HtmlCompress\Factory::construct();
 ob_start();
 ?>
 <!DOCTYPE html>
-<html lang="ru-Ru">
+
+
+  <html lang="ru-RU">
+
+
 <head>
   <!-- IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>

@@ -105,7 +105,19 @@ $this->params['breadcrumbs'][] = $title;
 
 <br/><br/>
 
-
+<div class="linetire"></div>
+<div class="text-center leave-request leave-request-europe"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+ на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
+ <?php    echo Html::a(
+    'Оставить заявку',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '4',
+    'class' => 'signup'
+  ]
+    ); ?>
+<p>&nbsp;</p><br/></div></div>
 
 
 

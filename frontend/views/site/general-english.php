@@ -77,7 +77,7 @@ echo Freetest::widget(['link'=> '']);
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
-<a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-1 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ОБЩИЙ КУРС</p></div></div>
+<a"> <div class="block-mestoONLY block-mestoONLY-1 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ОБЩИЙ КУРС</p></div></div>
 <div class="aa">
  <!--  <img class="img-responsive" src="../images/en/first6.png" alt="Автошкола г. Самара" title="Автошкола" width="150px"> -->
 </div>
@@ -102,7 +102,7 @@ echo Freetest::widget(['link'=> '']);
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
-<a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-2 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ДЕЛОВОЙ АНГЛИЙСКИЙ</p></div></div>
+<a> <div class="block-mestoONLY block-mestoONLY-2 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ДЕЛОВОЙ АНГЛИЙСКИЙ</p></div></div>
 <div class="aa">
 <!--   <img class="img-responsive" src="../images/en/first6.png" alt="Автошкола г. Самара" title="Автошкола" width="150px">
  --></div>
@@ -125,7 +125,7 @@ echo Freetest::widget(['link'=> '']);
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
-<a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-3 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ИНТЕНСИВНЫЙ КУРС</p></div></div>
+<a> <div class="block-mestoONLY block-mestoONLY-3 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ИНТЕНСИВНЫЙ КУРС</p></div></div>
 <div class="aa">
 <!--   <img class="img-responsive" src="../images/en/first6.png" alt="Автошкола г. Самара" title="Автошкола" width="150px">
  --></div>
@@ -149,7 +149,7 @@ echo Freetest::widget(['link'=> '']);
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
-<a href="/general-english"> <div class="block-mestoONLY block-mestoONLY-4 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri" style="margin-top:8px">ТУРИСТИЧЕСКИЙ АНГЛИЙСКИЙ</p></div></div>
+<a> <div class="block-mestoONLY block-mestoONLY-4 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri" style="margin-top:8px">ТУРИСТИЧЕСКИЙ АНГЛИЙСКИЙ</p></div></div>
 <div class="aa">
 <!--   <img class="img-responsive" src="../images/en/first6.png" alt="Автошкола г. Самара" title="Автошкола" width="150px">
  --></div>
@@ -233,7 +233,19 @@ echo Freetest::widget(['link'=> '']);
 
 
 </div>
-
+<div class="linetire"></div>
+<div class="text-center leave-request leave-request-ge"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+ на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
+ <?php    echo Html::a(
+    'Оставить заявку',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '4',
+    'class' => 'signup'
+  ]
+    ); ?>
+<p>&nbsp;</p><br/></div></div>
 
 
 

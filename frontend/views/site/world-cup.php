@@ -36,69 +36,10 @@ $this->params['breadcrumbs'][] = $title;
 
 
 
-
-<!--  --> 
 <div class=" siteblock">
-   
-
- <div class="row"><!-- 
-<div class="col-sm-12 col-md-3">
-
-
-Leftmenu::widget() 
-
-
-
- <?= leoshtika\bootstrap\NavSidebar::widget([
-    'items' => [
-        [
-            'url' => ['site/index'],
-            'label' => 'Запись на обучение',
-            'icon' => 'home' // This is a bootstrap icon name
-        ],
-        [
-            'url' => ['site/about'],
-            'label' => 'Расписание занятий',
-            'icon' => 'info-sign' // This is a bootstrap icon name
-        ],
-        [
-            'url' => ['site/about'],
-            'label' => 'Наши преимущества',
-            'icon' => 'info-sign' // This is a bootstrap icon name
-        ],
-        [
-            'url' => ['/dop-uslugi'],
-            'label' => 'Дополнительные услуги',
-            'icon' => 'info-sign', // This is a bootstrap icon name
-            'active' => $this->context->route == 'site/dopuslugi',
-
-'activeCssClass' => 'active'
-        ],
-    ],
-]);
-?>  
-
-
-<ul class="left">
-    <li><a href="/raspisanie">Расписание</a></li>
-    <li><a href="#">Доп.&nbsp;услуги</a></li>
-    <li><a href="/students">Учащимся</a></li>
-    <li><a href="/postupayushchim">Поступающим</a></li>
-    <li><a href="#">Условия&nbsp;обучения</a></li>  
-</ul>
-</div> -->
-
-
-
-
-
-
+ <div class="row">
 <h1 class="text-center"><?= Html::encode($title) ?></h1>
-
-
 <br/>
-
-
 <!-- 
 <h5 class=" text-center" style="font-size:28px;padding-bottom:15px;margin-top:-10px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Подготовка к Чемпионату Мира по футболу</h5> -->
@@ -136,43 +77,21 @@ Leftmenu::widget()
 <br/>
 <p style="text-align:center;color:green;font-weight:700">Стоимость 350 руб. Начало заседания Английского клуба – 12.00</p>
 
-
- 
-
-
-<!--
-<img src="../images/pics/q1.png">
-<p><img src="../images/pics/q3.png"> Консультации по приобретению, эксплуатации, хранению мотоцикла, выбору запчастей.</p>
-<p><img src="../images/pics/q4.png">Обучение инструкторов по вождению.</p>
--->
-
-
 <br/>
 
 </div>
 
 </div>
-
-<?php 
-
-//peremotka vverh to active accordion, after click
-$this->registerJs(<<<JS
-
-var lanopt = $(".panel-group");
-
-lanopt.on("show.bs.collapse",".collapse", function(){
-   lanopt.find(".collapse.in").collapse("hide");
-   
-    var offset = $(this).find('.collapse.in').prev('.panel-heading');
-        if(offset) {
-            $('html,body').animate({
-                scrollTop: $('.panel-title a').offset().top -50
-            }, 500); 
-        }
-});
-
-JS
-, yii\web\View::POS_READY); ?>
-
-
-
+<div class="linetire"></div>
+<div class="text-center leave-request leave-request-wc"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+ на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
+ <?php    echo Html::a(
+    'Оставить заявку',
+  ['#'],
+  [ 'data-toggle' => 'modal',
+    'data-target' => '#idmodal',
+    'data-which' => '4',
+    'class' => 'signup'
+  ]
+    ); ?>
+<p>&nbsp;</p><br/></div></div>
