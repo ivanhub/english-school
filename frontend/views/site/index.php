@@ -159,7 +159,6 @@ $this->registerMetaTag([
  <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Гибкая система скидок.</li>
  <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Постоянный мониторинг качества Вашего обучения.</li>
  <li></li>
- </li>
  </ul>
 
 <br/>
