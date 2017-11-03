@@ -106,7 +106,7 @@ Leftmenu::widget()
 <div class="visible-xs"><p>&nbsp;</p></div><p class="indent50">Еще одна возможность <b>«подтянуть»</b> язык и снять языковой барьер – это <b>Английский клуб</b>, проводимый нашей школой каждые выходные.
  Принимая участие в интересных, разнообразных, познавательных формах общения Вы незаметно шаг за шагом станете:</p>
  <ul class=" preimul2  gal text-justify">
- <li style="text-indent:30px;font-size:100%;animation-duration: 1s; animation-delay: 0;">Грамотно выражать свои мысли на английском языке.</span></li>
+ <li style="text-indent:30px;font-size:100%;animation-duration: 1s; animation-delay: 0;">Грамотно выражать свои мысли на английском языке.</li>
  <li style="text-indent:30px;font-size:100%;animation-duration: 1s; animation-delay: .4s;">Слушать собеседника и вступать в дискуссию по интересующим Вас вопросам.</li>
  <li style="text-indent:30px;font-size:100%;animation-duration: 1s; animation-delay: .7s;">Лучше понимать специфику кросс-культурного общения.</li>
  <li style="text-indent:30px;font-size:100%;animation-duration: 1s; animation-delay: 1.1s;padding-top:15px">Все это позволит Вам уверенно чувствовать себя в английском языке, что даст возможность беспрепятственно
