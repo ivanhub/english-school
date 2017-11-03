@@ -84,7 +84,7 @@ if ($dir = opendir('images/gallery-slider/')) {
 <br/>
 <br/>
 <br/>
-</div>
+
 
 
 
