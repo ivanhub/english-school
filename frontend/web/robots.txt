@@ -14,4 +14,17 @@ Disallow: /vendor/
 Disallow: /.git/
 
 Sitemap: http://ros.academy/sitemap.xml
+
+User-Agent: Yandex
+Disallow: /advanced/
+Disallow: /backend/
+Disallow: /common/
+Disallow: /console/
+Disallow: /environments/
+Disallow: /temp/
+Disallow: /vagrant/
+Disallow: /vendor/
+Disallow: /.git/
+
+Sitemap: http://ros.academy/sitemap.xml
 Host: ros.academy
