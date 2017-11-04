@@ -13,4 +13,5 @@ Disallow: /vagrant/
 Disallow: /vendor/
 Disallow: /.git/
 
-Host: росавтоакадемия.рф
+Sitemap: http://ros.academy/sitemap.xml
+Host: ros.academy
