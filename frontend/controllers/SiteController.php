@@ -84,9 +84,7 @@ public function behaviors() {
         ];
     }
 
-  //    public function actionTestMailer() {
-   //     \app\models\User::findByUsername('admin')->sendMail('example', 'Пример письма', ['paramExample' => '123']);
-   // }
+  
 
 
     public function actionIndex()
