@@ -77,7 +77,7 @@ echo Freetest::widget(['link'=> '']);
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
 
-<a"> <div class="block-mestoONLY block-mestoONLY-1 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ОБЩИЙ КУРС</p></div></div>
+<a> <div class="block-mestoONLY block-mestoONLY-1 block-mestoONLY-english"><div class="block-mestoONLY-podlozhka"><p class="text-center giri">ОБЩИЙ КУРС</p></div></div>
 <div class="aa">
  <!--  <img class="img-responsive" src="../images/en/first6.png" alt="Автошкола г. Самара" title="Автошкола" width="150px"> -->
 </div>
@@ -85,7 +85,7 @@ echo Freetest::widget(['link'=> '']);
 </div>
 </div>
 
-<div class="col-md-7 col-lg-8 col-xs-12 flex-h">
+<div class="col-md-7 col-lg-8 col-xs-12">
 
 <p>В нашей школе Вы сможете успешно овладеть английским языком с любого уровня владения. Курс рассчитан на углубление знаний по английскому языку, совершенствование навыков
 общения и свободного восприятия на слух английского языка.
@@ -110,7 +110,7 @@ echo Freetest::widget(['link'=> '']);
 </div>
 </div>
 
-<div class="col-md-7 col-lg-8 col-xs-12 flex-h">
+<div class="col-md-7 col-lg-8 col-xs-12">
 
 <p>Курс делового английского языка подойдет руководителям и менеджерам среднего звена. Программа включает в себя специализированную лексику, деловые дискуссии и обсуждения, а также развития навыков деловой переписки.
 </p>
@@ -133,7 +133,7 @@ echo Freetest::widget(['link'=> '']);
 </div>
 </div>
 
-<div class="col-md-7 col-lg-8 col-xs-12 flex-h">
+<div class="col-md-7 col-lg-8 col-xs-12">
 
 <p>Курс предназначен для занятых людей, которым нужно в кратчайшие сроки развить языковые навыки перед поездкой за рубеж, сдачей экзамена, стажировкой за границей. Интенсивность программы зависит от сроков и от уровня владения иностранным языком.
 </p>
@@ -157,7 +157,7 @@ echo Freetest::widget(['link'=> '']);
 </div>
 </div>
 
-<div class="col-md-7 col-lg-8 col-xs-12 flex-h">
+<div class="col-md-7 col-lg-8 col-xs-12">
 
 <p>Данный курс необходим любителям путешествовать, выезжать за границу. Туристический английский позволит легко ориентироваться в аэропорту, спросить дорогу, показать достопримечательности. Туристический английский необходим тем, кто не представляет свою жизнь без путешествий.
 </p>

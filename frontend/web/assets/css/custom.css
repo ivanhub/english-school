@@ -2290,6 +2290,16 @@ new:hover {
         margin-left: 8% !important;
     }
 }
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+    .rowm {
+        margin-right: 2% !important;
+        margin-left: 2% !important;
+    }
+}
+
+
 /*  .foot1 .col3, .foot1 .col4
   { margin-top: 40px; }
   .my {     text-align: center; padding-top:50px; }
@@ -3237,7 +3247,6 @@ footer .rangelogo {
     
     margin: 10px;
     padding: 5px;
-    position: relative;
     border-radius: 20% 35%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
@@ -3329,11 +3338,6 @@ footer .rangelogo {
 .block-mestoONLY-english:hover > .block-mestoONLY-podlozhka {
     background: #c3c3c399;
     transition: background .3s;
-}
-.flex-h {
-    display: flex;
-    align-items: center;
-    height: 100%;
 }
 @media (min-width: 992px) {
     .flex-d {
@@ -4063,4 +4067,4 @@ form sup {
         display: none
     }
 }
-/*END RWD TABLE*/
+/*END RWD TABLE*/	
