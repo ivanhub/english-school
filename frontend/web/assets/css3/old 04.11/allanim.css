@@ -157,6 +157,8 @@ animation-fill-mode:forwards;
     }
 }
 
+/*.blockA:hover, .blockB:hover { background:rgba(208, 231, 195, 0.19);}*/
+
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -191,6 +193,8 @@ animation-fill-mode:forwards;
 }
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
+    /*  -webkit-animation-delay: 1.8s;*/
+    
     animation-name: fadeInUp;
 }
 @-webkit-keyframes fadeIn {
@@ -635,6 +639,14 @@ expandUp
         padding-left: 0;
     }
 }
+/* del
+@keyframes documents__mb{
+  0% { opacity : 0; bottom : -20%; }
+  75% { opacity : 1; bottom : 2%; }
+  100% { opacity : 1;bottom : 0; }
+}
+
+.block__mb {position:absolute;} */
 
 @keyframes pullUp {
     0% {
@@ -794,4 +806,24 @@ bigEntrance
         opacity: 1;
     }
 }
+/* modal 3d */
+/* Effect 9: 3D flip vertical */
+/*modal 3d end */
+/* 4 preim */
+
+@-webkit-keyframes white-saas-text-anim {
+    0% {
+        background-position: -120px -50px;
+    }
+    100% {
+        background-position: 62px 50px;
+    }
+}
+@keyframes white-saas-text-anim {
+    0% {
+        background-position: -120px -50px;
+    }
+    100% {
+        background-position: 62px 50px;
+    }
 }

@@ -1,5 +1,33 @@
 /*on page load */
 
+@-webkit-keyframes animate {
+    0% {
+        width: 38px;
+        height: 44px;
+        margin: 0% 0%;
+        opacity: 0
+    }
+    100% {
+        width: 110px;
+        height: 132px;
+        margin: 0% 0%;
+        opacity: 1
+    }
+}
+@keyframes animate {
+    0% {
+        width: 38px;
+        height: 44px;
+        margin: 0% 0%;
+        opacity: 0
+    }
+    100% {
+        width: 110px;
+        height: 132px;
+        margin: 0% 0%;
+        opacity: 1
+    }
+}
 @-webkit-keyframes animate2 {
     0% {
         -webkit-transform: scale(0.1);
@@ -26,7 +54,7 @@
         opacity: 1
     }
 }
-
+/* 100% { width: 150px; height:176px; margin: 0% 0%; opacity:1}*/
 
 .onload-logo {
     -webkit-animation: animate2 1.4s ease-in;
@@ -36,6 +64,14 @@
     .onload-logo {
         -webkit-animation: animate2 1.4s ease-in;
         animation: animate2 1.4s ease-in;
+    }
+}
+@-webkit-keyframes logotextanim {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
     }
 }
 .navshadow {
@@ -114,6 +150,18 @@
 .my {
     margin-top: -5px;
 }
+/* grayscale img {  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  /* Firefox 10+, Firefox on Android 
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  /* IE 6-9 
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;}
+
+/*footer-phone__p:first-child {margin-top:-5px;}*/
 
 p.logotextbottom {
     font-size: 11px;
@@ -157,7 +205,9 @@ img.logotop {
     }
 }
 @media (min-width: 1200px) {
-    .rightblock {        
+    .rightblock {
+        /* margin-right: -120px !important; */
+        
         right: -26px !important;
         padding-top: 10px;
     }
@@ -202,16 +252,22 @@ img.logotop {
     width:110px;
     height:132px;
     z-index:700;
+    /*   width:170px; 
+ height:195px;
+ width:165px; 
+ height:185px; */
     
     position: absolute;
     top: 0;
     left:6px;
+    /*   left:35px; box-shadow: 0 0 5px #000 inset, 0 0 5px #000;  transition: background 1s ease; */
 }
 .navbar-nav>li>a {
     padding-top: 9px !important;
     line-height: 14px;
 }
-/* menu */
+/* menu5 */
+/*** for menu5 */
 
 span.icos {
     position: absolute;
@@ -334,8 +390,11 @@ span.icos {
     .navbar-nav {
         margin-left: 25% !important;
     }
+    /*.foot1 p {font-size:13px !important}*/
 }
 @media (max-width: 350px) {
+    /*.foot1 p {font-size:12px !important}*/
+    
     .justmobi .phone {
         font-size: 16px !important;
     }
@@ -351,6 +410,7 @@ span.icos {
     .navbar-nav {
         margin-left: 25% !important;
     }
+    /*.foot1 p {font-size:11px !important; }*/
     
     .justmobi .phone {
         font-size: 15px !important;
@@ -374,6 +434,7 @@ span.icos {
     top: 63px;
     right: 140px;
 }
+/*.footer__myvkontakte {float: right;margin-bottom:20px; }*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .my p.phone span {
@@ -413,6 +474,8 @@ span.icos {
         max-width: 158px;
     }
 }
+/* .dropdown-menu {
+    position: relative;} */
 
 .navbar-nav {
     overflow: visible;
@@ -439,6 +502,8 @@ span.icos {
     top: -1px;
     position: relative;
 }
+/*.breadcrumb {margin-top:60px !important; margin-left:86px !important;
+background-color:transparent}*/
 
 .breadcrumb li a:first-child {
     font-weight: 600;

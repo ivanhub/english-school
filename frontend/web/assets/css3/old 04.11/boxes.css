@@ -1,4 +1,17 @@
-/* Main six link-blocks */
+@-webkit-keyframes movingbox {
+    from {
+        left: 50%;
+        -webkit-transform: rotate(0deg);
+        opacity: 0
+    }
+    to {
+        left: 0;
+        -webkit-transform: rotate(360deg);
+        opacity: 1
+    }
+}
+/*#index .box1, #index .box2, #index .box3, #index .box4 { opacity:0;}	*/
+
 #index .box1 {
     -webkit-animation: slideInRight 1s forwards;
     animation: slideInRight 1s forwards;
@@ -185,7 +198,15 @@
         opacity: 1;
     }
 }
+/* .mainblock { padding-left:7%; padding-right:7%}
+ */
+/*.mainblock img:nth-child(2) { margin-left:35px}
 
+.mainblock img:last-child {
+    margin-left: 28px;
+    margin-top: -9px;
+}
+*/
 /* Hover section */
 
 @-webkit-keyframes rotatey2 {
@@ -302,7 +323,7 @@
         transform: translate(0, 0);
     }
 }
-
+/*.hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {*/
 /* Wobble Top */
 
 @-webkit-keyframes hvr-wobble-top {
@@ -454,11 +475,25 @@
         opacity: 1;
     }
 }
+/*.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+animation-fill-mode:forwards;
+   animation:bounceInLeft;
+ -webkit-animation:bounceInLeft;
+} */
 
 .box2 p::before,
 .box2 p::after {
     left: 56% !important;
 }
+/*.cl-effect-12 p {
+	border-bottom: 2px solid #000;
+	content: attr(data-hover);
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;
+}*/
 
 @keyframes cleffect {
     to {
@@ -496,7 +531,33 @@
 .anim_two::after {
     left: 56% !important;
 }
+/* 
 
+.cl-effect-12:hover  p:before,
+.cl-effect-12:hover  p:after,
+.cl-effect-12:focus  p:after,
+.cl-effect-12:focus  p:after
+{    
+   opacity: 1;
+  -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+  -moz-transform: translateX(-50%) translateY(-50%) scale(1);
+  transform: translateX(-50%) translateY(-50%) scale(1);
+  max-width: 100%;
+
+    -webkit-animation: smooth .5s ease-out;
+    -moz-animation: smooth .5s ease-out;
+    -o-animation: smooth .5s ease-out;
+    -ms-animation: smooth .5s ease-out;
+    animation: smooth .5s ease-out; 
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+    animation-delay:3s;
+    -webkit-animation-delay:3s;
+    }
+ */
 /* 9 blocks */
 
 @keyframes animateBoxesFromTopToBottom {
@@ -533,15 +594,27 @@
         transform: none;
     }
 }
-
-
-/* super-button: Footer (Запись на занятия) */
+/* super-button */
 
 .wrapperb {
     height: 100%;
     display: inline-block;
     /*  background: rgba(0, 0, 0, 0.1);*/
 }
+/*
+.wrapperb:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  
+.innerb {
+  position: absolute;
+
+} */
 
 .buttonn:hover {
     background: rgba(158, 255, 171, 0.1);
@@ -613,6 +686,9 @@
 }
 .buttonn:hover {
     color: green;
+    /*    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #36623e;*/
 }
 .textt {
     display: inline-block;
