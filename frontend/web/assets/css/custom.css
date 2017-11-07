@@ -1079,7 +1079,7 @@ a:focus {
     -moz-box-shadow: 0 0 5px #ccc;
     -webkit-box-shadow: 0 0 5px #ccc;
     background: rgba(255, 255, 255, 0.55);    
-    margin-top: -2px;
+    margin-top: -4px;
     position: relative;
 }
 @media (max-width: 1200px) {} @media (min-width: 768px) and (max-width: 991px) {
@@ -2663,6 +2663,8 @@ tr {
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
     box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
 }
+
+/* Секция: Остались вопросы (at the end of every page) */
 .leave-request {
     position: relative;
     padding-top: 10px;
@@ -2673,12 +2675,47 @@ tr {
     position: absolute;
     top: 0;
     left: 0;
-    background: url('/images/en/leave-a-request.jpg') -8% 8%;
     width: 100%;
     height: 100%;
     opacity: .1;
     z-index: -1;
 }
+
+.leave-request-index:after {
+    background: url('/images/en/leave-a-request.jpg') -8% 8.6%;
+}
+.leave-request-ge:after {
+    background: url('/images/en/ge-lr2.jpg') 0% 40.8%;
+    background-size: cover;
+}
+.leave-request-chinese:after {
+    background: url('/images/en/request-chinese.jpg') -4% 0%;
+    background-size: contain;
+    opacity: 0.15;
+}
+
+.leave-request-europe:after {
+    background: url('/images/en/european2.jpg');
+    background-size: cover;
+    opacity: .30;
+}
+.leave-request-ct:after {
+    background: url('/images/en/corporate-request.jpg');
+    background-size: cover;
+    opacity: .3;
+}
+
+.leave-request-wc:after {
+    background: url('/images/en/fifa.jpg');
+    background-size: cover;
+    opacity: .23;
+}
+.leave-request-drivers:after {
+    background: url('/images/en/request-driver.jpg');
+    background-size: cover;
+    opacity: .15;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     #index .width80 {
         width: 85%
@@ -2883,3 +2920,6 @@ form sup {
     }
 }
 /*END RWD TABLE*/	
+
+
+
