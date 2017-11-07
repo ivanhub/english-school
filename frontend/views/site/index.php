@@ -458,7 +458,7 @@ JS
 
 
 <?php 
-Yii::$app->view->registerJsFile('/assets/js/jquery.ros.js',  ['depends' => 'yii\web\JqueryAsset']);
+Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']);
 
 $this->registerJs(<<<JS
 
