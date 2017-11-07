@@ -5,19 +5,17 @@
 /* @var $model \frontend\models\ContactForm */
 
 use yii\helpers\Html;
-//use yii\bootstrap\ActiveForm;
-//use yii\captcha\Captcha;
-//use phpnt\yandexMap\YandexMaps;
-
-
 
 $title = 'Галерея';
 $this->title = title($title);
-
-/**/
-
-
 $this->params['breadcrumbs'][] = $title;
+
+
+Yii::$app->view->registerCssFile('/assets/css/slick/slick.css'); 
+Yii::$app->view->registerCssFile('/assets/css/slick/slick-lightbox.css'); 
+Yii::$app->view->registerCssFile('/assets/css/slick/slick-theme.css'); 
+
+
 ?>
    
 <h1 class="text-center"><?= Html::encode($title) ?></h1>
@@ -55,9 +53,7 @@ if ($dir = opendir('images/gallery-slider/')) {
 <?php 
 $this->registerJs(<<<JS
 
-
-
-      jQuery('.gallery-slider').slick({
+ jQuery('.gallery-slider').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 3,
@@ -102,13 +98,10 @@ responsive: [
 jQuery('.gallery-slider').slickLightbox({
   itemSelector        : 'a',
   navigateByKeyboard  : true
-});
+}).fadeTo(1200,1);
 JS
 , yii\web\View::POS_READY); 
 
 
 Yii::$app->view->registerJsFile('/assets/js/slick.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
 Yii::$app->view->registerJsFile('/assets/js/slick-lightbox.js',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick/slick.css',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick/slick-lightbox.css',  ['depends' => 'yii\web\JqueryAsset']); 
-Yii::$app->view->registerCssFile('/assets/css/slick/slick-theme.css',  ['depends' => 'frontend\assets\AppAsset']); 
