@@ -371,6 +371,7 @@
     margin-right: auto;
     clear: both;
     bottom: -10px;
+    text-shadow: 2px 0px 3px #d7d3d3;
 }
 @-webkit-keyframes fadeInUp {
     from {
