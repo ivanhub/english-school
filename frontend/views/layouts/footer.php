@@ -152,7 +152,7 @@ div.className = "greenlinebot";
         data: formData,
         success: function (result) {
 
-if (typeof window.yaCounter43279694 != 'undefined') {  yaCounter43279694.reachGoal("clickpb123") }
+if (typeof window.yaCounter46222497 != 'undefined') {  yaCounter46222497.reachGoal("clickpb123") }
 
           if (typeof ga == 'function') { ga('send', 'event', 'forma', 'ok');  }
      
@@ -214,7 +214,7 @@ if ($_SERVER['HTTP_HOST']!=="english.loc") { ?>
 
 <script type="text/javascript"> 
 var host = window.location.hostname;
-if (host != "front.loc")
+if (host != "english.loc")
 {
 // Google.Analytics counter
 //!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-93157723-1","auto"),ga("send","pageview");
@@ -255,12 +255,12 @@ var yaParams = {ip: "<? echo $_SERVER['REMOTE_ADDR'];?>", agent: "<? echo $_SERV
 In your html page, add the snippet and call
 goog_report_conversion when someone clicks on the
 phone number link or button. -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   /* <![CDATA[ */
   goog_snippet_vars = function() {
     var w = window;
-    w.google_conversion_id = 1014455957;
-    w.google_conversion_label = "aMPBCNLzkG8Qlb3d4wM";
+    w.google_conversion_id = ;
+    w.google_conversion_label = "";
     w.google_remarketing_only = false;
   }
   // DO NOT CHANGE THE CODE BELOW.
@@ -278,8 +278,8 @@ phone number link or button. -->
     conv_handler(opt);
   }
 }
-/* ]]> */
-</script>
-<script type="text/javascript"  src="//www.googleadservices.com/pagead/conversion_async.js"></script>';
+/* ]]> */ -->
+<!-- </script>
+<script type="text/javascript"  src="//www.googleadservices.com/pagead/conversion_async.js"></script> -->
 
 <?php } ?>
