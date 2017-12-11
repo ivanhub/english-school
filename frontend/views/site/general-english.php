@@ -55,7 +55,7 @@ echo Freetest::widget(['link'=> '']);
 <h5 class=" text-center hideme h5style" data-ros="fadeInUp"   data-options="infinite:false;animationClass:animated;duration: 500;callback:;"><b>Общий английский</b></h5> -->
 
 
-<p style="text-indent:50px"><span style="font-weight:bold">Центр иностранных языков «Академия»</span> приглашает на занятия по многоуровневым программам английского языка для взрослых. 
+<p style="text-indent:50px" data-aos="zoom-out" data-aos-duration="600"><span style="font-weight:bold">Центр иностранных языков «Академия»</span> приглашает на занятия по многоуровневым программам английского языка для взрослых. 
     Учебная программа разработана с учетом уровня владения английским языком и подбирается после прохождения 
 <?=         Html::a( 'БЕСПЛАТНОГО тестирования', $url = null, $options = [
     // other options
@@ -72,7 +72,7 @@ echo Freetest::widget(['link'=> '']);
 
 
     <div class="hidden-xs"><br/></div>
-<div class="row rowm flex-d">
+<div class="row rowm flex-d"  data-aos="fade-up-right"  data-aos-offset="70" data-aos-duration="600" data-aos-delay="500">
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
@@ -84,6 +84,7 @@ echo Freetest::widget(['link'=> '']);
 </a>
 </div>
 </div>
+
 
 <div class="col-md-7 col-lg-8 col-xs-12">
 
@@ -97,7 +98,7 @@ echo Freetest::widget(['link'=> '']);
 
 
     <div class="hidden-xs"><br/></div>
-<div class="row rowm flex-d">
+<div class="row rowm flex-d"  data-aos="fade-up-left"  data-aos-offset="70">
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
@@ -120,7 +121,7 @@ echo Freetest::widget(['link'=> '']);
 
 
     <div class="hidden-xs"><br/></div>
-<div class="row rowm flex-d">
+<div class="row rowm flex-d"  data-aos="fade-up-right" >
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
@@ -144,7 +145,7 @@ echo Freetest::widget(['link'=> '']);
 
 
     <div class="hidden-xs"><br/></div>
-<div class="row rowm flex-d">
+<div class="row rowm flex-d"  data-aos="fade-up-left">
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
@@ -165,21 +166,21 @@ echo Freetest::widget(['link'=> '']);
 </div>
     <div><div class="hidden-xs"><br/><br/></div>
 <div class="linetire"></div>
-<h5 style="" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">Как проходит обучение</h5>  
+<h5 style="" class="text-center animated h5style"  data-aos="flInX" data-aos-duration="2500" >Как проходит обучение</h5>  
  <ul class=" preimul2 lr10 gal text-justify">
- <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Тестирование с методистом для определения уровня владения языком <span style="color:green;font-weight:bold">БЕСПЛАТНО</span>.</li>
- <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Шесть месяцев увлекательных занятий с высококвалифицированными преподавателями.</li>
- <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Результат – Вы говорите по-английски легко 
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;"   data-aos="fade-in" data-aos-duration="1000" data-aos-offset="100">Тестирование с методистом для определения уровня владения языком <span style="color:green;font-weight:bold">БЕСПЛАТНО</span>.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100"type="">Шесть месяцев увлекательных занятий с высококвалифицированными преподавателями.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="250" data-aos-offset="100">Результат – Вы говорите по-английски легко 
  и свободно.</li>
- <li style="font-size:115%;text-indent:50px"><br/><p>Обучение английскому для взрослых направлено на развитие всех аспектов языка: говорение, чтение, письмо, восприятие речи на слух. Вы сможете свободно общаться, путешествовать, сдать международные экзамены, больше зарабатывать. На наших занятиях говорите Вы, а не преподаватель.</p>
+ <li style="font-size:115%;text-indent:50px" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" ><br/><p>Обучение английскому для взрослых направлено на развитие всех аспектов языка: говорение, чтение, письмо, восприятие речи на слух. Вы сможете свободно общаться, путешествовать, сдать международные экзамены, больше зарабатывать. На наших занятиях говорите Вы, а не преподаватель.</p>
  </li>
  </ul>
 
 
 
-<h5 class="poryadok green text-center h5style" style="padding-bottom:15px;padding-top:0" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
+<h5 class="poryadok green text-center h5style animated" style="padding-bottom:15px;padding-top:0" data-aos="anim-documents" data-aos-duration="900" data-aos-delay="100">
 Порядок зачисления в группы</h5>
-<div class="block-poryadok lr10 preimul2" style="font-size:110%">
+<div class="block-poryadok lr10 preimul2" style="font-size:110%" data-aos="flip-down" data-aos-duration="600" >
 <p>1.  &nbsp;&nbsp;Запись на <span style="color:green;font-weight:600">БЕСПЛАТНОЕ</span> тестирование по телефону <b>255-69-99</b>.</p>
 <p>2.  &nbsp;&nbsp;Заполнение заявления на обучение с указанием удобного времени и дней занятий.</p>
 <p>3.  &nbsp;&nbsp;Оплата курса (помесячно по системе предоплаты или полностью со скидкой в 10%).</p>
@@ -189,9 +190,10 @@ echo Freetest::widget(['link'=> '']);
     <div class="hidden-xs"><br/></div> </div>
 <div class="linetire"></div>
 <br/>
+<div data-aos="zoom-out-up">
 <h5 class=" text-center" style="font-size:28px;padding-bottom:15px;margin-top:-10px;font-weight:bold" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Расписание занятий</h5>
-<table cellspacing="0" cellpadding="0" border="0" class="timetable  table-responsive" align="center"    data-ros="fadeIn"   data-options="delay:200;infinite:false;animationClass:animated;duration:1200;callback:;">
+<table cellspacing="0" cellpadding="0" border="0" class="timetable  table-responsive" align="center"  data-ros="fadeIn"   data-options="delay:200;infinite:false;animationClass:animated;duration:1200;callback:;">
     <thead>
         <tr>
             <th><p>Адрес&nbsp;учебного&nbsp;класса</p></th>
@@ -229,12 +231,13 @@ echo Freetest::widget(['link'=> '']);
 
     </tbody>
     </table>
+</div>
     <br/><br/>
 
 
 </div>
 <div class="linetire"></div>
-<div class="text-center leave-request leave-request-ge"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+<div class="text-center leave-request leave-request-ge" data-aos="zoom-out-down" data-aos-duration="500"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
  на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
  <?php    echo Html::a(
     'Оставить заявку',
@@ -250,15 +253,13 @@ echo Freetest::widget(['link'=> '']);
 
 
 <?php 
-Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']);
+//Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']);
 
 $this->registerJs(<<<JS
 
-
-
 window.addEventListener("load", function() {
-
-ros.init();
+         AOS.init();
+         //ros.init();
 });
 
 

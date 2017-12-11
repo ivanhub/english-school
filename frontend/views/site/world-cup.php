@@ -43,8 +43,10 @@ $this->params['breadcrumbs'][] = $title;
 <!-- 
 <h5 class=" text-center" style="font-size:28px;padding-bottom:15px;margin-top:-10px;" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Подготовка к Чемпионату Мира по футболу</h5> -->
-<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 flex-center"><img src="/images/en/worldcup.jpg" class="good-img"></div>
-<div class="visible-xs"><p>&nbsp;</p></div><p class="indent50">Еще одна возможность <b>«подтянуть»</b> язык и снять языковой барьер – это <b>Английский клуб</b>, проводимый нашей школой каждые выходные.
+<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 flex-center"  data-aos="flip-left"><img src="/images/en/worldcup.jpg" class="good-img"></div>
+<div class="visible-xs"><p>&nbsp;</p></div>
+<div data-aos="fade-in" data-aos-duration="900">
+<p class="indent50 " >Еще одна возможность <b>«подтянуть»</b> язык и снять языковой барьер – это <b>Английский клуб</b>, проводимый нашей школой каждые выходные.
  Принимая участие в интересных, разнообразных, познавательных формах общения Вы незаметно шаг за шагом станете:</p>
  <ul class=" preimul2  gal text-justify">
  <li style="text-indent:30px;font-size:100%;animation-duration: 1s; animation-delay: 0;">Грамотно выражать свои мысли на английском языке.</li>
@@ -52,30 +54,30 @@ $this->params['breadcrumbs'][] = $title;
  <li style="text-indent:30px;font-size:100%;animation-duration: 1s; animation-delay: .7s;">Лучше понимать специфику кросс-культурного общения.</li>
  <li style="text-indent:30px;font-size:100%;animation-duration: 1s; animation-delay: 1.1s;padding-top:15px">Все это позволит Вам уверенно чувствовать себя в английском языке, что даст возможность беспрепятственно
   общаться с иностранными гостями на <b>Чемпионате Мира по футболу.</b></li>
- </ul>
- <p class="indent50" style="margin-top:-20px">
+ </ul></div>
+ <p class="indent50" style="margin-top:-20px" data-aos="fade-in" data-aos-duration="900">
   Работа клуба проходит по специальным методическим разработкам преподавателей нашей школы, содержащим лексический минимум, популярные английские идиомы, стимулирующие английскую речь. 
   Обязательным элементом <b>Английского клуба</b> является просмотр видеофрагмента из британского или американского кинематографа с предварительным изучением новых слов и выражений и увлекательным 
   и заинтересованным обсуждением после просмотра.
  </p>
- <p class="indent50">
+ <p class="indent50" data-aos="fade-in" data-aos-duration="900">
 Необычна сама технология <strong>Английского клуба</strong>, которая делает возможным и интересным участие в ней любого человека даже при достаточно раннем уровне владения иностранным языком.
  </p>
-<p class="indent50">Организуемый нами телемост с гостями из <b>США, Великобритании, Канады</b> позволит не только улучшить английский язык, но и получить много новой интересной страноведческой и кросскультурной информации.</p>
+<p class="indent50" data-aos="fade-in" data-aos-duration="900">Организуемый нами телемост с гостями из <b>США, Великобритании, Канады</b> позволит не только улучшить английский язык, но и получить много новой интересной страноведческой и кросскультурной информации.</p>
 <div class="row">
-    <p align="center" class="poryadok green" style="padding-top:25px;padding-bottom:15px">Темы английского клуба</p>
-<div class="col-sm-4 text-center"><img src="/images/en/worldcup2.png" class="doyou3 eclub-pic1" width="82%"></div>
+    <p align="center" class="poryadok green animated" style="padding-top:25px;padding-bottom:15px"  data-aos="flInX" data-aos-duration="2500">Темы английского клуба</p>
+<div class="col-sm-4 text-center" data-aos="fade-left" data-aos-duration="700" ><img src="/images/en/worldcup2.png" class="doyou3 eclub-pic1" width="82%"></div>
 <div class="col-sm-4">
-    <div class="centertext-block text-center">
+    <div class="centertext-block text-center"  data-aos="zoom-in" data-aos-duration="700" >
 <p><em style="font-size:81%">11.11.2017<br/>Countries and cities in the world</em></p>
 <p><em style="font-size:81%">18.11.2017<br/>What makes an ideal holiday?</em></p>
     <p><em style="font-size:81%">25.11.2017<br/>Talking politics</em></p></div>
 </div>
 
-<div class="col-sm-4 text-center"><img src="/images/en/worldcup3.png" class="img-responsive eclub-pic2"></div>
+<div class="col-sm-4 text-center"  data-aos="fade-right" data-aos-duration="700" ><img src="/images/en/worldcup3.png" class="img-responsive eclub-pic2"></div>
 </div>
 <br/>
-<p style="text-align:center;color:green;font-weight:700">Стоимость 350 руб. Начало заседания Английского клуба – 12.00</p>
+<p style="text-align:center;color:green;font-weight:700" data-aos="fade-up" data-aos-offset="80">Стоимость 350 руб. Начало заседания Английского клуба – 12.00</p>
 
 <br/>
 
@@ -83,7 +85,7 @@ $this->params['breadcrumbs'][] = $title;
 
 </div>
 <div class="linetire"></div>
-<div class="text-center leave-request leave-request-wc"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+<div class="text-center leave-request leave-request-wc"  data-aos="fadeIn"><div data-aos="zoom-out-down" data-aos-duration="500" data-aos-delay="300"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
  на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
  <?php    echo Html::a(
     'Оставить заявку',
@@ -94,4 +96,24 @@ $this->params['breadcrumbs'][] = $title;
     'class' => 'signup'
   ]
     ); ?>
-<p>&nbsp;</p><br/></div></div>
+<p>&nbsp;</p><br/></div></div></div>
+
+
+
+
+
+<?php
+//Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
+
+$this->registerJs(<<<JS
+
+AOS.init({
+      //offset: 200,
+      duration: 600,
+     // easing: 'ease-in-sine',
+      //delay: 20,
+    });
+
+
+JS
+, yii\web\View::POS_READY); 

@@ -119,7 +119,7 @@ $this->registerMetaTag([
 
 
 <br> 
-<div class="mtwrap">
+<div class="mtwrap" data-aos="zoom-in-up">
  <p class="m50 mtext4" style="padding-left:6%;padding-right:6%;line-height:1.15;font-size:160%">Преподаватели нашей школы имеют международные сертификаты TKT и CELTA, огромный опыт работы и стажировки за рубежом.</p>
  
 <p class="mtext2" style="clear:both;text-align:justify">
@@ -151,13 +151,13 @@ $this->registerMetaTag([
 
 <br/><br/>
 <div>
- <h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="anim-documents"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
+ <h5 style="padding-top:0;margin-top:-10px" class="text-center h5style animated" data-aos="anim-documents" data-aos-duration="2500">
  Почему выбирают нас?</h5>  <br/>
  <ul class=" preimul2 lr10 gal text-justify">
- <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Высококвалифицированные преподаватели, проходившие стажировки в разных странах мира.</li>
- <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Высокое качество обучения.</li>
- <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Гибкая система скидок.</li>
- <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;">Постоянный мониторинг качества Вашего обучения.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;" data-aos="fade-right" >Высококвалифицированные преподаватели, проходившие стажировки в разных странах мира.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;" data-aos="fade-right" data-aos-delay="300">Высокое качество обучения.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;" data-aos="fade-right" data-aos-delay="600">Гибкая система скидок.</li>
+ <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;" data-aos="fade-right" data-aos-delay="900">Постоянный мониторинг качества Вашего обучения.</li>
  <li></li>
  </ul>
 
@@ -168,10 +168,10 @@ $this->registerMetaTag([
 <br/>
 
 <div class="container-fluid">
- <h5 style="padding-top:0;margin-top:0px" class="text-center hideme h5style" data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
+ <h5 style="padding-top:0;margin-top:0px" class="text-center animated h5style" data-aos="flInX"  data-aos-duration="2500">
  Ведущие преподаватели центра</h5>
-<div class="row vert-align">
-<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+<div class="row vert-align" data-aos="flip-down">
+<div class="col-xs-12 col-sm-6 col-md-3 text-center" >
 <img src="/images/en/prepod7.png" width="200">
 </div>
 <div class="col-xs-12 col-sm-6 col-md-9 prepod1">
@@ -187,7 +187,7 @@ $this->registerMetaTag([
 <div class="linetire"></div>
 <br/>
 
-<div class="row vert-align">
+<div class="row vert-align"  data-aos="flip-up">
   <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-3 col-md-push-9 text-center ">
 <img src="/images/en/prepod10.png" width="200">
 </div>
@@ -225,10 +225,10 @@ $this->registerMetaTag([
 
 
 <div id="pricing-table" class="clear">
-<h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="fadeInN"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
+<h5 style="padding-top:0;margin-top:-10px" class="text-center animated h5style" data-aos="fadeInN" data-aos-duration="2500">
 Выберите интересующий Вас курс обучения</h5>  <br/>
 <div class="container-fluid width80 ">
-    <div class="col-md-4 col-xs-12">
+    <div class="col-md-4 col-xs-12"  data-aos="fade-right">
     <div class="plan ">
         <h3>Курс в группе<br/>3-4 человека<span><i>3800 ₽</i><br><i>3230 ₽</i></span></h3>
     
@@ -249,7 +249,7 @@ $this->registerMetaTag([
         </ul> 
         </div>
     </div>
-    <div class="col-md-4 col-xs-12">
+    <div class="col-md-4 col-xs-12" data-aos="fade-up">
     <div class="plan" >
         <h3>Курс в группе<br/>5-8 человек<span><i>3800 ₽</i><br><i>3230 ₽</i></span></h3>
         <?php    echo Html::a(
@@ -269,7 +269,7 @@ $this->registerMetaTag([
         </ul>    
     </div>
     </div>
-    <div class="col-md-4 col-xs-12">
+    <div class="col-md-4 col-xs-12"  data-aos="fade-left">
     <div class="plan">
         <h3>Курс "Индивидуальный" <span><i>6000 ₽</i><br><i>5100 ₽</i></span></h3>
     <?php    echo Html::a(
@@ -360,7 +360,7 @@ $this->registerMetaTag([
 </div>
 
 <div class="linetire"></div>
-<div class="text-center leave-request leave-request-index"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+<div class="text-center leave-request leave-request-index"  data-aos="zoom-out-down" data-aos-duration="500"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
  на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
  <?php    echo Html::a(
     'Оставить заявку',
@@ -458,7 +458,7 @@ JS
 
 
 <?php 
-Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']);
+//Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']);
 
 $this->registerJs(<<<JS
 
@@ -467,7 +467,12 @@ $this->registerJs(<<<JS
 
 window.addEventListener("load", function() {
 
-ros.init();
+AOS.init({
+      //offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      //delay: 20,
+    });
 
 
 

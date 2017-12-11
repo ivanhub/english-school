@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $title;
 
 <!--  Html::encode($this->title) -->
 
-<div class="site-about-us siteblock">
+<div class="site-about-us siteblock" data-aos="fade-in">
    
 
  <div class="row-about">
@@ -1250,3 +1250,11 @@ $this->params['breadcrumbs'][] = $title;
   </div>
 </div>
 <br/><br/>
+
+<script>
+window.addEventListener("load", function() {
+         AOS.init();
+         //ros.init();
+});
+
+</script>

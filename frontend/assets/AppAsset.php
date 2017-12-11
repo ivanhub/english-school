@@ -32,9 +32,10 @@ class AppAsset extends AssetBundle
         /*'assets/css/rwd-table.css',*/
         //'assets/css/animate.css',
         //'assets/css/animation.css',
+        'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css'
     ];
     public $js = [
- // 'assets/js/cssrefresh.js'
+  'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js'
     ];
     public $depends = [
   //      'yii\web\YiiAsset',

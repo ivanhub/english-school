@@ -39,24 +39,25 @@ $this->params['breadcrumbs'][] = $title;
 
 <br/><!-- <h5 class="poryadok green text-center h5style" style="padding-bottom:15px;padding-top:0" data-ros="anim-documents"   data-options="delay:100;infinite:false;animationClass:animated;duration: 900;callback:;">
 Английский для водителей</h5> -->
-<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 flex-center"><img src="/images/en/taxi-1.jpg" class="taxi-img"></div>
+<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 flex-center"  data-aos="flip-left"><img src="/images/en/taxi-1.jpg" class="taxi-img"></div>
 <div class="visible-xs"><p>&nbsp;</p></div>
-<p class="indent50"><b class= "green">Центр иностранных языков «Росакадемия»</b> - единственная в регионе школа иностранных языков, осуществляющая языковую подготовку водителей для работы на 
+
+<p class="indent50" data-aos="fade-in" data-aos-duration="900"><b class= "green">Центр иностранных языков «Росакадемия»</b> - единственная в регионе школа иностранных языков, осуществляющая языковую подготовку водителей для работы на 
   <strong>Чемпионате Мира по футболу 2018 года.</strong> Специально разработанная программа позволит в кратчайший срок освоить базовые приемы и принципы общения с иностранными гостями. Используя новую уникальную методику обучения, 
   нам удается разговорить даже самых неразговорчивых! Хотите встречать гостей на Чемпионате Мира по футболу и поддержать с ними диалог, тогда записывайтесь на
 <b class="green">курс английского языка для водителей.</b>
 </p>
-<p class="indent50" style="padding-top:8px"><b class= "green">Цель программы</b> – за достаточно короткий срок обеспечить качественное общение на английском языке в соответствии с поставленной задачей клиента.</p>
-<p class="indent50 green" style="font-weight:bold;padding-top:8px">Задачи обучения:</p>
-<div class="indent50"><img src="/images/en/taxi-yes.jpg" style="float:right;border-radius: 20% 35%;margin-top: 10px; padding: 7px 7px 7px 7px">
-
+<p class="indent50" style="padding-top:8px" data-aos="fade-in" data-aos-duration="900"><b class= "green">Цель программы</b> – за достаточно короткий срок обеспечить качественное общение на английском языке в соответствии с поставленной задачей клиента.</p>
+<p class="indent50 green" style="font-weight:bold;padding-top:8px" data-aos="fade-in" data-aos-duration="900">Задачи обучения:</p>
+<div class="indent50" data-aos="fade-in" data-aos-duration="900">
+<img src="/images/en/taxi-yes.jpg" style="float:right;border-radius: 20% 35%;margin-top: 10px; padding: 7px 7px 7px 7px" data-aos="zoom-in-down" data-aos-duration="600" data-aos-delay="300">
 <p style="text-indent:50px">1.  Определить уровень владения языком.</p>
 <p style="text-indent:50px">2.  В соответствии с уровнем подобрать оптимальную программу обучению.</p>
 <p style="text-indent:50px">3.  Контролировать процесс и качество обучения.</p>
 <p style="text-indent:50px">4.  Выдать сертификат, подтверждающий владение языком на определенном уровне.</p>
  </div>
 
-   <p align="center" style="font-size:165%;margin-top:35px"> Запись на <span class="green" style="font-weight:bold">БЕСПЛАТНОЕ</span> тестирование по телефону <b class='green'>255-69-99</b></p>
+   <p align="center" class="animated h5style" style="font-size:165%;margin-top:35px"  data-aos="flInX"  data-aos-duration="2700" > Запись на <span class="green" style="font-weight:bold">БЕСПЛАТНОЕ</span> тестирование по телефону <b class='green'>255-69-99</b></p>
 <br/><br/>
         </div>    
 
@@ -68,7 +69,7 @@ $this->params['breadcrumbs'][] = $title;
 <!-- <div class="wrapetap"></div> -->
 
 <div class="linetire"></div>
-<div class="text-center leave-request leave-request-drivers"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+<div class="text-center leave-request leave-request-drivers" data-aos="fadeIn"><div data-aos="zoom-out-down" data-aos-duration="500" data-aos-delay="300"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
  на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
  <?php    echo Html::a(
     'Оставить заявку',
@@ -79,7 +80,7 @@ $this->params['breadcrumbs'][] = $title;
     'class' => 'signup'
   ]
     ); ?>
-<p>&nbsp;</p><br/></div></div>
+<p>&nbsp;</p><br/></div></div></div>
 
 
 
@@ -213,11 +214,16 @@ JS
 
 
 <?php
-Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
+//Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
 
 $this->registerJs(<<<JS
 
-ros.init(); 
+AOS.init({
+      //offset: 200,
+      duration: 600,
+     // easing: 'ease-in-sine',
+      //delay: 20,
+    });
 
 //$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
 

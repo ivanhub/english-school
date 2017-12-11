@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $title;
   <div class="hidden-xs"><br/></div>
 
 <br/><div class="container-fluid doyou-block">
-<div class="row vertical-align">
+<div class="row vertical-align"  data-aos="flip-right">
 <div class="col-sm-6 col-xs-12 text-center ">
 <img src="/images/en/chin-11.jpg" class="img-responsive doyou" ></div>
 <div class="col-sm-6 col-xs-12 text-left ">
@@ -41,7 +41,7 @@ $this->params['breadcrumbs'][] = $title;
 </div><br/><br/>
 <div class="linetire"></div>
 <br/><br/>
-<div class="row vertical-align">
+<div class="row vertical-align"  data-aos="flip-right">
 <div class="col-sm-6 col-xs-12 col-sm-push-6 text-center ">
 <img src="/images/en/chin-22.jpg" class="img-responsive doyou2 doyou" >
 </div>
@@ -53,7 +53,7 @@ $this->params['breadcrumbs'][] = $title;
 </div><br/><br/>
 <div class="linetire"></div>
 <br/><br/>
-<div class="row vertical-align">
+<div class="row vertical-align"  data-aos="flip-left">
 <div class="col-sm-6 col-xs-12 text-center ">
 <img src="/images/en/chin-3.jpg" class="img-responsive doyou" >
 </div>
@@ -69,9 +69,9 @@ $this->params['breadcrumbs'][] = $title;
 <div class="linetire"></div>
 <br/><br/>
 <div class="siteblock">
-  <h5 style="padding-top:0;margin-top:-10px" class="text-center hideme h5style" data-ros="anim-documents"   data-options="infinite:false;animationClass:animated;duration: 2500;callback:;">
+  <h5 style="padding-top:0;margin-top:-10px" class="text-center animated h5style" data-aos="anim-documents"  data-aos-duration="2500">
 Почему выбирают нас при изучении китайского языка?</h5> <br/>
- <ul class=" preimul2 lr10 gal4 text-justify" style="width:90%">
+ <ul class=" preimul2 lr10 gal4 text-justify" data-aos="fade-up-left" data-aos-delay="250">
  <li style="font-size:115%;animation-duration: 1s; animation-delay: 0;">Курсы китайского языка построены на современной методике, учитывающей различные потребности слушателей.</li>
  <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;">Мы работаем на результат, используя индивидуальный подход к каждому слушателю.</li>
  <li style="font-size:115%;animation-duration: 1s; animation-delay: 1s;">Интересная подача материала позволяет сделать занятия увлекательными и эффективными.</li>
@@ -82,7 +82,7 @@ $this->params['breadcrumbs'][] = $title;
 </div>
 
 <div class="linetire"></div>
-<div class="text-center leave-request leave-request-chinese"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+<div class="text-center leave-request leave-request-chinese"  data-aos="zoom-out-down" data-aos-duration="500" data-aos-delay="300"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
  на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
  <?php    echo Html::a(
     'Оставить заявку',
@@ -100,11 +100,16 @@ $this->params['breadcrumbs'][] = $title;
 
 
 <?php
-Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
+//Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
 
 $this->registerJs(<<<JS
 
-ros.init(); 
+AOS.init({
+      //offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      //delay: 20,
+    });
 
 //$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
 

@@ -38,24 +38,25 @@ echo Freetest::widget(['link'=> '']);
 <h1 class="text-center"><?= Html::encode($title) ?></h1>
 <br/>
 
-<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 flex-center"><img src="/images/en/corporate.jpg" class="taxi-img" style="width:80%"></div>
+<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 flex-center"  data-aos="flip-left"><img src="/images/en/corporate.jpg" class="taxi-img" style="width:80%"></div>
 <div class="visible-xs"><p>&nbsp;</p></div>
-<p class="indent50">Мир постоянно меняется, каждый день приходится сталкиваться с новыми вызовами. Сегодня вследствие открытости границ, международных конференций и семинаров, работы с зарубежными партнерами успешное ведение бизнеса невозможно без знания иностранных языков. Используемая коммуникативная методика и самые современные учебные пособия позволят в кратчайшие сроки не только повысить уровень иностранного языка сотрудников Вашей компании, но и позволят говорить на иностранном языке легко и свободно.</p>
+<div data-aos="fade-in" data-aos-duration="900">
+<p class="indent50" >Мир постоянно меняется, каждый день приходится сталкиваться с новыми вызовами. Сегодня вследствие открытости границ, международных конференций и семинаров, работы с зарубежными партнерами успешное ведение бизнеса невозможно без знания иностранных языков. Используемая коммуникативная методика и самые современные учебные пособия позволят в кратчайшие сроки не только повысить уровень иностранного языка сотрудников Вашей компании, но и позволят говорить на иностранном языке легко и свободно.</p>
 <p>Перед началом занятий проводится <span style="color:green;font-weight:600">БЕСПЛАТНОЕ тестирование</span>. Занятия могут проходить как в аудиториях нашей школы, так и в офисе заказчика.</p>
 <br/>
-
+</div>
 
 
 <div class="linetire"></div><br/>
 <div class="forsafari">
-<div class="row text-center"  data-ros="flipInX"   data-options="infinite:false;animationClass:animated;duration:1500;callback:;" >
+<div class="row text-center animated"  data-aos="flInX"  data-aos-duration="1500" >
   <div class=" col-sm-2 text-center vc"><img src="../../images/en/time1.png" alt="Теория. Автошкола в Самаре" title="Теория: 134 ч." width="100"></div>
   <div class="col-sm-12 centerxs vc "><p><b>Экономия времени</b></p>
   <p>Преподаватели нашей школы могут проводить занятия в офисе заказчика, что позволяет сэкономить время и силы на дорогу, максимально эффективно использовав его для обучения.</p>
 <br/>
    </div>
  </div></div><div class="forsafari">
-<div class="row text-center "  data-ros="flipInX"   data-options="delay:100;infinite:false;animationClass:animated;duration:1500;callback:;" >
+<div class="row text-center animated" data-aos="flInX"  data-aos-duration="1500" >
   <div class="col-sm-2 text-center vc"><img src="../../images/en/lamp.png" alt="Вождение. Автошкола в Самаре" title="Вождение: 18 ч"  width="100"></div>
   <div class="col-sm-12 centerxs vc"><p><b>Новая авторская методика</b></p>
   <p>Занятия проводятся по уникальной авторской методике, позволяющей в кратчайшие сроки повысить уровень владения языком и грамотно выражать свои мысли на иностранном языке</p>
@@ -64,26 +65,27 @@ echo Freetest::widget(['link'=> '']);
   </div></div>
 
 <div class="forsafari">
-<div class="row text-center"  data-ros="flipInX"   data-options="delay:300;infinite:false;animationClass:animated;duration:1500;callback:;" >
+<div class="row text-center animated"   data-aos="flInX"  data-aos-duration="1500" >
 <div class="col-sm-2 text-center vc"><img src="../../images/en/handshake.png" alt="Экзамен в ГИБДД. Автошкола в Самаре" title="Экзамен в ГИБДД"  width="100"></div>
 <div class="col-sm-12 centerxs vc"> <p><b>Повышение лояльности сотрудников</b></p> <p>Многие в современном мире хотят изучать иностранный язык. Сегодня особой популярностью пользуются китайский, испанский, итальянский языки. В то же время первенство все-таки занимает английский язык. Далеко не каждая компания готова платить за обучение своих сотрудников. Включив изучение английского языка в социальный пакет, Вы получите по-настоящему лояльных сотрудников, готовых достигать новых результатов.</p>
 <br/>
 </div>
   </div></div>
 <div class="forsafari">
-<div class="row text-center"  data-ros="flipInX"   data-options="delay:200;infinite:false;animationClass:animated;duration:1500;callback:;" >
+<div class="row text-center animated"   data-aos="flInX"  data-aos-duration="1500" >
   <div class="col-sm-2 text-center vc"><img src="../../images/en/galka.png" alt="Срок обучения. Автошкола в Самаре" title="Срок обучения: 3 мес."  width="100"></div>
   <div class="col-sm-12 centerxs vc"><p><b>Индивидуальный подход</b></p> <p>В зависимости от специфики деятельности Вашей компании мы разработаем индивидуальную программу с необходимой лексикой, дадим рекомендации по изучению иностранного языка.</p></div>
   <br/>
   </div></div>
 <br/>
 
-<p>Ежемесячно заказчик получает отчет о посещаемости слушателей курсов, отчет об уровне освоения учебной программы. По окончании уровня обучения слушателям выдаются сертификаты с указанием количества прослушанных часов и достигнутого уровня владения иностранным языком.</p>
+<p  data-aos="fade-up"  data-aos-duration="1500">Ежемесячно заказчик получает отчет о посещаемости слушателей курсов, отчет об уровне освоения учебной программы. По окончании уровня обучения слушателям выдаются сертификаты с указанием количества прослушанных часов и достигнутого уровня владения иностранным языком.</p>
 <br/><br/>
 </div>
 
 <div class="linetire"></div>
-<div class="text-center leave-request leave-request-ct"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
+<div class="text-center leave-request leave-request-ct" data-aos="fadeIn">
+  <div data-aos="zoom-in-down" data-aos-duration="500" data-aos-delay="300"><h5>Остались вопросы?</h5><div id="signup-leave" style="padding: 0px 60px 0px 60px;"><h3>Оставьте заявку и Мы свяжемся с Вами в ближайшее время, чтобы ответить
  на все интересующие Вас вопросы или позвоните по телефону <strong>+7 (846) 255-69-99</strong>.</h3>
  <?php    echo Html::a(
     'Оставить заявку',
@@ -94,16 +96,24 @@ echo Freetest::widget(['link'=> '']);
     'class' => 'signup'
   ]
     ); ?>
-<p>&nbsp;</p><br/></div></div>
+<p>&nbsp;</p><br/></div></div></div>
+
 
 
 
 <?php
-Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
+//Yii::$app->view->registerJsFile('/assets/js/jquery.ros.min.js',  ['depends' => 'yii\web\JqueryAsset']); 
 
 $this->registerJs(<<<JS
 
-ros.init(); 
+AOS.init({
+      //offset: 200,
+      duration: 600,
+     // easing: 'ease-in-sine',
+      //delay: 20,
+    });
+
+
 
 //$(".flash-success").animate({opacity: 1.0}, 1000).fadeOut("slow");
 

@@ -31,7 +31,7 @@ $this->params['breadcrumbs'][] = $title;
 
 <div class="site-contact container">
    
-    <div class="row">
+    <div class="row" data-aos="fade-in">
     <h1 class="text-center"><?= Html::encode($title) ?></h1>
     <div class="col-md-6 col-sm-6 cont">
  
@@ -86,8 +86,12 @@ $this->params['breadcrumbs'][] = $title;
 
 
  <script src="//api-maps.yandex.ru/2.1/?mode=debug&lang=ru_RU" type="text/javascript"></script>
+<script>
+window.addEventListener("load", function() {
+         AOS.init();
+         //ros.init();
+});
 
+</script>
 
 <?php Yii::$app->view->registerJsFile('/assets/js/map.js',  ['depends' => 'yii\web\JqueryAsset']); ?>
-
-
