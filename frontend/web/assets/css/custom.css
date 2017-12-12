@@ -2694,10 +2694,11 @@ tr {
     opacity: .30;
 }
 .leave-request-ct:after {
-    background: url('/images/en/corporate-request.jpg');
+    background: url('/images/en/corporate-request.jpg') 40% 40%;
     background-size: cover;
     opacity: .3;
 }
+
 
 .leave-request-wc:after {
     background: url('/images/en/fifa.jpg');
