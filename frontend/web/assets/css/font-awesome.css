@@ -19,6 +19,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.fa-cx {
+  font-size: 1.8em;
+  color:#fff;
+}
+button.navbar-toggle:not(.collapsed)[aria-expanded="true"] .fa-cx {opacity:.80}
 /* makes the font 33% larger relative to the icon container */
 /* Deprecated as of 4.4.0 */
 @-webkit-keyframes fa-spin {
@@ -60,4 +66,10 @@
 }
 .fa-graduation-cap:before {
   content: "\f19d";
+}
+
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
 }
