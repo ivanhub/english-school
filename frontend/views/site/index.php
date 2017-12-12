@@ -471,6 +471,7 @@ AOS.init({
       //offset: 200,
       duration: 600,
       easing: 'ease-in-sine',
+      //easing: 'ease-in-out-back'
       //delay: 20,
     });
 

@@ -41,7 +41,7 @@ $this->params['breadcrumbs'][] = $title;
 </div><br/><br/>
 <div class="linetire"></div>
 <br/><br/>
-<div class="row vertical-align"  data-aos="flip-right">
+<div class="row vertical-align"  data-aos="flip-right" >
 <div class="col-sm-6 col-xs-12 col-sm-push-6 text-center ">
 <img src="/images/en/chin-22.jpg" class="img-responsive doyou2 doyou" >
 </div>

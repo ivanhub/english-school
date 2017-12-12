@@ -49,14 +49,14 @@ echo Freetest::widget(['link'=> '']);
 
 <div class="linetire"></div><br/>
 <div class="forsafari">
-<div class="row text-center animated"  data-aos="flInX"  data-aos-duration="1500" >
+<div class="row text-center animated"  data-aos="flInX"  data-aos-duration="1500" data-aos-offset="150" >
   <div class=" col-sm-2 text-center vc"><img src="../../images/en/time1.png" alt="Теория. Автошкола в Самаре" title="Теория: 134 ч." width="100"></div>
   <div class="col-sm-12 centerxs vc "><p><b>Экономия времени</b></p>
   <p>Преподаватели нашей школы могут проводить занятия в офисе заказчика, что позволяет сэкономить время и силы на дорогу, максимально эффективно использовав его для обучения.</p>
 <br/>
    </div>
  </div></div><div class="forsafari">
-<div class="row text-center animated" data-aos="flInX"  data-aos-duration="1500" >
+<div class="row text-center animated" data-aos="flInX"  data-aos-duration="1500" data-aos-offset="150">
   <div class="col-sm-2 text-center vc"><img src="../../images/en/lamp.png" alt="Вождение. Автошкола в Самаре" title="Вождение: 18 ч"  width="100"></div>
   <div class="col-sm-12 centerxs vc"><p><b>Новая авторская методика</b></p>
   <p>Занятия проводятся по уникальной авторской методике, позволяющей в кратчайшие сроки повысить уровень владения языком и грамотно выражать свои мысли на иностранном языке</p>
@@ -65,14 +65,14 @@ echo Freetest::widget(['link'=> '']);
   </div></div>
 
 <div class="forsafari">
-<div class="row text-center animated"   data-aos="flInX"  data-aos-duration="1500" >
+<div class="row text-center animated"   data-aos="flInX"  data-aos-duration="1500" data-aos-offset="150">
 <div class="col-sm-2 text-center vc"><img src="../../images/en/handshake.png" alt="Экзамен в ГИБДД. Автошкола в Самаре" title="Экзамен в ГИБДД"  width="100"></div>
 <div class="col-sm-12 centerxs vc"> <p><b>Повышение лояльности сотрудников</b></p> <p>Многие в современном мире хотят изучать иностранный язык. Сегодня особой популярностью пользуются китайский, испанский, итальянский языки. В то же время первенство все-таки занимает английский язык. Далеко не каждая компания готова платить за обучение своих сотрудников. Включив изучение английского языка в социальный пакет, Вы получите по-настоящему лояльных сотрудников, готовых достигать новых результатов.</p>
 <br/>
 </div>
   </div></div>
 <div class="forsafari">
-<div class="row text-center animated"   data-aos="flInX"  data-aos-duration="1500" >
+<div class="row text-center animated"   data-aos="flInX"  data-aos-duration="1500" data-aos-offset="150">
   <div class="col-sm-2 text-center vc"><img src="../../images/en/galka.png" alt="Срок обучения. Автошкола в Самаре" title="Срок обучения: 3 мес."  width="100"></div>
   <div class="col-sm-12 centerxs vc"><p><b>Индивидуальный подход</b></p> <p>В зависимости от специфики деятельности Вашей компании мы разработаем индивидуальную программу с необходимой лексикой, дадим рекомендации по изучению иностранного языка.</p></div>
   <br/>

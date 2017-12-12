@@ -172,13 +172,13 @@ echo Freetest::widget(['link'=> '']);
  <li style="font-size:115%;animation-duration: 1s; animation-delay: .4s;" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="100"type="">Шесть месяцев увлекательных занятий с высококвалифицированными преподавателями.</li>
  <li style="font-size:115%;animation-duration: 1s; animation-delay: .7s;" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="250" data-aos-offset="100">Результат – Вы говорите по-английски легко 
  и свободно.</li>
- <li style="font-size:115%;text-indent:50px" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" ><br/><p>Обучение английскому для взрослых направлено на развитие всех аспектов языка: говорение, чтение, письмо, восприятие речи на слух. Вы сможете свободно общаться, путешествовать, сдать международные экзамены, больше зарабатывать. На наших занятиях говорите Вы, а не преподаватель.</p>
+ <li style="font-size:115%;text-indent:50px" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" data-aos-easing="ease-in-out-back"><br/><p>Обучение английскому для взрослых направлено на развитие всех аспектов языка: говорение, чтение, письмо, восприятие речи на слух. Вы сможете свободно общаться, путешествовать, сдать международные экзамены, больше зарабатывать. На наших занятиях говорите Вы, а не преподаватель.</p>
  </li>
  </ul>
 
 
 
-<h5 class="poryadok green text-center h5style animated" style="padding-bottom:15px;padding-top:0" data-aos="anim-documents" data-aos-duration="900" data-aos-delay="100">
+<h5 class="poryadok green text-center h5style animated" style="padding-bottom:15px;padding-top:0" data-aos="anim-documents" data-aos-duration="900" data-aos-delay="100" data-aos-easing="ease-in-out-back">
 Порядок зачисления в группы</h5>
 <div class="block-poryadok lr10 preimul2" style="font-size:110%" data-aos="flip-down" data-aos-duration="600" >
 <p>1.  &nbsp;&nbsp;Запись на <span style="color:green;font-weight:600">БЕСПЛАТНОЕ</span> тестирование по телефону <b>255-69-99</b>.</p>

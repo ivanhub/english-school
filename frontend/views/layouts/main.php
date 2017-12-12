@@ -50,7 +50,7 @@ ob_start();
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="font-src 'self' *.ros.academy fonts.gstatic.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' cdn.rawgit.com fonts.googleapis.com maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.rawgit.com www.googleadservices.com www.google-analytics.com mc.yandex.ru *.ros.academy www.google-analytics.com apis.google.com connect.facebook.net connect.ok.ru ajax.googleapis.com api-maps.yandex.ru">
+    <meta http-equiv="Content-Security-Policy" content="font-src 'self' *.ros.academy fonts.gstatic.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' use.resrc.it cdn.rawgit.com fonts.googleapis.com maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.rawgit.com use.resrc.it www.googleadservices.com www.google-analytics.com mc.yandex.ru *.ros.academy www.google-analytics.com apis.google.com connect.facebook.net connect.ok.ru ajax.googleapis.com api-maps.yandex.ru">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="cleartype" content="on"/>
     <!--[if IE]>
@@ -73,6 +73,7 @@ ob_start();
 </head>
 
 <body id="<?php echo $action; ?>">
+
 
 <?php $this->beginBody() ?>
 
@@ -378,7 +379,7 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 <script src="/assets/js/flowtype.js"></script>
 <script src="/assets/js/jquery.scalem.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
-//Yii::$app->view->registerJsFile('/assets/js/jquery.fittext.js',  ['depends' => 'yii\web\JqueryAsset']); -->
+//Yii::$app->view->registerJsFile('/assets/js/jquery.fittext.js',  ['depends' => 'yii\web\JqueryAsset']); <script src="/assets/js/respimage.min.js" async=""></script>-->
 
 </body>
 </html>

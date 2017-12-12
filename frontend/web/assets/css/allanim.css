@@ -854,3 +854,38 @@ opacity:0;
     visibility: visible !important;
 }
 
+
+
+
+[data-aos="anim1"] {
+  -webkit-transform: skewX(45deg);
+          transform: skewX(45deg);
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+
+[data-aos="anim1"].aos-animate {
+  -webkit-transform: skewX(0);
+          transform: skewX(0);
+  opacity: 1;
+}
+
+
+[data-aos="anim2"] {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+
+[data-aos="anim2"].aos-animate {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1;
+}
