@@ -192,7 +192,7 @@
 
 body {
     color: #333 !important;
-    overflow-x: hidden;
+    overflow: hidden;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }

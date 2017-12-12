@@ -69,9 +69,9 @@ $this->params['breadcrumbs'][] = $title;
 <div class="col-sm-4 text-center" data-aos="fade-left" data-aos-duration="700" ><img src="/images/en/worldcup2.png" class="doyou3 eclub-pic1" width="82%"></div>
 <div class="col-sm-4">
     <div class="centertext-block text-center"  data-aos="zoom-in" data-aos-duration="700" >
-<p><em style="font-size:81%">11.11.2017<br/>Countries and cities in the world</em></p>
-<p><em style="font-size:81%">18.11.2017<br/>What makes an ideal holiday?</em></p>
-    <p><em style="font-size:81%">25.11.2017<br/>Talking politics</em></p></div>
+<p><em style="font-size:81%">23.12.2017<br/>Countries and cities in the world</em></p>
+<p><em style="font-size:81%">13.01.2018<br/>What makes an ideal holiday?</em></p>
+    <p><em style="font-size:81%">20.01.2018<br/>Talking politics</em></p></div>
 </div>
 
 <div class="col-sm-4 text-center"  data-aos="fade-right" data-aos-duration="700" ><img src="/images/en/worldcup3.png" class="img-responsive eclub-pic2"></div>
