@@ -1807,6 +1807,8 @@ a:focus {
 .timetable td span {
     font-size: calc(12px - -0.7vw);
     font-weight: bold;
+    display:block;
+    text-align:center;
 }
 .timetable thead tr {
     background: rgba(155, 239, 155, 0.34);
@@ -1829,9 +1831,9 @@ a:focus {
 .timetable thead tr th {
     text-align: center;
 }
+
 @media (max-width: 625px) {
-    .timetable thead tr {
-    }
+.timetable  {line-height:24px}
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .timetable thead tr {}
@@ -1841,7 +1843,7 @@ a:focus {
         padding: 15px 20px;
     }
     .timetable td:nth-child(2) {} .timetable td:nth-child(3) {} .timetable td:nth-child(1) {} .timetable td span.span2 {
-        font-size: calc(10px - -0.7vw);
+        font-size: calc(11px - -0.7vw);
     }
 }
 @media (max-width: 767px) {
@@ -1875,43 +1877,28 @@ a:focus {
     .timetable td:nth-child(2) {
         font-size: 11px;
     }
-    .timetable td span,
-    .timetable td span.span2 {
-        font-size: calc(9px - -0.7vw);
-    }
 }
 @media (max-width: 400px) {
-    .timetable th,
-    .timetable th p {
-        font-size: calc(8px - -0.35vw);
-    }
     .timetable td:nth-child(2) {
         font-size: 9px;
-    }
-    .timetable td span,
-    .timetable td span.span2 {
-        font-size: calc(9px - -0.7vw);
     }
 }
 @media (max-width: 330px) {
     .timetable th {
-        padding: 5px 1px;
+        padding: 5px 2px;
     }
     .timetable td {
-        padding: 5px 1px;
+        padding: 5px 5px;
     }
     .timetable th,
-    .timetable th p {
-        font-size: calc(8px - -0.35vw);
-    }
     .timetable td:nth-child(2) {
         font-size: 9px;
         width: 36%;
     }
-    .timetable td span,
+/*    .timetable td span,
     .timetable td span.span2 {
         font-size: calc(8px - -0.6vw);
-    }
+    }*/
 }
 @keyframes spin {
     from {
@@ -2679,7 +2666,7 @@ tr {
     background: url('/images/en/leave-a-request.jpg') -8% 8.6%;
 }
 .leave-request-ge:after {
-    background: url('/images/en/ge-lr2.jpg') 0% 40.8%;
+    background: url('/images/en/ge-lr2.jpg') 78% 40.8%;
     background-size: cover;
 }
 .leave-request-chinese:after {
@@ -2701,14 +2688,23 @@ tr {
 
 
 .leave-request-wc:after {
-    background: url('/images/en/fifa.jpg');
+    background: url('/images/en/fifa.jpg') 60%;
     background-size: cover;
     opacity: .23;
 }
+
+@media (max-width:600px) {
+.leave-request-wc:after {
+    background: url(/images/en/fifa1-1.jpg) 33% 15%;
+    background-size: cover;
+    opacity: .12;
+}
+
 .leave-request-drivers:after {
     background: url('/images/en/request-driver.jpg');
     background-size: cover;
     opacity: .15;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

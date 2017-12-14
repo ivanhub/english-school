@@ -72,7 +72,7 @@ echo Freetest::widget(['link'=> '']);
 
 
     <div class="hidden-xs"><br/></div>
-<div class="row rowm flex-d"  data-aos="fade-up-right"  data-aos-offset="70" data-aos-duration="600" data-aos-delay="500">
+<div class="row rowm flex-d"  data-aos="fade-up-right"  data-aos-offset="70" data-aos-duration="600" data-aos-delay="400">
 
 <div class="col-md-5 col-lg-4 col-xs-12 box1  cl-effect-12">
 <div class="fill">
@@ -196,20 +196,20 @@ echo Freetest::widget(['link'=> '']);
 <table cellspacing="0" cellpadding="0" border="0" class="timetable  table-responsive" align="center"  data-ros="fadeIn"   data-options="delay:200;infinite:false;animationClass:animated;duration:1200;callback:;">
     <thead>
         <tr>
-            <th><p>Адрес&nbsp;учебного&nbsp;класса</p></th>
+            <th><p>Адрес&nbsp;<wbr>учебного&nbsp;<wbr>класса</p></th>
           <?php if (Yii::$app->mobileDetect->isMobile()) {  ?> 
-            <th class="last"><p>Дни&nbsp;и&nbsp;время&nbsp;занятий в&nbsp;учебной&nbsp;группе</p></th><?php } ?>
+            <th class="last"><p>Дни&nbsp;и&nbsp;время<wbr>&nbsp;занятий в&nbsp;учебной&nbsp;группе</p></th><?php } ?>
           <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
-            <th><p>Дни&nbsp;и&nbsp;время&nbsp;занятий в&nbsp;учебной&nbsp;группе</p></th>
+            <th><p>Дни&nbsp;и&nbsp;время&nbsp;занятий в&nbsp;учебной&nbsp;<wbr>группе</p></th>
              <th class="last"><p>Свободные места</p></th> <?php } ?>
         </tr>
     </thead>
     <tbody>
         <tr>
 
-            <td>ул. Молодогвардейская, 33<br>т.: 255-69-99</td>
+            <td>ул. Молодо&shy;гвардейская, 33<br>т.: 255-69-99</td>
             <td>
-                <span class="span2" style="color: #223f14;">ПН,СР: 16.30-18.00</span>
+                <span class="span2" style="color: #223f14;">ПН,СР: <br class="visible-xs" />16.30-18.00</span>
             
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
@@ -220,7 +220,7 @@ echo Freetest::widget(['link'=> '']);
 
             <td>ул. Осипенко, 11<br>т.: 255-69-99</td>
             <td>
-                <span class="span2"  style="color: #223f14;">ПН-ЧТ: 18.00-19.30, 19.30-21.00</span>
+                <span class="span2"  style="color: #223f14;">ПН-ЧТ:<br class="visible-xs" /> 18.00-19.30, 19.30-21.00</span>
             </td>
              <?php if (!Yii::$app->mobileDetect->isMobile()) {  ?> 
             <td><div id="advanced-circle" class="circle fl"></div><span class="fl " style="text-shadow: #363636 0 1px 1px;color:#7ae346;margin-top:-1px">ЕСТЬ</span></td><?php } ?>
