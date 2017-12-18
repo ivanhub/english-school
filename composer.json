@@ -24,7 +24,12 @@
             {
                 "type": "vcs",
                 "url": "https://github.com/ivanhub/yii2-gallery"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/ivanhub/yii2-minify-view"
             }
+
     ],
     "require": {
         "php": ">=5.4.0",
@@ -36,7 +41,10 @@
         "leoshtika/yii2-nav-sidebar": "*",
         "onmotion/yii2-gallery": "dev-custom",
         "wyrihaximus/html-compress": "^1.2",
-        "evert/sitemap-php": "^1.2"
+        "evert/sitemap-php": "^1.2",
+        "tubalmartin/cssmin": "^4.1",
+        "processfast/yii2-minify-view": "dev-custom"
+
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",

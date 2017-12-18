@@ -2700,12 +2700,14 @@ tr {
     opacity: .12;
 }
 
+}
+
 .leave-request-drivers:after {
-    background: url('/images/en/request-driver.jpg');
+    background: url('/images/en/request-driver.jpg') 34%;
     background-size: cover;
     opacity: .15;
 }
-}
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #index .width80 {
