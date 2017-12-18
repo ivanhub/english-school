@@ -427,11 +427,6 @@ JS
 
 $this->registerJs(<<<JS
 
-
-
-
-window.addEventListener("load", function() {
-
 AOS.init({
       //offset: 200,
       duration: 600,
@@ -439,6 +434,11 @@ AOS.init({
       //easing: 'ease-in-out-back'
       //delay: 20,
     });
+
+
+window.addEventListener("load", function() {
+
+
 
 
 
