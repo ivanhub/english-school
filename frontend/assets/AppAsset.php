@@ -35,10 +35,10 @@ class AppAsset extends AssetBundle
         'assets/css/aos.css'
     ];
     public $js = [
-  'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js'
+  'assets/js/aos.js'
     ];
     public $depends = [
-  //      'yii\web\YiiAsset',
+  //     'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',         //bootstrap.css
         'yii\bootstrap\BootstrapPluginAsset' // bootstrap.js
     ];
