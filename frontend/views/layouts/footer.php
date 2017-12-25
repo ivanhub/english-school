@@ -3,7 +3,8 @@ use yii\helpers\Html;
 /*use yii\bootstrap\Modal;*/
 
 ?>
-<footer class="page-footer bg-gray-lighter">
+<footer>
+  <div class="container"><div class="page-footer bg-gray-lighter">
 
 <div class=" foot1">
  <div class="foot1__preload-hide">
@@ -29,7 +30,6 @@ use yii\helpers\Html;
                        <div class="footer-col-2 col4">
    
 
-<!--<i class="footer__vline footer__vline_2"></i>-->
 
                 <i class="footer__vline footer__vline_1"></i>
 
@@ -73,59 +73,20 @@ use yii\helpers\Html;
 
                   </div>
 
-
-
-<!-- <p class="footer__myvkontakte  text-right" style="margin-top:3px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p> -->
-
-<!--<br><br><p class="footer__myvkontakte text-right visible-xs"  style="margin-top:7px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
--->
         </div>
-
-<!--
-<div class="col-md-2  col-sm-2 col-xs-2 foocol"></div>
-<div class="col-md-3   col-sm-3 col-xs-5 col1"> 
-
-</div> -->
- <!-- <p><a href="/postupayushchim">Запись на обучение</a></p>
- <p><a href="/raspisanie">Расписание занятий</a></p>
- <p><a href="/our-advantages">Наши преимущества</a></p>
- <p><a href="/additional-services">Дополнительные услуги</a></p> -->
- 
-  <!-- <div class="clearfix visible-sm"></div> -->
-<!--  <div class="col-xs-2 foocol hidden-sm visible-xs"></div>
-<div class="col-md-3 col-sm-3  col-xs-5 col4">
-</div>
-<div class="col-md-3  col-sm-3 col-xs-12 my">
-<BR/>
-</div>
--->
-  <!--http://codepen.io/anon/pen/mWJmmm?editors=1100-->
-<!-- <p style="margin-left:85px;text-align:center"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><i class="icon icon-xxs icon-circle icon-white hi-icon"><i class=" fa fa-vk"></i></i>Мы Вконтакте</a></p>
--->
-<!--<div class="hi-icon-effect-8 ">              <i class="my-vk"></i>-->
-
-<!--<p style="margin-top:15px"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk"><span>Мы Вконтакте &nbsp;</span> <i class="icon-button vk1"> <i class="fa fa-vk"><span></span></i></i></a></p>-->
-
 <BR/>
 </div>
 </div>
 </div>
 <div class="rangelogo range-xs-center range-xs-middle text-center">
-<!-- <img class="minilogo" src="http://front.loc/images/minlogo.png" align="left"> -->
 <p class="pull-top">&nbsp; Copyright &copy; <span id="copyright-year"><?= date('Y') ?> АНО ЦДПО "Академия". &nbsp;<a href="/privacy" class="privacy">Политика конфиденциальности</a></span>
  <a href="" class="link-decoration-none text-hover-primary text-gray-light">
  </a></p>
-  <!--<p class="footer__myvkontakte text-right hidden-xs"><a href="https://vk.com/rosavtoakademia" target="blank" class="myvk" style=""><span>Мы ВКонтакте</span> <i class="social-btns"><i class="btn vk" href="#"><i class="fa fa-vk"></i></i></i></a></p>
-  -->
-
-
 </div>
+</div></div>
 </footer>
 
 
-
-
-<!-- <div id="w00" class="col-xs-11 col-sm-3 alert alert-custom  fadeInDown" role="alert" data-notify="container" data-notify-position="top-center" style="display: inline-block; margin: 0px auto; position: fixed; transition: all 0.5s ease-in-out; z-index: 1031; top: 20px; left: 0px; right: 0px; animation-iteration-count: 1;"><button type="button" class="close" data-notify="dismiss"><span aria-hidden="true">×</span></button><span data-notify="icon" class="fa fa-envelope"></span><span data-notify="title">Сообщение отправлено!</span><hr class="kv-alert-separator"><span data-notify="message">Спасибо, что обратились к Нам. <br/>Мы ответим Вам в ближайшее время.</span><a href="#" data-notify="url" target="_blank"></a></div> -->
 
 <?php 
 
@@ -198,14 +159,6 @@ function start5() {
 JS
 , yii\web\View::POS_READY, 'contact-form'); ?>
 
-<!-- Copyright © 2017 АНО НПО “Академия”
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left"> My Company </p>
-
-        <p class="pull-right"></p>
-    </div>
-</footer> -->
 
 
 

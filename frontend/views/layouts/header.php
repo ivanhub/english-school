@@ -53,18 +53,11 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 
   } ?>
 
- <!--  <map name="map">
-    <area shape="poly" href="sun.htm" coords="41, 88, 10, 69, 9, 26, 7, 12, 16, 5, 43, 3, 71, 5, 74, 10, 68, 30, 73, 44, 75, 63" />
-</map>
-<img src="logo80.png" alt="" usemap="#map" />
-
-
-<img class="logo-akademia hvr-up onload-logo" src="../images/logo134.png" width="134px"> -->
+ 
 </div>
 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-7 mob">
 
 <img class="logotop anilogo fadeIn" src="/img/rostop7.png" alt="Центр иностранных языков «Росакадемия» г. Самара" title="Центр иностранных языков «Росакадемия» г. Самара">
-<!--<p class="logotext onload-text">РОСАВТОАКАДЕМИЯ</p>-->
  <p class="logotextbottom hidemobi">Лицензия № 6955 от 31.10.2016 г.</p> 
 
 
@@ -109,17 +102,11 @@ $tablet = Yii::$app->mobileDetect->isTablet();
 </div>
 
 
-<!-- will move to footer <div class="rd-navbar-panel-inner-right toggle-original-elements">
-<a href="#" class="icon icon-xxs icon-circle icon-gray-lighter fa fa-vk"></a>
-</div>
-</div> -->
 
 
 
 
 <div class="wrap  animated fadeIn" data-spy="" id="affix">
-<!--   <div class="greenlineup"></div>
- -->
 
 <a href="/"><div class="logo46"></div></a>
 

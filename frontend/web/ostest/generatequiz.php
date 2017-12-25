@@ -2,8 +2,6 @@
 PREVIEW="This file is part of osQuest5. osQuest5 is free software published under the terms of the GNU General Public License (AGPL v.3 or later)."
 -->
 <?php
-
-//  
 //$var1 = trim($_REQUEST['var1']);
 //$var2 = trim($_REQUEST['var2']);
 

@@ -77,9 +77,9 @@ ob_start();
 
 <?php $this->beginBody() ?>
 
-<div class="page">
-
  <?= $this->render('header') ?>
+
+ <div class="page">
 
     <div class="container mainb"><div class="backgr">
     <!-- <div id="breadcrumb"> -->
@@ -94,11 +94,10 @@ ob_start();
 <!--         </div> -->
         
         <?= $content ?>
- <?= $this->render('../layouts/footer');?>
 </div>   </div>
   <a href="#0" class="cd-top">Вверх</a>
-
 </div>
+ <?= $this->render('../layouts/footer');?>
 <?php $this->endBody() ?>
 <script type="text/javascript">
 
@@ -373,13 +372,6 @@ $('input#fromurl').val() || $('input#fromurl').val(document.referrer);
 
 <?php };
 ?>
-
-
-<!--
-<script src="/assets/js/flowtype.js"></script>
-<script src="/assets/js/jquery.scalem.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
-//Yii::$app->view->registerJsFile('/assets/js/jquery.fittext.js',  ['depends' => 'yii\web\JqueryAsset']); <script src="/assets/js/respimage.min.js" async=""></script>-->
 
 </body>
 </html>
